@@ -1,0 +1,70 @@
+# Runs the 1H US-stocks scan automatically every single day (including weekends
+# and market holidays - it just finds nothing new on those and marks things
+# STALE, same safe fallback as any other day it can't reach Yahoo).
+#
+# Schedule: 5:32 AM IST, every day. IST has no daylight saving, so this is one
+# fixed UTC time forever: 00:02 UTC = 05:32 IST.
+name: US Daily 1H Scan
+
+on:
+  schedule:
+    - cron: "2 0 * * *"           # 00:02 UTC = 05:32 IST, every day, no weekday/holiday skipping
+  workflow_dispatch:              # lets you also trigger it manually from the Actions tab
+
+permissions:
+  contents: write                 # needed so the workflow can commit the updated data back
+
+concurrency:
+  group: us-daily-scan
+  cancel-in-progress: false       # never cancel a scan that's already running
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90            # safety net: kill the job if it somehow hangs
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Run the daily sync (scan 1H, refresh prices, validate)
+        env:
+          PYTHONUTF8: "1"
+          PYTHONIOENCODING: "utf-8"
+        run: python master_sync_all.py --steps scan prices validate --workers 4
+        # --workers 4 (rather than the default 8) is gentler on Yahoo's rate limits,
+        # which matters more from GitHub's shared IP ranges than from a home connection.
+        # Universe sync and sector/cap enrichment run monthly instead - see
+        # us-monthly-universe-enrich.yml - not on this daily schedule.
+
+      - name: Commit the updated data back to the repository
+        run: |
+          git config user.name "us-scanner-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add shared-data/stocks.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Automated 1H scan: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      - name: Upload logs (kept for 7 days, for troubleshooting only)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-scan-logs
+          path: logs/
+          retention-days: 7
+          if-no-files-found: ignore

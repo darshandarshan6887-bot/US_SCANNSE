@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Stock</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background:#08111f; color:#e2e8f0; padding:20px; }
+  .container { max-width:1100px; margin:auto; background:#0f1a2e; padding:28px; border-radius:14px; box-shadow:0 0 24px rgba(0,0,0,.5); }
+  .title-row { display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+  h1 { color:#4ade80; font-size:1.6rem; margin-bottom:2px; }
+  .sub { color:#94a3b8; font-size:13px; margin-bottom:4px; }
+  a.back { color:#93c5fd; text-decoration:none; font-size:13px; } a.back:hover { text-decoration:underline; }
+  .star-btn { background:none; border:1px solid #1e2d45; border-radius:8px; cursor:pointer; font-size:19px; line-height:1; color:#64748b; padding:6px 10px; }
+  .star-btn.on { color:#facc15; border-color:#facc1544; }
+  .star-btn:hover { color:#facc15; }
+  .section-title { font-size:11px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:#64748b; margin:24px 0 10px; padding-bottom:6px; border-bottom:1px solid #1e293b; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; }
+  .card { background:#0a1628; border:1px solid #1e2d45; border-radius:10px; padding:14px 16px; }
+  .card.hl { border-color:#334155; background:#0d1f38; }
+  .card.tv { background:#0d1f38; border:1px solid #2563eb44; border-left:3px solid #2563eb; }
+  .label { font-size:11px; color:#64748b; margin-bottom:6px; text-transform:uppercase; letter-spacing:.05em; }
+  .value { font-size:16px; font-weight:600; color:#f1f5f9; word-break:break-word; }
+  .value.bullish { color:#4ade80; } .value.bearish { color:#f87171; } .value.strong { color:#facc15; }
+  .value.weak { color:#94a3b8; } .value.choch { color:#fb923c; } .value.bos { color:#60a5fa; }
+  .banner { margin:14px 0 0; padding:10px 14px; border-radius:8px; font-size:13px; display:none; }
+  .banner.warn { background:#3b2f0b; color:#facc15; } .banner.err { background:#3b1414; color:#f87171; }
+  .tv-link { display:inline-block; margin-top:22px; padding:11px 20px; background:#22c55e; color:#08111f; border-radius:8px; text-decoration:none; font-weight:700; font-size:14px; }
+  .tv-link:hover { background:#16a34a; }
+  .idx { display:flex; flex-wrap:wrap; gap:6px; }
+  .pill { background:#1e293b; color:#cbd5e1; border-radius:999px; padding:3px 10px; font-size:12px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="title-row">
+    <h1 id="title">Loading…</h1>
+    <button class="star-btn" id="starBtn" title="Toggle watchlist">☆</button>
+  </div>
+  <div class="sub" id="subtitle"></div>
+  <a class="back" id="back" href="../main-dashboard/index.html">← Back to Main Dashboard</a>
+
+  <div class="banner err" id="errorBox"></div>
+  <div class="banner warn" id="warnBox"></div>
+
+  <div class="section-title">Market Structure — 1H bars</div>
+  <div class="grid">
+    <div class="card hl"><div class="label">Trend</div><div class="value" data-f="trend"></div></div>
+    <div class="card hl"><div class="label">Signal</div><div class="value" data-f="signal"></div></div>
+    <div class="card"><div class="label">Structure Event</div><div class="value" data-f="structure_event"></div></div>
+    <div class="card"><div class="label">Last Structure Bar</div><div class="value" data-f="last_structure_time"></div></div>
+    <div class="card"><div class="label">Price (close of last bar)</div><div class="value" data-f="current_price" data-prefix="$"></div></div>
+    <div class="card"><div class="label">Last Bar</div><div class="value" data-f="scan_date"></div></div>
+  </div>
+
+  <div class="section-title">Strong / Weak High</div>
+  <div class="grid">
+    <div class="card tv"><div class="label">Top Signal</div><div class="value" data-f="top_signal"></div></div>
+    <div class="card tv"><div class="label">Label Bar</div><div class="value" data-f="top_signal_time"></div></div>
+    <div class="card tv"><div class="label">Label Price</div><div class="value" data-f="top_signal_price"></div></div>
+    <div class="card tv"><div class="label">Bars From Latest</div><div class="value" data-f="top_bars_since" data-suffix=" bars ago"></div></div>
+    <div class="card"><div class="label">Latest Swing High Pivot Bar</div><div class="value" data-f="top_pivot_time"></div></div>
+    <div class="card"><div class="label">Swing High Level</div><div class="value" data-f="last_swing_high"></div></div>
+    <div class="card"><div class="label">Unbroken Swing High</div><div class="value" data-f="active_swing_high"></div></div>
+  </div>
+
+  <div class="section-title">Strong / Weak Low</div>
+  <div class="grid">
+    <div class="card tv"><div class="label">Bottom Signal</div><div class="value" data-f="bottom_signal"></div></div>
+    <div class="card tv"><div class="label">Label Bar</div><div class="value" data-f="bottom_signal_time"></div></div>
+    <div class="card tv"><div class="label">Label Price</div><div class="value" data-f="bottom_signal_price"></div></div>
+    <div class="card tv"><div class="label">Bars From Latest</div><div class="value" data-f="bottom_bars_since" data-suffix=" bars ago"></div></div>
+    <div class="card"><div class="label">Latest Swing Low Pivot Bar</div><div class="value" data-f="bottom_pivot_time"></div></div>
+    <div class="card"><div class="label">Swing Low Level</div><div class="value" data-f="last_swing_low"></div></div>
+    <div class="card"><div class="label">Unbroken Swing Low</div><div class="value" data-f="active_swing_low"></div></div>
+  </div>
+
+  <div class="section-title">Ranking</div>
+  <div class="grid">
+    <div class="card"><div class="label">Signal Rank Score</div><div class="value" data-f="signal_rank_score"></div></div>
+    <div class="card"><div class="label">Bullish Rank Score</div><div class="value" data-f="bullish_rank_score"></div></div>
+    <div class="card"><div class="label">Bearish Rank Score</div><div class="value" data-f="bearish_rank_score"></div></div>
+    <div class="card"><div class="label">Bars Since Signal</div><div class="value" data-f="bars_since_signal" data-suffix=" bars"></div></div>
+    <div class="card"><div class="label">Signal Strength</div><div class="value" data-f="signal_strength"></div></div>
+    <div class="card"><div class="label">Scanner Status</div><div class="value" data-f="scanner_status"></div></div>
+    <div class="card"><div class="label">Last Scanned</div><div class="value" data-f="scanned_at"></div></div>
+  </div>
+
+  <div class="section-title">Company</div>
+  <div class="grid">
+    <div class="card"><div class="label">Group / Exchange</div><div class="value" id="grp"></div></div>
+    <div class="card"><div class="label">Sector</div><div class="value" id="sector"></div></div>
+    <div class="card"><div class="label">Industry</div><div class="value" id="industry"></div></div>
+    <div class="card"><div class="label">Market Cap</div><div class="value" id="mcap"></div></div>
+    <div class="card"><div class="label">Cap Class</div><div class="value" id="cap"></div></div>
+    <div class="card"><div class="label">P/E</div><div class="value" id="pe"></div></div>
+    <div class="card"><div class="label">52-Week Range</div><div class="value" id="w52"></div></div>
+    <div class="card"><div class="label">Avg Volume</div><div class="value" id="vol"></div></div>
+  </div>
+  <div class="section-title">Index Membership</div>
+  <div class="idx" id="indices"></div>
+
+  <a class="tv-link" id="tvLink" href="#" target="_blank" rel="noopener noreferrer">Open in TradingView ↗</a>
+</div>
+
+<script>
+(function () {
+  const params = new URLSearchParams(location.search);
+  const SYMBOL = (params.get('symbol') || '').trim().toUpperCase();
+  const WATCHLIST_KEY = 'us_scanner_watchlist_v1';
+
+  const DATA_URL = '../shared-data/stocks.json';
+  let stock = null;      // this symbol's record - one timeframe now, no 1D/1H split
+  let fetchError = null;
+
+  const NA = new Set([undefined, null, '', 'NA']);
+  const fmt = (x, fb = '—') => NA.has(x) ? fb : String(x);
+  const $ = (s) => document.querySelector(s);
+
+  let watchlist = new Set();
+  try { watchlist = new Set(JSON.parse(localStorage.getItem(WATCHLIST_KEY) || '[]')); } catch (e) { watchlist = new Set(); }
+  function saveWatchlist() { try { localStorage.setItem(WATCHLIST_KEY, JSON.stringify([...watchlist])); } catch (e) {} }
+  function renderStar() {
+    const on = watchlist.has(SYMBOL);
+    const btn = $('#starBtn');
+    btn.textContent = on ? '★' : '☆';
+    btn.classList.toggle('on', on);
+  }
+
+  function fmtCap(v) {
+    if (v == null) return '—';
+    const abs = Math.abs(v);
+    if (abs >= 1e12) return '$' + (v / 1e12).toFixed(2) + 'T';
+    if (abs >= 1e9) return '$' + (v / 1e9).toFixed(2) + 'B';
+    if (abs >= 1e6) return '$' + (v / 1e6).toFixed(1) + 'M';
+    return '$' + Number(v).toLocaleString('en-US');
+  }
+
+  function colorClass(el, val) {
+    el.classList.remove('bullish', 'bearish', 'strong', 'weak', 'choch', 'bos');
+    const s = String(val || '').toUpperCase();
+    if (s.includes('BULLISH') || s === 'STRONG_LOW') el.classList.add('bullish');
+    else if (s.includes('BEARISH') || s === 'STRONG_HIGH') el.classList.add('bearish');
+    else if (s.includes('WEAK')) el.classList.add('weak');
+    else if (s === 'CHOCH') el.classList.add('choch');
+    else if (s === 'BOS') el.classList.add('bos');
+    else if (s === 'STRONG') el.classList.add('strong');
+  }
+
+  function render() {
+    const err = $('#errorBox'), warn = $('#warnBox');
+    if (!stock) {
+      err.textContent = fetchError || 'No 1H data for this symbol yet — run scan_market_structure_combined.py.';
+      err.style.display = 'block';
+      warn.style.display = 'none';
+      document.querySelectorAll('[data-f]').forEach(el => { el.textContent = '—'; colorClass(el, ''); });
+      return;
+    }
+    err.style.display = 'none';
+
+    document.querySelectorAll('[data-f]').forEach(el => {
+      const key = el.dataset.f;
+      let raw = stock[key];
+      if (key === 'scanned_at') raw = stock.scanned_at ?? stock.last_updated;
+      const numeric = ['top_bars_since', 'bottom_bars_since', 'bars_since_signal'].includes(key);
+      let txt;
+      if (numeric) txt = (typeof raw === 'number' && raw >= 0) ? raw + (el.dataset.suffix || '') : '—';
+      else txt = NA.has(raw) ? '—' : (el.dataset.prefix || '') + String(raw);
+      el.textContent = txt;
+      colorClass(el, raw);
+    });
+
+    const status = stock.scanner_status;
+    const scanErr = stock.scan_error;
+    if (status === 'STALE') { warn.textContent = 'Last download failed' + (scanErr ? ' (' + scanErr + ')' : '') + ' — showing the previous scan result.'; warn.style.display = 'block'; }
+    else if (status && status !== 'OK') { warn.textContent = 'Scanner status: ' + status + (scanErr ? ' — ' + scanErr : ''); warn.style.display = 'block'; }
+    else warn.style.display = 'none';
+
+    $('#grp').textContent = fmt(stock.instrument_group) + ' / ' + fmt(stock.exchange);
+    $('#sector').textContent = fmt(stock.sector);
+    $('#industry').textContent = fmt(stock.industry);
+    $('#mcap').textContent = fmtCap(stock.market_cap != null ? Number(stock.market_cap) : null);
+    $('#cap').textContent = fmt(stock.cap_category);
+    $('#pe').textContent = stock.pe_ratio != null ? Number(stock.pe_ratio).toFixed(1) : '—';
+    $('#w52').textContent = (stock.week52_low != null && stock.week52_high != null)
+      ? '$' + stock.week52_low + ' – $' + stock.week52_high : '—';
+    $('#vol').textContent = stock.avg_volume != null ? Number(stock.avg_volume).toLocaleString('en-US') : '—';
+    const box = $('#indices'); box.textContent = '';
+    (Array.isArray(stock.index_memberships) ? stock.index_memberships : []).forEach(n => {
+      const p = document.createElement('span'); p.className = 'pill'; p.textContent = n; box.appendChild(p);
+    });
+    if (!box.children.length) box.textContent = '—';
+    const tv = String(stock.tradingview_url || '');
+    $('#tvLink').href = tv.startsWith('https://www.tradingview.com/') ? tv : '#';
+  }
+
+  async function load() {
+    const err = $('#errorBox');
+    if (!SYMBOL) {
+      $('#title').textContent = 'Stock';
+      err.textContent = 'No symbol given. Open this page from the main dashboard (…/stock/index.html?symbol=AAPL).';
+      err.style.display = 'block';
+      return;
+    }
+    try {
+      const res = await fetch(DATA_URL, { cache: 'no-cache' });
+      if (!res.ok) {
+        fetchError = `Could not load ${DATA_URL} (HTTP ${res.status}). Serve the folder with start_dashboard.bat instead of opening the file directly.`;
+      } else {
+        const all = await res.json();
+        stock = (Array.isArray(all) ? all : []).find(x => String(x.symbol).toUpperCase() === SYMBOL) || null;
+        if (!stock) fetchError = `${SYMBOL} not found in stocks.json`;
+      }
+    } catch (e) {
+      fetchError = e.message;
+    }
+    $('#title').textContent = SYMBOL;
+    renderStar();
+    if (!stock) {
+      err.textContent = fetchError || (SYMBOL + ' not found.');
+      err.style.display = 'block';
+      return;
+    }
+    document.title = SYMBOL + ' — US SMC Dashboard';
+    $('#subtitle').textContent = fmt(stock.company_name, '');
+    render();
+  }
+
+  $('#starBtn').addEventListener('click', () => {
+    if (!SYMBOL) return;
+    watchlist.has(SYMBOL) ? watchlist.delete(SYMBOL) : watchlist.add(SYMBOL);
+    saveWatchlist(); renderStar();
+  });
+  $('#back').href = '../main-dashboard/index.html';
+  load();
+})();
+</script>
+</body>
+</html>

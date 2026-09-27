@@ -1,0 +1,82 @@
+# Once a month: re-sync the tradeable US universe from Nasdaq Trader's official
+# listing files (adding new listings, flagging delisted ones, dropping anything
+# under the $5 floor), then refresh sector/industry/market-cap/P-E/52-week/volume
+# data for every symbol. Both are slow-changing facts, so there's no need to hit
+# Yahoo's info endpoint every day for this - keeping it monthly and separate from
+# the daily 1H scan meaningfully cuts total request volume against Yahoo.
+name: US Monthly Universe & Enrich
+
+on:
+  schedule:
+    - cron: "32 0 1 * *"          # 1st of every month, 00:32 UTC (~06:02 IST)
+  workflow_dispatch:
+    inputs:
+      prune:
+        description: "Actually delete symbols flagged as delisted (default: just flag them)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: us-monthly-universe-enrich
+  cancel-in-progress: false
+
+jobs:
+  universe-enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Sync universe (Nasdaq Trader lists, $5 price floor)
+        env:
+          PYTHONUTF8: "1"
+          PYTHONIOENCODING: "utf-8"
+        run: |
+          if [ "${{ github.event.inputs.prune }}" = "true" ]; then
+            python update_universe.py --prune
+          else
+            python update_universe.py
+          fi
+
+      - name: Enrich (sector, industry, market cap, P/E, 52-week range, volume)
+        env:
+          PYTHONUTF8: "1"
+          PYTHONIOENCODING: "utf-8"
+        run: python master_sync_all.py --steps enrich validate --workers 4
+
+      - name: Commit the updated data back to the repository
+        run: |
+          git config user.name "us-scanner-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add shared-data/stocks.json shared-data/us_universe_all.csv shared-data/us_universe_filtered.csv 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Monthly universe sync + enrich: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      - name: Upload logs (kept for 30 days, for troubleshooting only)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: monthly-universe-enrich-logs
+          path: logs/
+          retention-days: 30
+          if-no-files-found: ignore

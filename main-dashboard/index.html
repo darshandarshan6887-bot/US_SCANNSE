@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>US Stock Scanner — Smart Money Concepts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #08111f; --surface: #0f172a; --surface-2: #121a2b; --surface-3: #182235; --surface-4: #1c2940;
+    --text: #f8fafc; --muted: #94a3b8; --faint: #64748b;
+    --border: rgba(148,163,184,0.18); --divider: rgba(148,163,184,0.12);
+    --accent: #60a5fa; --accent-2: #93c5fd;
+    --green: #4ade80; --green-soft: rgba(74,222,128,0.14);
+    --red: #f87171; --red-soft: rgba(248,113,113,0.14);
+    --amber: #facc15; --amber-soft: rgba(250,204,21,0.14);
+    --violet: #a78bfa; --violet-soft: rgba(167,139,250,0.16);
+    --teal: #2dd4bf; --teal-soft: rgba(45,212,191,0.14);
+    --radius-lg: 18px; --radius-md: 14px; --radius-sm: 10px;
+    --shadow: 0 18px 40px rgba(2,6,23,0.35);
+    --content: 1560px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; font-family: Inter, system-ui, sans-serif; color: var(--text);
+    background:
+      radial-gradient(circle at top right, rgba(96,165,250,0.08), transparent 28%),
+      radial-gradient(circle at top left, rgba(45,212,191,0.05), transparent 24%),
+      linear-gradient(180deg, #07101c 0%, var(--bg) 100%);
+  }
+  a { color: inherit; }
+  button, input, select { font: inherit; }
+  .mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+  .wrap { max-width: var(--content); margin: 0 auto; padding: 24px; }
+
+  .hero, .panel, .summary-card, .board, .table-shell, .banner {
+    background: linear-gradient(180deg, rgba(18,26,43,0.96), rgba(11,19,33,0.98));
+    border: 1px solid var(--border); box-shadow: var(--shadow);
+  }
+  .hero { border-radius: 24px; padding: 26px; margin-bottom: 18px; position: relative; overflow: hidden; }
+  .hero::after { content:""; position:absolute; inset:0; pointer-events:none;
+    background: linear-gradient(135deg, rgba(96,165,250,0.08), transparent 38%, rgba(45,212,191,0.04)); }
+  .hero-top { position: relative; z-index: 1; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; align-items: flex-start; }
+  .hero h1 { margin: 0 0 10px; font-size: clamp(1.7rem,2.6vw,2.6rem); line-height: 1.08; letter-spacing: -0.02em; }
+  .hero p { margin: 0; max-width: 900px; color: var(--muted); line-height: 1.65; font-size: 0.98rem; }
+  .hero-meta { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+  .chip { display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px; border-radius: 999px;
+    border: 1px solid rgba(148,163,184,0.18); background: rgba(15,23,42,0.72); font-size: 12.5px; font-weight: 700; }
+  .chip b { color: var(--text); font-weight: 800; }
+  .chip.bull { color: var(--green); border-color: rgba(74,222,128,0.3); }
+  .chip.bear { color: var(--red); border-color: rgba(248,113,113,0.3); }
+
+  .panel { border-radius: var(--radius-lg); padding: 18px; margin-bottom: 16px; }
+  .panel-head { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:14px; flex-wrap:wrap; }
+  .panel-title { font-size: 1rem; font-weight: 800; }
+  .panel-sub { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+  .reset-btn { background: rgba(248,113,113,0.1); border: 1px solid rgba(248,113,113,0.28); color: var(--red);
+    border-radius: 999px; padding: 8px 14px; font-weight: 700; font-size: 12.5px; cursor: pointer; }
+  .reset-btn:hover { background: rgba(248,113,113,0.18); }
+
+  .filter-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+  .f-label { display:block; color: var(--muted); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.07em;
+    font-weight: 700; margin-bottom: 6px; }
+  input, select {
+    width: 100%; border: 1px solid rgba(148,163,184,0.16); background: rgba(15,23,42,0.94);
+    color: var(--text); border-radius: 10px; padding: 9px 10px; min-height: 40px; outline: none;
+  }
+  input:focus, select:focus, button:focus-visible, a:focus-visible { outline: 2px solid rgba(96,165,250,0.45); outline-offset: 2px; }
+  .range-pair { display:flex; gap:6px; align-items:center; }
+  .range-pair input { min-width: 0; }
+  .range-pair span { color: var(--faint); font-size: 12px; }
+  .multi { max-height: 132px; overflow-y: auto; border: 1px solid rgba(148,163,184,0.16); border-radius: 10px;
+    padding: 6px; background: rgba(15,23,42,0.7); }
+  .multi label { display:flex; align-items:center; gap:8px; padding: 5px 6px; border-radius: 6px; font-size: 12.5px; cursor:pointer; }
+  .multi label:hover { background: rgba(96,165,250,0.08); }
+  .multi input[type=checkbox] { width: auto; min-height: auto; accent-color: var(--accent); }
+  .toggle-row { display:flex; align-items:center; gap:8px; }
+  .toggle-row input[type=checkbox] { width:auto; min-height:auto; accent-color: var(--accent); }
+
+  .segmented { display: inline-flex; flex-wrap: wrap; gap: 8px; }
+  .segmented button { min-height: 38px; padding: 8px 14px; border-radius: 999px; border: 1px solid rgba(148,163,184,0.16);
+    background: rgba(15,23,42,0.9); color: var(--muted); cursor: pointer; font-weight: 700; font-size: 12.5px; transition: 150ms ease; }
+  .segmented button.active { background: linear-gradient(180deg, rgba(96,165,250,0.22), rgba(96,165,250,0.08)); color: var(--text); border-color: rgba(96,165,250,0.45); }
+  .segmented button:hover { color: var(--text); }
+
+  .boards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 18px; }
+  @media (max-width: 980px) { .boards { grid-template-columns: 1fr; } }
+  .board { border-radius: var(--radius-lg); padding: 16px; overflow: hidden; }
+  .board-head { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom: 10px; gap: 10px; }
+  .board-head h2 { margin: 0; font-size: 1.05rem; }
+  .board-head p { margin: 3px 0 0; color: var(--muted); font-size: 12px; }
+  .board-count { font-size: 11px; font-weight: 800; color: var(--accent-2); background: rgba(96,165,250,0.12);
+    padding: 4px 9px; border-radius: 999px; white-space: nowrap; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead th { text-align: left; padding: 9px 10px; color: var(--faint); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.05em; border-bottom: 1px solid var(--divider); white-space: nowrap; position: sticky; top: 0;
+    background: var(--surface); z-index: 1; }
+  tbody td { padding: 9px 10px; border-bottom: 1px solid var(--divider); white-space: nowrap; }
+  tbody tr:hover { background: rgba(96,165,250,0.05); }
+  .table-scroll { overflow-x: auto; max-height: 480px; overflow-y: auto; border-radius: var(--radius-md); }
+  .sym-link { color: var(--accent-2); font-weight: 700; text-decoration: none; cursor: pointer; }
+  .sym-link:hover { text-decoration: underline; }
+  .pill { display:inline-block; padding: 3px 9px; border-radius: 999px; font-size: 11px; font-weight: 800; letter-spacing: .02em; }
+  .pill.bullish { color: var(--green); background: var(--green-soft); }
+  .pill.bearish { color: var(--red); background: var(--red-soft); }
+  .pill.unknown { color: var(--muted); background: rgba(148,163,184,0.12); }
+  .pill.strong-high, .pill.strong-low { color: var(--amber); background: var(--amber-soft); }
+  .pill.weak-high, .pill.weak-low { color: var(--muted); background: rgba(148,163,184,0.12); }
+  .pill.no-signal { color: var(--faint); background: rgba(100,116,139,0.1); }
+  .star-btn { background: none; border: none; cursor: pointer; font-size: 17px; line-height:1; color: var(--faint); padding: 2px 4px; }
+  .star-btn.on { color: var(--amber); }
+  .star-btn:hover { color: var(--amber); }
+  th.sortable { cursor: pointer; user-select: none; }
+  th.sortable:hover { color: var(--accent-2); }
+  th.sortable .arrow { opacity: .35; margin-left: 3px; }
+  th.sortable.active .arrow { opacity: 1; color: var(--accent); }
+
+  .table-shell { border-radius: var(--radius-lg); padding: 18px; margin-bottom: 18px; }
+  .toolbar { display:flex; justify-content: space-between; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom: 12px; }
+  .toolbar-left { display:flex; align-items:center; gap:10px; flex-wrap: wrap; }
+  .result-count { font-size: 13px; color: var(--muted); }
+  .result-count b { color: var(--text); }
+  .pagination { display:flex; align-items:center; gap:8px; margin-top: 12px; justify-content: flex-end; flex-wrap: wrap; }
+  .page-btn { min-height: 34px; padding: 6px 12px; border-radius: 8px; border: 1px solid rgba(148,163,184,0.18);
+    background: rgba(15,23,42,0.9); color: var(--text); cursor: pointer; font-weight: 700; font-size: 12.5px; }
+  .page-btn:disabled { opacity: .35; cursor: not-allowed; }
+  .page-size { width: auto; min-height: 34px; padding: 6px 10px; }
+
+  .banner { display:flex; gap:14px; justify-content: space-between; align-items:center; flex-wrap: wrap;
+    padding: 14px 16px; border-radius: var(--radius-lg); margin-bottom: 18px; }
+  .banner.err { border-color: rgba(248,113,113,0.35); }
+  .banner.err .banner-title { color: var(--red); }
+
+  footer { color: var(--faint); font-size: 12px; text-align: center; padding: 20px 0 30px; }
+  ::-webkit-scrollbar { height: 10px; width: 10px; }
+  ::-webkit-scrollbar-thumb { background: rgba(148,163,184,0.25); border-radius: 999px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <div class="hero-top">
+      <div>
+        <h1>US Stock Scanner — Smart Money Concepts</h1>
+        <p>1-hour market structure across the tracked US stock &amp; ETF universe — trend, BOS/CHoCH signals, and rank score, refreshed daily.</p>
+      </div>
+    </div>
+    <div class="hero-meta" id="heroChips"></div>
+  </div>
+
+  <div class="banner err" id="errorBanner" style="display:none;">
+    <div><div class="banner-title">Couldn't load data</div><div class="panel-sub" id="errorText"></div></div>
+  </div>
+
+  <!-- ============ FILTERS ============ -->
+  <div class="panel">
+    <div class="panel-head">
+      <div>
+        <div class="panel-title">Filters</div>
+        <div class="panel-sub">Everything below is combinable — narrows both the table and (for the toggles that make sense) the highlights.</div>
+      </div>
+      <button class="reset-btn" id="resetFilters">Reset all filters</button>
+    </div>
+    <div class="filter-grid">
+      <div>
+        <span class="f-label">Search symbol / company</span>
+        <input id="fSearch" type="text" placeholder="e.g. AAPL, Apple…" autocomplete="off">
+      </div>
+      <div>
+        <span class="f-label">Instrument group</span>
+        <select id="fGroup"><option value="">All</option></select>
+      </div>
+      <div>
+        <span class="f-label">Exchange</span>
+        <select id="fExchange"><option value="">All</option></select>
+      </div>
+      <div>
+        <span class="f-label">Market cap tier</span>
+        <select id="fCap">
+          <option value="">All</option>
+          <option value="LARGE_CAP">Large cap (≥ $10B)</option>
+          <option value="MID_CAP">Mid cap ($2B–$10B)</option>
+          <option value="SMALL_CAP">Small cap ($300M–$2B)</option>
+          <option value="MICRO_CAP">Micro cap (&lt; $300M)</option>
+        </select>
+      </div>
+      <div>
+        <span class="f-label">Trend</span>
+        <select id="fTrend">
+          <option value="">All</option>
+          <option value="BULLISH">Bullish</option>
+          <option value="BEARISH">Bearish</option>
+          <option value="UNKNOWN">Unknown</option>
+        </select>
+      </div>
+      <div>
+        <span class="f-label">Signal type</span>
+        <select id="fSignal">
+          <option value="">All</option>
+          <option value="STRONG_HIGH">Strong High</option>
+          <option value="WEAK_HIGH">Weak High</option>
+          <option value="STRONG_LOW">Strong Low</option>
+          <option value="WEAK_LOW">Weak Low</option>
+          <option value="NO_SIGNAL">No signal</option>
+        </select>
+      </div>
+      <div>
+        <span class="f-label">Structure event</span>
+        <select id="fStructure">
+          <option value="">All</option>
+          <option value="BOS">BOS</option>
+          <option value="CHOCH">CHoCH</option>
+          <option value="NONE">None</option>
+        </select>
+      </div>
+      <div>
+        <span class="f-label">Scanner status</span>
+        <select id="fStatus">
+          <option value="">All</option>
+          <option value="OK">OK</option>
+          <option value="STALE">Stale</option>
+          <option value="NO_PIVOTS">No pivots</option>
+          <option value="INSUFFICIENT_DATA">Insufficient data</option>
+          <option value="PENDING_SCAN">Pending scan</option>
+        </select>
+      </div>
+      <div>
+        <span class="f-label">Price ($)</span>
+        <div class="range-pair"><input id="fPriceMin" type="number" min="0" step="0.01" placeholder="min"><span>–</span><input id="fPriceMax" type="number" min="0" step="0.01" placeholder="max"></div>
+      </div>
+      <div>
+        <span class="f-label">Rank score</span>
+        <div class="range-pair"><input id="fRankMin" type="number" step="1" placeholder="min"><span>–</span><input id="fRankMax" type="number" step="1" placeholder="max"></div>
+      </div>
+      <div>
+        <span class="f-label">Bars since signal</span>
+        <div class="range-pair"><input id="fBarsMin" type="number" min="0" step="1" placeholder="min"><span>–</span><input id="fBarsMax" type="number" min="0" step="1" placeholder="max"></div>
+      </div>
+      <div>
+        <span class="f-label">P/E ratio</span>
+        <div class="range-pair"><input id="fPeMin" type="number" step="0.1" placeholder="min"><span>–</span><input id="fPeMax" type="number" step="0.1" placeholder="max"></div>
+      </div>
+      <div>
+        <span class="f-label">Sector</span>
+        <select id="fSector"><option value="">All</option></select>
+      </div>
+      <div>
+        <span class="f-label">Industry</span>
+        <select id="fIndustry"><option value="">All</option></select>
+      </div>
+      <div>
+        <span class="f-label">Watchlist</span>
+        <div class="toggle-row" style="min-height:40px;">
+          <input type="checkbox" id="fWatchOnly"><label for="fWatchOnly">Starred only</label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ TOP 20 HIGHLIGHTS (always global, unaffected by filters) ============ -->
+  <div class="boards">
+    <div class="board">
+      <div class="board-head">
+        <div><h2>Top 20 High Signals</h2><p>Highest bearish rank score among symbols with an active top signal.</p></div>
+        <span class="board-count" id="topHighCount">0 results</span>
+      </div>
+      <div class="table-scroll"><table id="topHighTable">
+        <thead><tr><th>#</th><th>Symbol</th><th>Signal</th><th>Time</th><th>Bars</th><th>Rank</th><th>Price</th><th>Sector</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+    </div>
+    <div class="board">
+      <div class="board-head">
+        <div><h2>Top 20 Low Signals</h2><p>Highest bullish rank score among symbols with an active bottom signal.</p></div>
+        <span class="board-count" id="topLowCount">0 results</span>
+      </div>
+      <div class="table-scroll"><table id="topLowTable">
+        <thead><tr><th>#</th><th>Symbol</th><th>Signal</th><th>Time</th><th>Bars</th><th>Rank</th><th>Price</th><th>Sector</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+    </div>
+  </div>
+
+  <!-- ============ MAIN SORTABLE TABLE ============ -->
+  <div class="table-shell">
+    <div class="toolbar">
+      <div class="toolbar-left">
+        <div class="panel-title">Main Stock Table</div>
+        <div class="result-count"><b id="mainCount">0</b> of <b id="mainTotal">0</b> tracked symbols match</div>
+      </div>
+      <div class="toolbar-left">
+        <span class="f-label" style="margin:0;">Rows</span>
+        <select class="page-size" id="pageSize">
+          <option>25</option><option selected>50</option><option>100</option><option>200</option>
+        </select>
+      </div>
+    </div>
+    <div class="table-scroll" style="max-height:640px;">
+      <table id="mainTable">
+        <thead><tr id="mainHeadRow"></tr></thead>
+        <tbody id="mainBody"></tbody>
+      </table>
+    </div>
+    <div class="pagination">
+      <button class="page-btn" id="pgFirst">« First</button>
+      <button class="page-btn" id="pgPrev">‹ Prev</button>
+      <span class="result-count" id="pgLabel">Page 1 of 1</span>
+      <button class="page-btn" id="pgNext">Next ›</button>
+      <button class="page-btn" id="pgLast">Last »</button>
+    </div>
+  </div>
+
+  <footer>Data refreshes once daily after the US market close (1H structure only). Sector/cap/P-E/volume figures refresh monthly. Watchlist stars are saved only in this browser.</footer>
+</div>
+
+<script>
+(function () {
+  const DATA_URL = '../shared-data/stocks.json';
+  const WATCHLIST_KEY = 'us_scanner_watchlist_v1';
+  const NA = new Set([undefined, null, '', 'NA']);
+  const num = (v) => { const n = parseFloat(v); return Number.isFinite(n) ? n : null; };
+  const fmtNum = (v, d = 0) => (v == null ? '—' : Number(v).toLocaleString('en-US', { maximumFractionDigits: d }));
+  const fmtPrice = (v) => (v == null ? '—' : '$' + Number(v).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
+  const fmtCap = (v) => {
+    if (v == null) return '—';
+    const abs = Math.abs(v);
+    if (abs >= 1e12) return '$' + (v / 1e12).toFixed(2) + 'T';
+    if (abs >= 1e9) return '$' + (v / 1e9).toFixed(2) + 'B';
+    if (abs >= 1e6) return '$' + (v / 1e6).toFixed(1) + 'M';
+    return '$' + fmtNum(v);
+  };
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  let ALL = [];             // every tracked (listed) record
+  let FILTERED = [];        // after filters, before sort/paginate
+  let sortKey = 'signal_rank_score', sortDir = -1;
+  let page = 1;
+
+  let watchlist = new Set();
+  try { watchlist = new Set(JSON.parse(localStorage.getItem(WATCHLIST_KEY) || '[]')); } catch (e) { watchlist = new Set(); }
+  function saveWatchlist() { try { localStorage.setItem(WATCHLIST_KEY, JSON.stringify([...watchlist])); } catch (e) {} }
+  function toggleWatch(sym) {
+    watchlist.has(sym) ? watchlist.delete(sym) : watchlist.add(sym);
+    saveWatchlist(); applyFilters();
+  }
+
+  const NOT_ACTIVE = new Set(['', 'NA', 'NO_SIGNAL', 'PENDING_SCAN', undefined, null]);
+  function isActiveSignal(v) { return !NOT_ACTIVE.has(v) && !NOT_ACTIVE.has(String(v || '').toUpperCase()); }
+  function trendClass(v) {
+    const s = String(v || '').toUpperCase();
+    if (s === 'BULLISH') return 'bullish'; if (s === 'BEARISH') return 'bearish'; return 'unknown';
+  }
+  function signalClass(v) {
+    const s = String(v || '').toUpperCase().replace('_', '-').toLowerCase();
+    return s.includes('strong') ? (s.includes('high') ? 'strong-high' : 'strong-low')
+         : s.includes('weak') ? (s.includes('high') ? 'weak-high' : 'weak-low') : 'no-signal';
+  }
+
+  // ---- filter option population (from data actually present) ----
+  function uniqueSorted(arr) { return [...new Set(arr.filter(v => v && v !== 'NA'))].sort(); }
+  function populateSelect(sel, values) {
+    for (const v of values) { const o = document.createElement('option'); o.value = v; o.textContent = v; sel.appendChild(o); }
+  }
+
+  function readFilters() {
+    return {
+      search: document.getElementById('fSearch').value.trim().toUpperCase(),
+      group: document.getElementById('fGroup').value,
+      exchange: document.getElementById('fExchange').value,
+      cap: document.getElementById('fCap').value,
+      trend: document.getElementById('fTrend').value,
+      signal: document.getElementById('fSignal').value,
+      structure: document.getElementById('fStructure').value,
+      status: document.getElementById('fStatus').value,
+      priceMin: num(document.getElementById('fPriceMin').value),
+      priceMax: num(document.getElementById('fPriceMax').value),
+      rankMin: num(document.getElementById('fRankMin').value),
+      rankMax: num(document.getElementById('fRankMax').value),
+      barsMin: num(document.getElementById('fBarsMin').value),
+      barsMax: num(document.getElementById('fBarsMax').value),
+      peMin: num(document.getElementById('fPeMin').value),
+      peMax: num(document.getElementById('fPeMax').value),
+      sector: document.getElementById('fSector').value,
+      industry: document.getElementById('fIndustry').value,
+      watchOnly: document.getElementById('fWatchOnly').checked,
+    };
+  }
+
+  function matches(s, f) {
+    if (f.search && !(String(s.symbol).toUpperCase().includes(f.search) || String(s.company_name || '').toUpperCase().includes(f.search))) return false;
+    if (f.group && s.instrument_group !== f.group) return false;
+    if (f.exchange && s.exchange !== f.exchange) return false;
+    if (f.cap && s.cap_category !== f.cap) return false;
+    if (f.trend && String(s.trend || '').toUpperCase() !== f.trend) return false;
+    if (f.signal && String(s.signal || '').toUpperCase() !== f.signal) return false;
+    if (f.structure && String(s.structure_event || '').toUpperCase() !== f.structure) return false;
+    if (f.status && s.scanner_status !== f.status) return false;
+    if (f.sector && s.sector !== f.sector) return false;
+    if (f.industry && s.industry !== f.industry) return false;
+    const price = num(s.current_price);
+    if (f.priceMin != null && (price == null || price < f.priceMin)) return false;
+    if (f.priceMax != null && (price == null || price > f.priceMax)) return false;
+    const rank = num(s.signal_rank_score);
+    if (f.rankMin != null && (rank == null || rank < f.rankMin)) return false;
+    if (f.rankMax != null && (rank == null || rank > f.rankMax)) return false;
+    const bars = num(s.bars_since_signal);
+    if (f.barsMin != null && (bars == null || bars < 0 || bars < f.barsMin)) return false;
+    if (f.barsMax != null && (bars == null || bars < 0 || bars > f.barsMax)) return false;
+    const pe = num(s.pe_ratio);
+    if (f.peMin != null && (pe == null || pe < f.peMin)) return false;
+    if (f.peMax != null && (pe == null || pe > f.peMax)) return false;
+    if (f.watchOnly && !watchlist.has(s.symbol)) return false;
+    return true;
+  }
+
+  function applyFilters() {
+    const f = readFilters();
+    FILTERED = ALL.filter(s => matches(s, f));
+    sortFiltered();
+    page = 1;
+    renderMain();
+  }
+
+  const SORTERS = {
+    symbol: s => s.symbol, company_name: s => s.company_name || '', instrument_group: s => s.instrument_group || '',
+    exchange: s => s.exchange || '', sector: s => s.sector || '', cap_category: s => s.cap_category || '',
+    current_price: s => num(s.current_price) ?? -Infinity, market_cap: s => num(s.market_cap) ?? -Infinity,
+    pe_ratio: s => num(s.pe_ratio) ?? -Infinity, trend: s => s.trend || '', signal: s => s.signal || '',
+    structure_event: s => s.structure_event || '', bars_since_signal: s => num(s.bars_since_signal) ?? -Infinity,
+    signal_rank_score: s => num(s.signal_rank_score) ?? -Infinity, scanner_status: s => s.scanner_status || '',
+    scanned_at: s => s.scanned_at || '',
+  };
+  function sortFiltered() {
+    const keyFn = SORTERS[sortKey] || SORTERS.signal_rank_score;
+    FILTERED.sort((a, b) => {
+      const av = keyFn(a), bv = keyFn(b);
+      if (av < bv) return -1 * sortDir; if (av > bv) return 1 * sortDir; return 0;
+    });
+  }
+
+  const COLUMNS = [
+    { key: null, label: '☆', width: '34px' },
+    { key: 'symbol', label: 'Symbol' },
+    { key: 'company_name', label: 'Company' },
+    { key: 'instrument_group', label: 'Group' },
+    { key: 'exchange', label: 'Exchange' },
+    { key: 'sector', label: 'Sector' },
+    { key: 'cap_category', label: 'Cap' },
+    { key: 'current_price', label: 'Price' },
+    { key: 'market_cap', label: 'Mkt Cap' },
+    { key: 'pe_ratio', label: 'P/E' },
+    { key: 'trend', label: 'Trend' },
+    { key: 'signal', label: 'Signal' },
+    { key: 'structure_event', label: 'Structure' },
+    { key: 'bars_since_signal', label: 'Bars' },
+    { key: 'signal_rank_score', label: 'Rank' },
+    { key: 'scanner_status', label: 'Status' },
+    { key: 'scanned_at', label: 'Last Scan' },
+  ];
+
+  function buildHead() {
+    const row = document.getElementById('mainHeadRow');
+    row.innerHTML = '';
+    for (const col of COLUMNS) {
+      const th = document.createElement('th');
+      if (col.width) th.style.width = col.width;
+      if (col.key) {
+        th.className = 'sortable' + (sortKey === col.key ? ' active' : '');
+        th.innerHTML = esc(col.label) + '<span class="arrow">' + (sortKey === col.key ? (sortDir === 1 ? '▲' : '▼') : '↕') + '</span>';
+        th.addEventListener('click', () => {
+          if (sortKey === col.key) sortDir *= -1; else { sortKey = col.key; sortDir = col.key === 'symbol' ? 1 : -1; }
+          sortFiltered(); buildHead(); renderMain();
+        });
+      } else {
+        th.textContent = col.label;
+      }
+      row.appendChild(th);
+    }
+  }
+
+  function rowHtml(s) {
+    const starred = watchlist.has(s.symbol);
+    return `<tr>
+      <td><button class="star-btn${starred ? ' on' : ''}" data-star="${esc(s.symbol)}" title="Toggle watchlist">${starred ? '★' : '☆'}</button></td>
+      <td><a class="sym-link" href="../stock/index.html?symbol=${encodeURIComponent(s.symbol)}">${esc(s.symbol)}</a></td>
+      <td>${esc(s.company_name || '—')}</td>
+      <td>${esc(s.instrument_group || '—')}</td>
+      <td>${esc(s.exchange || '—')}</td>
+      <td>${esc(s.sector || '—')}</td>
+      <td>${esc(s.cap_category || '—')}</td>
+      <td class="mono">${fmtPrice(num(s.current_price))}</td>
+      <td class="mono">${fmtCap(num(s.market_cap))}</td>
+      <td class="mono">${s.pe_ratio != null ? Number(s.pe_ratio).toFixed(1) : '—'}</td>
+      <td><span class="pill ${trendClass(s.trend)}">${esc(s.trend || 'UNKNOWN')}</span></td>
+      <td><span class="pill ${signalClass(s.signal)}">${esc(s.signal || 'NO_SIGNAL')}</span></td>
+      <td>${esc(s.structure_event || '—')}</td>
+      <td class="mono">${(s.bars_since_signal ?? -1) >= 0 ? s.bars_since_signal : '—'}</td>
+      <td class="mono">${s.signal_rank_score != null ? Number(s.signal_rank_score).toFixed(1) : '—'}</td>
+      <td>${esc(s.scanner_status || '—')}</td>
+      <td class="mono">${esc(s.scanned_at || '—')}</td>
+    </tr>`;
+  }
+
+  function renderMain() {
+    document.getElementById('mainCount').textContent = fmtNum(FILTERED.length);
+    document.getElementById('mainTotal').textContent = fmtNum(ALL.length);
+    const pageSize = parseInt(document.getElementById('pageSize').value, 10) || 50;
+    const totalPages = Math.max(1, Math.ceil(FILTERED.length / pageSize));
+    page = Math.min(Math.max(1, page), totalPages);
+    const start = (page - 1) * pageSize;
+    const slice = FILTERED.slice(start, start + pageSize);
+    document.getElementById('mainBody').innerHTML = slice.map(rowHtml).join('') ||
+      '<tr><td colspan="17" style="color:var(--faint); padding:18px;">No symbols match the current filters.</td></tr>';
+    document.getElementById('pgLabel').textContent = `Page ${page} of ${totalPages}`;
+    document.getElementById('pgFirst').disabled = document.getElementById('pgPrev').disabled = page <= 1;
+    document.getElementById('pgLast').disabled = document.getElementById('pgNext').disabled = page >= totalPages;
+    document.querySelectorAll('[data-star]').forEach(btn =>
+      btn.addEventListener('click', () => toggleWatch(btn.getAttribute('data-star'))));
+  }
+
+  function topRowHtml(s, i) {
+    const sig = s.top_signal && s.top_signal !== 'NO_SIGNAL' ? s.top_signal : s.bottom_signal;
+    const time = s.top_signal_time && s.top_signal_time !== 'NA' ? s.top_signal_time : s.bottom_signal_time;
+    const bars = (s.top_bars_since ?? -1) >= 0 ? s.top_bars_since : (s.bottom_bars_since ?? -1) >= 0 ? s.bottom_bars_since : '—';
+    return `<tr>
+      <td class="mono">${i + 1}</td>
+      <td><a class="sym-link" href="../stock/index.html?symbol=${encodeURIComponent(s.symbol)}">${esc(s.symbol)}</a></td>
+      <td><span class="pill ${signalClass(sig)}">${esc(sig || 'NO_SIGNAL')}</span></td>
+      <td class="mono">${esc(time && time !== 'NA' ? time : '—')}</td>
+      <td class="mono">${bars}</td>
+      <td class="mono">${s.signal_rank_score != null ? Number(s.signal_rank_score).toFixed(1) : '—'}</td>
+      <td class="mono">${fmtPrice(num(s.current_price))}</td>
+      <td>${esc(s.sector || '—')}</td>
+    </tr>`;
+  }
+
+  function renderTop20() {
+    const high = ALL.filter(s => s.top_signal && s.top_signal !== 'NO_SIGNAL')
+      .sort((a, b) => (b.bearish_rank_score || 0) - (a.bearish_rank_score || 0)).slice(0, 20);
+    const low = ALL.filter(s => s.bottom_signal && s.bottom_signal !== 'NO_SIGNAL')
+      .sort((a, b) => (b.bullish_rank_score || 0) - (a.bullish_rank_score || 0)).slice(0, 20);
+    document.querySelector('#topHighTable tbody').innerHTML = high.map(topRowHtml).join('') || '<tr><td colspan="8" style="color:var(--faint); padding:14px;">No active top signals.</td></tr>';
+    document.querySelector('#topLowTable tbody').innerHTML = low.map(topRowHtml).join('') || '<tr><td colspan="8" style="color:var(--faint); padding:14px;">No active bottom signals.</td></tr>';
+    document.getElementById('topHighCount').textContent = high.length + ' results';
+    document.getElementById('topLowCount').textContent = low.length + ' results';
+  }
+
+  function renderHero() {
+    const scans = ALL.map(s => s.scanned_at).filter(v => v && v !== 'NA').sort();
+    const lastRefresh = scans.length ? scans[scans.length - 1] : '—';
+    const bullish = ALL.filter(s => String(s.trend).toUpperCase() === 'BULLISH').length;
+    const bearish = ALL.filter(s => String(s.trend).toUpperCase() === 'BEARISH').length;
+    const active = ALL.filter(s => isActiveSignal(s.signal)).length;
+    document.getElementById('heroChips').innerHTML = `
+      <span class="chip">Last refresh <b>${esc(lastRefresh)}</b></span>
+      <span class="chip">Tracked <b>${fmtNum(ALL.length)}</b> symbols</span>
+      <span class="chip">Active signals <b>${fmtNum(active)}</b></span>
+      <span class="chip bull">Bullish <b>${fmtNum(bullish)}</b></span>
+      <span class="chip bear">Bearish <b>${fmtNum(bearish)}</b></span>
+      <span class="chip">Watchlist <b>${fmtNum(watchlist.size)}</b></span>`;
+  }
+
+  function populateFilterOptions() {
+    populateSelect(document.getElementById('fGroup'), uniqueSorted(ALL.map(s => s.instrument_group)));
+    populateSelect(document.getElementById('fExchange'), uniqueSorted(ALL.map(s => s.exchange)));
+    populateSelect(document.getElementById('fSector'), uniqueSorted(ALL.map(s => s.sector)));
+    populateSelect(document.getElementById('fIndustry'), uniqueSorted(ALL.map(s => s.industry)));
+  }
+
+  function wireControls() {
+    ['fSearch','fGroup','fExchange','fCap','fTrend','fSignal','fStructure','fStatus',
+     'fPriceMin','fPriceMax','fRankMin','fRankMax','fBarsMin','fBarsMax','fPeMin','fPeMax',
+     'fSector','fIndustry','fWatchOnly'].forEach(id => {
+      const el = document.getElementById(id);
+      el.addEventListener(el.tagName === 'SELECT' || el.type === 'checkbox' ? 'change' : 'input', applyFilters);
+    });
+    document.getElementById('resetFilters').addEventListener('click', () => {
+      document.querySelectorAll('.panel input[type=text], .panel input[type=number]').forEach(i => i.value = '');
+      document.querySelectorAll('.panel select').forEach(s => s.value = '');
+      document.getElementById('fWatchOnly').checked = false;
+      applyFilters();
+    });
+    document.getElementById('pageSize').addEventListener('change', () => { page = 1; renderMain(); });
+    document.getElementById('pgFirst').addEventListener('click', () => { page = 1; renderMain(); });
+    document.getElementById('pgPrev').addEventListener('click', () => { page -= 1; renderMain(); });
+    document.getElementById('pgNext').addEventListener('click', () => { page += 1; renderMain(); });
+    document.getElementById('pgLast').addEventListener('click', () => { page = Infinity; renderMain(); });
+  }
+
+  async function load() {
+    try {
+      const res = await fetch(DATA_URL, { cache: 'no-cache' });
+      if (!res.ok) throw new Error(`HTTP ${res.status} — stocks.json not found. Run the sync pipeline first.`);
+      const raw = await res.json();
+      ALL = (Array.isArray(raw) ? raw : []).filter(s => s.listed !== false);
+      populateFilterOptions();
+      buildHead();
+      renderHero();
+      renderTop20();
+      applyFilters();
+    } catch (e) {
+      document.getElementById('errorBanner').style.display = 'flex';
+      document.getElementById('errorText').textContent = e.message;
+    }
+  }
+
+  wireControls();
+  load();
+})();
+</script>
+</body>
+</html>
