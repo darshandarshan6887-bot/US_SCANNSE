@@ -50,6 +50,7 @@ ACFN,"Acorn Energy, Inc. - Common Stock",EQUITY,NASDAQ
 ACGC,ACP Holdings Acquisition Corp. - Class A Ordinary Shares,EQUITY,NASDAQ
 ACGL,Arch Capital Group Ltd. - Common Stock,EQUITY,NASDAQ
 ACHC,"Acadia Healthcare Company, Inc. - Common Stock",EQUITY,NASDAQ
+ACHP,Global X Asia Semiconductor ETF,ETF,NASDAQ
 ACHV,"Achieve Life Sciences, Inc.  - Common Shares",EQUITY,NASDAQ
 ACIC,American Coastal Insurance Corporation - Common Stock,EQUITY,NASDAQ
 ACIU,AC Immune SA - Common Stock,EQUITY,NASDAQ
@@ -80,7 +81,6 @@ ADBT,"Advasa Holdings, Inc. - Common stock",EQUITY,NASDAQ
 ADEA,Adeia Inc.  - Common Stock,EQUITY,NASDAQ
 ADGM,"Adagio Medical Holdings, Inc - Common Stock",EQUITY,NASDAQ
 ADI,"Analog Devices, Inc. - Common Stock",EQUITY,NASDAQ
-ADIL,"Adial Pharmaceuticals, Inc - Common Stock",EQUITY,NASDAQ
 ADMA,ADMA Biologics Inc - Common Stock,EQUITY,NASDAQ
 ADP,"Automatic Data Processing, Inc. - Common Stock",EQUITY,NASDAQ
 ADPT,Adaptive Biotechnologies Corporation - Common Stock,EQUITY,NASDAQ
@@ -105,6 +105,7 @@ AENT,Alliance Entertainment Holding Corporation - common stock,EQUITY,NASDAQ
 AEP,"American Electric Power Company, Inc. - Common Stock",EQUITY,NASDAQ
 AERT,"Aeries Technology, Inc. - Class A Ordinary Share",EQUITY,NASDAQ
 AESP,Aeon Acquisition I Corp. - Class A Ordinary Shares,EQUITY,NASDAQ
+AETR,Aetherion Technologies Inc. - Common Shares,EQUITY,NASDAQ
 AEVA,"Aeva Technologies, Inc. - Common Stock",EQUITY,NASDAQ
 AEYE,"AudioEye, Inc. - Common Stock",EQUITY,NASDAQ
 AFCG,Advanced Flower Capital Inc. - Common Stock,EQUITY,NASDAQ
@@ -135,7 +136,9 @@ AGZD,WisdomTree Interest Rate Hedged U.S. Aggregate Bond Fund,ETF,NASDAQ
 AHCO,AdaptHealth Corp.  - Common Stock,EQUITY,NASDAQ
 AHD,GraniteShares Autocallable HOOD ETF,ETF,NASDAQ
 AHG,Akso Health Group - American Depositary Shares,EQUITY,NASDAQ
+AHIC,Allspring Short-Term High Income Fund ETF,ETF,NASDAQ
 AHMA,Ambitions Enterprise Management Co. L.L.C - Class A Ordinary Shares,EQUITY,NASDAQ
+AHYM,Allspring High Yield Municipal Bond Fund ETF,ETF,NASDAQ
 AIA,iShares Asia 50 ETF,ETF,NASDAQ
 AIAI,AIAI Holdings Corporation - Class A common stock,EQUITY,NASDAQ
 AIBZ,Bitzero Holdings Inc. - Common Shares,EQUITY,NASDAQ
@@ -153,6 +156,7 @@ AIMD,"Ainos, Inc. - Common Stock",EQUITY,NASDAQ
 AIMG,Defiance AI Magnificent 10 ETF,ETF,NASDAQ
 AIMS,Acuitas Small Cap Active ETF,ETF,NASDAQ
 AINF,Defiance Inference AI Chip ETF,ETF,NASDAQ
+AIOK,AI OKTO CORP. - Common Stock,EQUITY,NASDAQ
 AIOS,AIOS Tech Inc. - Class A Common Shares,EQUITY,NASDAQ
 AIOT,"PowerFleet, Inc. - Common Stock",EQUITY,NASDAQ
 AIP,"Arteris, Inc.  - Common Stock",EQUITY,NASDAQ
@@ -176,7 +180,6 @@ AKTS,"Aktis Oncology, Inc. - Common stock",EQUITY,NASDAQ
 AKTX,Akari Therapeutics Plc - American Depositary Shares,EQUITY,NASDAQ
 ALAB,"Astera Labs, Inc. - Common Stock",EQUITY,NASDAQ
 ALAR,Alarum Technologies Ltd. - American Depositary Shares,EQUITY,NASDAQ
-ALBG,Leverage Shares 2X Long ALB Daily ETF,ETF,NASDAQ
 ALCO,"Alico, Inc. - Common Stock",EQUITY,NASDAQ
 ALDF,Aldel Financial II Inc. - Class A Ordinary Shares,EQUITY,NASDAQ
 ALDX,"Aldeyra Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
@@ -241,6 +244,7 @@ AMPG,"Amplitech Group, Inc. - Common Stock",EQUITY,NASDAQ
 AMPH,"Amphastar Pharmaceuticals, Inc. - Common Stock",EQUITY,NASDAQ
 AMPL,"Amplitude, Inc. - Class A Common Stock",EQUITY,NASDAQ
 AMRN,Amarin Corporation plc - American Depositary Shares,EQUITY,NASDAQ
+AMRO,Amaero Inc. - Common Stock,EQUITY,NASDAQ
 AMRX,"Amneal Pharmaceuticals, Inc. - Class A Common Stock",EQUITY,NASDAQ
 AMSC,American Superconductor Corporation - Common Stock,EQUITY,NASDAQ
 AMSF,"AMERISAFE, Inc. - Common Stock",EQUITY,NASDAQ
@@ -295,6 +299,7 @@ APRE,"Aprea Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 APUR,Aperture AC - Class A Ordinary Shares,EQUITY,NASDAQ
 APVO,Aptevo Therapeutics Inc. - Common Stock,EQUITY,NASDAQ
 APWC,"Asia Pacific Wire & Cable Corporation Limited  - Common shares, Par value .01 per share",EQUITY,NASDAQ
+APXC,Apex Critical Metals Corp. - American Depositary Shares,EQUITY,NASDAQ
 APXT,Apex Treasury Corporation - Class A Ordinary Share,EQUITY,NASDAQ
 APYX,Apyx Medical Corporation - Common Stock,EQUITY,NASDAQ
 AQB,"AquaBounty Technologies, Inc. - Common Stock",EQUITY,NASDAQ
@@ -347,6 +352,7 @@ ASMU,Direxion Daily ASML Bull 2X ETF,ETF,NASDAQ
 ASND,Ascendis Pharma A/S - Ordinary Share,EQUITY,NASDAQ
 ASO,"Academy Sports and Outdoors, Inc. - Common Stock",EQUITY,NASDAQ
 ASPC,A SPAC III Acquisition Corp. - Class A Ordinary Shares,EQUITY,NASDAQ
+ASPE,"Aspen Neuroscience, Inc. - Common Stock",EQUITY,NASDAQ
 ASPI,ASP Isotopes Inc. - Common Stock,EQUITY,NASDAQ
 ASPS,Altisource Portfolio Solutions S.A. - Common Stock,EQUITY,NASDAQ
 ASRV,AmeriServ Financial Inc. - Common Stock,EQUITY,NASDAQ
@@ -356,6 +362,7 @@ ASTE,"Astec Industries, Inc. - Common Stock",EQUITY,NASDAQ
 ASTH,Astrana Health Inc. - Common Stock,EQUITY,NASDAQ
 ASTI,"Ascent Solar Technologies, Inc - Common Stock",EQUITY,NASDAQ
 ASTL,Algoma Steel Group Inc. - Common Shares,EQUITY,NASDAQ
+ASTM,Allspring Strategic Municipal Bond Fund ETF,ETF,NASDAQ
 ASTS,"AST SpaceMobile, Inc. - Class A Common Stock",EQUITY,NASDAQ
 ASUR,Asure Software Inc - Common Stock,EQUITY,NASDAQ
 ASYS,"Amtech Systems, Inc. - Common Stock",EQUITY,NASDAQ
@@ -368,7 +375,6 @@ ATEX,Anterix Inc. - Common Stock,EQUITY,NASDAQ
 ATGL,Alpha Technology Group Limited - Class A Ordinary Shares,EQUITY,NASDAQ
 ATHE,Alterity Therapeutics Limited - American Depositary Shares,EQUITY,NASDAQ
 ATHR,"Aether Holdings, Inc. - Common Stock",EQUITY,NASDAQ
-ATII,Archimedes Tech SPAC Partners II Co. - Ordinary Shares,EQUITY,NASDAQ
 ATLC,Atlanticus Holdings Corporation - Common Stock,EQUITY,NASDAQ
 ATLO,Ames National Corporation - Common Stock,EQUITY,NASDAQ
 ATLQ,JAB Acquisition Corp I - Class A Ordinary Shares,EQUITY,NASDAQ
@@ -426,6 +432,7 @@ AWRE,"Aware, Inc. - Common Stock",EQUITY,NASDAQ
 AXG,Solowin Holdings - Class A Ordinary Share,EQUITY,NASDAQ
 AXGN,"Axogen, Inc. - Common Stock",EQUITY,NASDAQ
 AXIN,Axiom Intelligence Acquisition Corp 1 - Class A Ordinary Shares,EQUITY,NASDAQ
+AXNX,Axonex AI Group Limited - Class A Ordinary Shares,EQUITY,NASDAQ
 AXON,"Axon Enterprise, Inc. - Common Stock",EQUITY,NASDAQ
 AXSM,"Axsome Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 AXTI,AXT Inc - Common Stock,EQUITY,NASDAQ
@@ -434,6 +441,7 @@ AYTU,"Aytu BioPharma, Inc.  - Common Stock",EQUITY,NASDAQ
 AZ,A2Z Cust2Mate Solutions Corp. - Common Shares,EQUITY,NASDAQ
 AZI,Autozi Internet Technology (Global) Ltd. - Class A Ordinary Shares,EQUITY,NASDAQ
 AZIO,"Azio AI Holdings, Inc. - Common stock",EQUITY,NASDAQ
+AZR,"Azora Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 AZTA,"Azenta, Inc. - Common Stock",EQUITY,NASDAQ
 AZYY,GraniteShares YieldBoost AMZN ETF,ETF,NASDAQ
 BABU,Direxion Daily BABA Bull 2X ETF,ETF,NASDAQ
@@ -456,6 +464,7 @@ BASV,Brown Advisory Sustainable Value ETF,ETF,NASDAQ
 BATRA,"Atlanta Braves Holdings, Inc. - Series A Common Stock",EQUITY,NASDAQ
 BATRK,"Atlanta Braves Holdings, Inc. - Series C Common Stock",EQUITY,NASDAQ
 BBB,CYBER HORNET S&P 500 and Bitcoin 75/25 Strategy ETF,ETF,NASDAQ
+BBCI,Bradbury Capital Inc. - Ordinary Shares,EQUITY,NASDAQ
 BBCP,"Concrete Pumping Holdings, Inc.  - Common Stock",EQUITY,NASDAQ
 BBGI,"Beasley Broadcast Group, Inc. - Class A Common Stock",EQUITY,NASDAQ
 BBH,VanEck Biotech ETF,ETF,NASDAQ
@@ -464,6 +473,7 @@ BBLG,Bone Biologics Corp - Common Stock,EQUITY,NASDAQ
 BBNX,"Beta Bionics, Inc. - Common Stock",EQUITY,NASDAQ
 BBOT,"BridgeBio Oncology Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 BBSI,"Barrett Business Services, Inc. - Common Stock",EQUITY,NASDAQ
+BBTX,"Bambusa Therapeutics, Inc. - Common stock",EQUITY,NASDAQ
 BBUL,GraniteShares 2x Long BB Daily ETF,ETF,NASDAQ
 BBYY,GraniteShares YieldBOOST BABA ETF,ETF,NASDAQ
 BCAL,California BanCorp - Common Stock,EQUITY,NASDAQ
@@ -481,6 +491,7 @@ BCRX,"BioCryst Pharmaceuticals, Inc. - Common Stock",EQUITY,NASDAQ
 BCTK,Baron Technology ETF,ETF,NASDAQ
 BCTX,BriaCell Therapeutics Corp. - Common Shares,EQUITY,NASDAQ
 BCYC,Bicycle Therapeutics plc - American Depositary Shares,EQUITY,NASDAQ
+BDAI,"Biddance AI Systems, Inc. - Class A Ordinary Share",EQUITY,NASDAQ
 BDCI,BTC Development Corp. - Class A Ordinary Shares,EQUITY,NASDAQ
 BDGS,Bridges Capital Tactical ETF,ETF,NASDAQ
 BDMD,Baird Medical Investment Holdings Ltd - Ordinary Share,EQUITY,NASDAQ
@@ -559,7 +570,6 @@ BL,"BlackLine, Inc. - Common Stock",EQUITY,NASDAQ
 BLBD,Blue Bird Corporation - Common Stock,EQUITY,NASDAQ
 BLCR,iShares Large Cap Core Active ETF,ETF,NASDAQ
 BLDP,"Ballard Power Systems, Inc. - Common Shares",EQUITY,NASDAQ
-BLFS,"BioLife Solutions, Inc. - Common Stock",EQUITY,NASDAQ
 BLIN,"Bridgeline Digital, Inc. - Common Stock",EQUITY,NASDAQ
 BLIV,BeLive Holdings - ordinary shares,EQUITY,NASDAQ
 BLKB,"Blackbaud, Inc. - Common Stock",EQUITY,NASDAQ
@@ -569,7 +579,6 @@ BLNE,"Beeline Holdings, Inc. - Common Stock",EQUITY,NASDAQ
 BLNK,Blink Charging Co. - Common Stock,EQUITY,NASDAQ
 BLRK,Bluerock Acquisition Corp. - Class A Ordinary Shares,EQUITY,NASDAQ
 BLRX,BioLineRx Ltd. - American Depositary Shares,EQUITY,NASDAQ
-BLSG,Leverage Shares 2X Long BLSH Daily ETF,ETF,NASDAQ
 BLSM,"BlossomHill Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 BLTE,"Belite Bio, Inc - American Depositary Shares",EQUITY,NASDAQ
 BLUW,Blue Water Acquisition Corp. III - Class A Ordinary Shares,EQUITY,NASDAQ
@@ -580,6 +589,7 @@ BMEA,"Biomea Fusion, Inc. - Common Stock",EQUITY,NASDAQ
 BMGL,Basel Medical Group Ltd - ordinary shares,EQUITY,NASDAQ
 BMHL,Bluemount Holdings Limited - Class B Ordinary Shares,EQUITY,NASDAQ
 BMM,Blue Moon Metals Inc. - Common Shares,EQUITY,NASDAQ
+BMMX,Black Mammoth Metals Corporation - Common Shares,EQUITY,NASDAQ
 BMNG,Leverage Shares 2X Long BMNR Daily ETF,ETF,NASDAQ
 BMOP,BNY Mellon Municipal Opportunities ETF,ETF,NASDAQ
 BMR,Beamr Imaging Ltd. - Ordinary Share,EQUITY,NASDAQ
@@ -691,7 +701,6 @@ BTCS,BTCS Inc. - Common Stock,EQUITY,NASDAQ
 BTCT,BTC Digital Ltd. - Ordinary Shares,EQUITY,NASDAQ
 BTDL,GraniteShares 2x Long BTDR Daily ETF,ETF,NASDAQ
 BTDR,Bitdeer Technologies Group - Ordinary Shares,EQUITY,NASDAQ
-BTF,CoinShares Bitcoin and Ether ETF,ETF,NASDAQ
 BTGD,STKd 100% Bitcoin & 100% Gold ETF,ETF,NASDAQ
 BTLN,"Brightline Interactive, Inc. - Common Stock",EQUITY,NASDAQ
 BTMD,Biote Corp. - Class A common stock,EQUITY,NASDAQ
@@ -817,7 +826,6 @@ CDW,CDW Corporation - Common Stock,EQUITY,NASDAQ
 CDXS,"Codexis, Inc. - Common Stock",EQUITY,NASDAQ
 CDZI,"Cadiz, Inc. - Common Stock",EQUITY,NASDAQ
 CDZIP,"Cadiz, Inc. - Depositary Shares",EQUITY,NASDAQ
-CECO,CECO Environmental Corp. - Common Stock,EQUITY,NASDAQ
 CEFA,Global X S&P Catholic Values Developed ex-U.S. ETF,ETF,NASDAQ
 CEG,Constellation Energy Corporation - Common Stock When-Issued,EQUITY,NASDAQ
 CELC,Celcuity Inc. - Common Stock,EQUITY,NASDAQ
@@ -884,6 +892,7 @@ CHRW,"C.H. Robinson Worldwide, Inc. - Common Stock",EQUITY,NASDAQ
 CHSN,Chanson International Holding - Class A Ordinary Shares,EQUITY,NASDAQ
 CHTR,"Charter Communications, Inc. - Class A Common Stock",EQUITY,NASDAQ
 CHW,Calamos Global Dynamic Income Fund - Closed End Fund,EQUITY,NASDAQ
+CHWM,Chilwa Minerals Limited - American Depository Shares,EQUITY,NASDAQ
 CHY,Calamos Convertible and High Income Fund - Closed End Fund,EQUITY,NASDAQ
 CHYM,"Chime Financial, Inc. - Class A Common Stock",EQUITY,NASDAQ
 CIBR,First Trust NASDAQ Cybersecurity ETF,ETF,NASDAQ
@@ -967,7 +976,6 @@ COHU,"Cohu, Inc. - Common Stock",EQUITY,NASDAQ
 COIG,Leverage Shares 2X Long COIN Daily ETF,ETF,NASDAQ
 COIN,"Coinbase Global, Inc. - Class A Common Stock",EQUITY,NASDAQ
 COKE,"Coca-Cola Consolidated, Inc. - Common Stock",EQUITY,NASDAQ
-COLA,Columbus Acquisition Corp - Ordinary Shares,EQUITY,NASDAQ
 COLB,"Columbia Banking System, Inc. - Common Stock",EQUITY,NASDAQ
 COLL,"Collegium Pharmaceutical, Inc. - Common Stock",EQUITY,NASDAQ
 COLM,Columbia Sportswear Company - Common Stock,EQUITY,NASDAQ
@@ -1024,7 +1032,6 @@ CRMD,CorMedix Inc. - Common Stock,EQUITY,NASDAQ
 CRMG,Leverage Shares 2X Long CRM Daily ETF,ETF,NASDAQ
 CRML,Critical Metals Corp. - Ordinary Shares,EQUITY,NASDAQ
 CRMT,"America's Car-Mart, Inc. - Common Stock",EQUITY,NASDAQ
-CRMU,Leverage Shares 2x Long CRML Daily ETF,ETF,NASDAQ
 CRNC,Cerence Inc. - Common Stock,EQUITY,NASDAQ
 CRNT,Ceragon Networks Ltd. - Ordinary Shares,EQUITY,NASDAQ
 CROB,Defiance China Robotics ETF,ETF,NASDAQ
@@ -1074,6 +1081,7 @@ CTSH,Cognizant Technology Solutions Corporation - Class A Common Stock,EQUITY,NA
 CTSO,Cytosorbents Corporation - Common Stock,EQUITY,NASDAQ
 CTW,CTW - Class A Ordinary Shares,EQUITY,NASDAQ
 CTXR,"Citius Pharmaceuticals, Inc. - Common Stock",EQUITY,NASDAQ
+CTY,"City Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 CUB,Lionheart Holdings - Class A Ordinary Shares,EQUITY,NASDAQ
 CUE,"Cue Biopharma, Inc. - Common Stock",EQUITY,NASDAQ
 CULP,"Culp, Inc. - Common Shares",EQUITY,NASDAQ
@@ -1120,6 +1128,7 @@ DAPP,VanEck Digital Transformation ETF,ETF,NASDAQ
 DARE,"Dare Bioscience, Inc. - Common Stock",EQUITY,NASDAQ
 DASH,"DoorDash, Inc. - Common Stock",EQUITY,NASDAQ
 DAVE,Dave Inc.  - Class A Common Stock,EQUITY,NASDAQ
+DAVI,Davion Healthcare Plc - Ordinary Shares,EQUITY,NASDAQ
 DAX,Global X DAX Germany ETF,ETF,NASDAQ
 DBCA,D. Boral Acquisition I Corp. - Class A Ordinary Shares,EQUITY,NASDAQ
 DBGI,"Digital Brands Group, Inc. - Common Stock",EQUITY,NASDAQ
@@ -1140,6 +1149,7 @@ DERM,Journey Medical Corporation - Common Stock,EQUITY,NASDAQ
 DETX,"Liberty Defense Holdings, Ltd. - Common Shares",EQUITY,NASDAQ
 DFDV,DeFi Development Corp. - Common Stock,EQUITY,NASDAQ
 DFGP,Dimensional Global Core Plus Fixed Income ETF,ETF,NASDAQ
+DFGV,DFA Intermediate Government Fixed Income Portfolio: ETF Class Shares,ETF,NASDAQ
 DFGX,Dimensional International Core Fixed Income ETF,ETF,NASDAQ
 DFLI,Dragonfly Energy Holdings Corp - Common Stock,EQUITY,NASDAQ
 DFNS,T3 Defense Inc. - Common Stock,EQUITY,NASDAQ
@@ -1158,7 +1168,6 @@ DGXX,Digi Power X Inc. - Common Subordinate Voting Shares,EQUITY,NASDAQ
 DH,Definitive Healthcare Corp. - Class A Common Stock,EQUITY,NASDAQ
 DHC,Diversified Healthcare Trust  - Common Shares of Beneficial Interest,EQUITY,NASDAQ
 DIBS,"1stdibs.com, Inc. - Common Stock",EQUITY,NASDAQ
-DIME,CoinShares Altcoins ETF,ETF,NASDAQ
 DINE,Simplify Tax Aware Diversified Income Strategy ETF,ETF,NASDAQ
 DIOD,Diodes Incorporated - Common Stock,EQUITY,NASDAQ
 DIVD,Altrius Global Dividend ETF,ETF,NASDAQ
@@ -1192,9 +1201,8 @@ DORM,"Dorman Products, Inc. - Common Stock",EQUITY,NASDAQ
 DOX,Amdocs Limited - Ordinary Shares,EQUITY,NASDAQ
 DOYU,DouYu International Holdings Limited - American Depositary Shares,EQUITY,NASDAQ
 DPRO,Draganfly Inc. - Common Shares,EQUITY,NASDAQ
-DPU,Top KingWin Ltd - Class A Ordinary Shares,EQUITY,NASDAQ
+DPU,Nexpu Ltd. - Class A Ordinary Shares,EQUITY,NASDAQ
 DPZ,Domino's Pizza Inc - Common Stock,EQUITY,NASDAQ
-DRCT,"Direct Digital Holdings, Inc. - Class A Common Stock",EQUITY,NASDAQ
 DRDB,Roman DBDR Acquisition Corp. II - Ordinary shares,EQUITY,NASDAQ
 DRH,Diamondrock Hospitality Company - Common Stock,EQUITY,NASDAQ
 DRIO,DarioHealth Corp. - Common Stock,EQUITY,NASDAQ
@@ -1229,7 +1237,6 @@ DUOG,Leverage Shares 2X Long DUOL Daily ETF,ETF,NASDAQ
 DUOL,"Duolingo, Inc. - Class A Common Stock",EQUITY,NASDAQ
 DUOT,"Duos Technologies Group, Inc. - Common Stock",EQUITY,NASDAQ
 DUSG,U.S. Small Cap Growth Portfolio: ETF Class Shares,ETF,NASDAQ
-DVAL,BrandywineGLOBAL-Dynamic US Large Cap Value ETF,ETF,NASDAQ
 DVGR,DAC 3D Dividend Growth ETF,ETF,NASDAQ
 DVLT,Datavault AI Inc. - Common Stock,EQUITY,NASDAQ
 DVLU,First Trust Dorsey Wright Momentum & Value ETF,ETF,NASDAQ
@@ -1252,7 +1259,6 @@ DYAI,"Dyadic International, Inc. - Common Stock",EQUITY,NASDAQ
 DYFI,IDX Dynamic Fixed Income ETF,ETF,NASDAQ
 DYN,"Dyne Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 DYNB,Hartford Dynamic Bond ETF,ETF,NASDAQ
-DYNC,Dynamix Corporation - Class A Ordinary Share,EQUITY,NASDAQ
 DYOR,Insight Digital Partners II - Class A Ordinary Shares,EQUITY,NASDAQ
 DYTA,SGI Dynamic Tactical ETF,ETF,NASDAQ
 EART,Global X Rare Earth & Critical Materials ETF,ETF,NASDAQ
@@ -1286,7 +1292,7 @@ EFOI,"Energy Focus, Inc. - Common Stock",EQUITY,NASDAQ
 EFRA,iShares Environmental Infrastructure and Industrials ETF,ETF,NASDAQ
 EFSC,Enterprise Financial Services Corporation - Common Stock,EQUITY,NASDAQ
 EFSI,Eagle Financial Services Inc - Common Stock,EQUITY,NASDAQ
-EFTY,"Etoiles Capital Group Co., Ltd. - Class A Ordinary Shares",EQUITY,NASDAQ
+EFTY,"Etoiles Capital Group Co., Ltd. - Common Stock",EQUITY,NASDAQ
 EGAN,eGain Corporation - Common Stock,EQUITY,NASDAQ
 EGBN,"Eagle Bancorp, Inc. - Common Stock",EQUITY,NASDAQ
 EGGQ,NestYield Visionary ETF,ETF,NASDAQ
@@ -1318,17 +1324,16 @@ ELVA,Electrovaya Inc. - Common Shares,EQUITY,NASDAQ
 ELVN,"Enliven Therapeutics, Inc.  - Common Stock",EQUITY,NASDAQ
 ELVR,Elevra Lithium Limited - American Depository Shares,EQUITY,NASDAQ
 ELWT,"Elauwit Connection, Inc. - Common Stock",EQUITY,NASDAQ
+EMAG,Emerging Markets AI Mag 3 ETF,ETF,NASDAQ
 EMAT,Evolution Metals & Technologies Corp. - Common Stock,EQUITY,NASDAQ
 EMB,iShares J.P. Morgan USD Emerging Markets Bond ETF,ETF,NASDAQ
 EMBC,Embecta Corp. - Common Stock,EQUITY,NASDAQ
 EMCB,WisdomTree Emerging Markets Corporate Bond Fund,ETF,NASDAQ
-EMEM,Sophus Capital Emerging Market ETF,ETF,NASDAQ
 EMEQ,Nomura Focused Emerging Markets Equity ETF,ETF,NASDAQ
 EMIF,iShares Emerging Markets Infrastructure ETF,ETF,NASDAQ
 EMIS,Emmis Acquisition Corp. - Class A Ordinary Share,EQUITY,NASDAQ
 EML,Eastern Company (The) - Common Stock,EQUITY,NASDAQ
 EMPD,Empery Digital Inc. - Common stock,EQUITY,NASDAQ
-EMSC,Sophus Capital Emerging Market Small Cap ETF,ETF,NASDAQ
 EMXC,iShares MSCI Emerging Markets ex China ETF,ETF,NASDAQ
 EMXF,iShares ESG Advanced MSCI EM ETF,ETF,NASDAQ
 ENDW,Cambria Endowment Style ETF,ETF,NASDAQ
@@ -1443,6 +1448,7 @@ FAST,Fastenal Company - Common Stock,EQUITY,NASDAQ
 FATE,"Fate Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 FATN,"FatPipe, Inc. - common stock",EQUITY,NASDAQ
 FBDT,First Breach Inc. - Common Stock,EQUITY,NASDAQ
+FBEQ,Franklin US Equity Bitcoin Drip Index ETF,ETF,NASDAQ
 FBGL,FBS Global Limited - Ordinary Shares,EQUITY,NASDAQ
 FBIO,"Fortress Biotech, Inc. - Common Stock",EQUITY,NASDAQ
 FBIZ,"First Business Financial Services, Inc. - Common Stock",EQUITY,NASDAQ
@@ -1458,6 +1464,7 @@ FCAL,First Trust California Municipal High income ETF,ETF,NASDAQ
 FCAP,"First Capital, Inc. - Common Stock",EQUITY,NASDAQ
 FCBC,"First Community Bankshares, Inc. - Common Stock",EQUITY,NASDAQ
 FCCO,First Community Corporation - Common Stock,EQUITY,NASDAQ
+FCDH,Forcendra Holding Limited - Class A Ordinary Shares,EQUITY,NASDAQ
 FCEF,First Trust Income Opportunities ETF,ETF,NASDAQ
 FCEL,"FuelCell Energy, Inc. - Common Stock",EQUITY,NASDAQ
 FCFS,"FirstCash Holdings, Inc. - Common Stock",EQUITY,NASDAQ
@@ -1467,7 +1474,6 @@ FCNCA,"First Citizens BancShares, Inc. - Class A Common Stock",EQUITY,NASDAQ
 FCTE,SMI 3Fourteen Full-Cycle Trend ETF,ETF,NASDAQ
 FCUV,Focus Universal Inc. - Common Stock,EQUITY,NASDAQ
 FCVT,First Trust SSI Strategic Convertible Securities ETF,ETF,NASDAQ
-FCXG,Leverage Shares 2x Long FCX Daily ETF,ETF,NASDAQ
 FDBC,"Fidelity D & D Bancorp, Inc. - Common Stock",EQUITY,NASDAQ
 FDCF,Fidelity Disruptive Communications ETF,ETF,NASDAQ
 FDFF,Fidelity Disruptive Finance ETF,ETF,NASDAQ
@@ -1505,6 +1511,7 @@ FFBC,First Financial Bancorp. - Common Stock,EQUITY,NASDAQ
 FFIN,"First Financial Bankshares, Inc. - Common Stock",EQUITY,NASDAQ
 FFIV,"F5, Inc. - Common Stock",EQUITY,NASDAQ
 FFR,FF EAI Robotics Ecosystem Inc. - Common Stock,EQUITY,NASDAQ
+FFTT,Masonglory Limited - Class A Ordinary Shares,EQUITY,NASDAQ
 FFUT,Fidelity Managed Futures ETF,ETF,NASDAQ
 FGBI,"First Guaranty Bancshares, Inc. - Common Stock",EQUITY,NASDAQ
 FGC,FG Communities Holdings Inc. - Common Stock,EQUITY,NASDAQ
@@ -1516,6 +1523,7 @@ FGSI,FT Vest Growth Strength & Target Income ETF,ETF,NASDAQ
 FHB,"First Hawaiian, Inc. - Common Stock",EQUITY,NASDAQ
 FHTX,Foghorn Therapeutics Inc. - Common Stock,EQUITY,NASDAQ
 FIBK,"First Interstate BancSystem, Inc. - Common Stock",EQUITY,NASDAQ
+FIBT,Franklin US Innovation Bitcoin DRIP Index ETF,ETF,NASDAQ
 FICS,First Trust International Developed Capital Strength ETF,ETF,NASDAQ
 FID,First Trust S&P International Dividend Aristocrats ETF,ETF,NASDAQ
 FIEE,"FiEE, Inc - Common Stock",EQUITY,NASDAQ
@@ -1547,6 +1555,7 @@ FLN,First Trust Latin America AlphaDEX Fund,ETF,NASDAQ
 FLNA,"Filana Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 FLNC,"Fluence Energy, Inc. - Class A Common Stock",EQUITY,NASDAQ
 FLNT,"Fluent, Inc. - Common Stock",EQUITY,NASDAQ
+FLSC,Frazier Life Sciences Acquisition Corp. II - Class A Ordinary Shares,EQUITY,NASDAQ
 FLUX,"Flux Power Holdings, Inc. - Common Stock",EQUITY,NASDAQ
 FLWS,"1-800-FLOWERS.COM, Inc. - Class A Common Stock",EQUITY,NASDAQ
 FLX,BingEx Limited - American Depositary Shares,EQUITY,NASDAQ
@@ -1613,7 +1622,6 @@ FRWD,Nomura Transformational Technologies ETF,ETF,NASDAQ
 FSBC,Five Star Bancorp - Common Stock,EQUITY,NASDAQ
 FSBW,"FS Bancorp, Inc. - Common Stock",EQUITY,NASDAQ
 FSCS,First Trust SMID Capital Strength ETF,ETF,NASDAQ
-FSEA,"First Seacoast Bancorp, Inc. - Common Stock",EQUITY,NASDAQ
 FSGS,First Trust SMID Growth Strength ETF,ETF,NASDAQ
 FSHP,Flag Ship Acquisition Corp. - Ordinary Shares,EQUITY,NASDAQ
 FSLR,"First Solar, Inc. - Common Stock",EQUITY,NASDAQ
@@ -1688,6 +1696,7 @@ GARY,Mango Growth ETF,ETF,NASDAQ
 GASS,"StealthGas, Inc. - common stock",EQUITY,NASDAQ
 GAUZ,Gauzy Ltd. - Ordinary Shares,EQUITY,NASDAQ
 GAVA,Grayscale Avalanche Staking ETF,ETF,NASDAQ
+GBC,"Georgia Banking Company, Inc. - Common Stock",EQUITY,NASDAQ
 GBDC,"Golub Capital BDC, Inc. - Closed End Fund",EQUITY,NASDAQ
 GBFH,GBank Financial Holdings Inc. - Common Stock,EQUITY,NASDAQ
 GBLI,"Global Indemnity Group, LLC - Class A Common Shares",EQUITY,NASDAQ
@@ -1697,7 +1706,6 @@ GCGR,General Catalyst Global Resilience Merger Corp. - Class A Ordinary Shares,E
 GCL,GCL Global Holdings Ltd - Ordinary Shares,EQUITY,NASDAQ
 GCMG,GCM Grosvenor Inc. - Class A Common Stock,EQUITY,NASDAQ
 GCT,GigaCloud Technology Inc - Class A Ordinary Shares,EQUITY,NASDAQ
-GCTK,"GlucoTrack, Inc. - Common Stock",EQUITY,NASDAQ
 GDC,GD Culture Group Limited - Common Stock,EQUITY,NASDAQ
 GDEV,GDEV Inc. - Ordinary Shares,EQUITY,NASDAQ
 GDHG,Golden Heaven Group Holdings Ltd.  - Class A Ordinary Shares,EQUITY,NASDAQ
@@ -1710,7 +1718,6 @@ GEG,"Great Elm Group, Inc.  - Common Stock",EQUITY,NASDAQ
 GEHC,GE HealthCare Technologies Inc. - Common Stock,EQUITY,NASDAQ
 GELS,Gelteq Limited - Ordinary Shares,EQUITY,NASDAQ
 GEME,Pacific North of South EM Equity Active ETF,ETF,NASDAQ
-GEMG,Leverage Shares 2X Long GEMI Daily ETF,ETF,NASDAQ
 GEMI,"Gemini Space Station, Inc. - Class A Common Stock",EQUITY,NASDAQ
 GEMQ,Goldman Sachs Data Enhanced Emerging Markets Equity ETF,ETF,NASDAQ
 GEN,Gen Digital Inc. - Common Stock,EQUITY,NASDAQ
@@ -1724,7 +1731,6 @@ GEVG,Leverage Shares 2X Long GEV Daily ETF,ETF,NASDAQ
 GEVO,"Gevo, Inc. - Common Stock",EQUITY,NASDAQ
 GEW,Cambria Global EW ETF,ETF,NASDAQ
 GFAI,"Guardforce AI Co., Limited - Ordinary Shares",EQUITY,NASDAQ
-GFGF,Guru Favorite Stocks ETF,ETF,NASDAQ
 GFLW,VictoryShares Free Cash Flow Growth ETF,ETF,NASDAQ
 GFS,GlobalFoundries Inc. - Ordinary Share,EQUITY,NASDAQ
 GFUZ,General Fusion Group Ltd. - Common Shares,EQUITY,NASDAQ
@@ -1757,7 +1763,6 @@ GLCR,GlacierShares Nasdaq Iceland ETF,ETF,NASDAQ
 GLDB,IDX Alternative FIAT ETF,ETF,NASDAQ
 GLDI,"ETRACS Gold Shares Covered Call ETNs due February 2, 2033",ETF,NASDAQ
 GLE,Global Engine Group Holding Limited - Class A Ordinary Shares,EQUITY,NASDAQ
-GLGG,Leverage Shares 2X Long GLXY Daily ETF,ETF,NASDAQ
 GLIBA,Liberty Capital Corporation - Series A GCI Group Common Stock,EQUITY,NASDAQ
 GLIBK,Liberty Capital Corporation - Series C GCI Group Common Stock,EQUITY,NASDAQ
 GLND,Greenland Energy Company - Common Stock,EQUITY,NASDAQ
@@ -1896,7 +1901,7 @@ HDSN,"Hudson Technologies, Inc. - Common Stock",EQUITY,NASDAQ
 HEAL,Global X HealthTech ETF,ETF,NASDAQ
 HECO,State Street Galaxy Hedged Digital Asset Ecosystem ETF,ETF,NASDAQ
 HELE,Helen of Troy Limited - Common Stock,EQUITY,NASDAQ
-HELP,Cybin Inc. - Common Stock,EQUITY,NASDAQ
+HELP,Helus Pharma Inc.  - Common Stock,EQUITY,NASDAQ
 HEPS,D-Market Electronic Services & Trading - American Depositary Shares,EQUITY,NASDAQ
 HEQQ,JPMorgan Nasdaq Hedged Equity Laddered Overlay ETF,ETF,NASDAQ
 HERD,Pacer Cash Cows Fund of Funds ETF,ETF,NASDAQ
@@ -1914,13 +1919,13 @@ HIFS,Hingham Institution for Savings - Common Stock,EQUITY,NASDAQ
 HIHO,Highway Holdings Limited - Common Stock,EQUITY,NASDAQ
 HIMX,"Himax Technologies, Inc. - American depositary shares, each of which represents two ordinary shares.",EQUITY,NASDAQ
 HIMZ,Defiance Daily Target 2X Long HIMS ETF,ETF,NASDAQ
+HINC,Hartford High Yield ETF,ETF,NASDAQ
 HIND,"Vyome Holdings, Inc. - Common Stock",EQUITY,NASDAQ
 HIS,Humilis US Focused Opportunities ETF,ETF,NASDAQ
 HISF,First Trust High Income Strategic Focus ETF,ETF,NASDAQ
 HIT,"Health In Tech, Inc. - Class A Common Stock",EQUITY,NASDAQ
 HITI,High Tide Inc. - Common Shares,EQUITY,NASDAQ
 HIVE,HIVE Digital Technologies Ltd - Common Shares,EQUITY,NASDAQ
-HKIT,Hitek Global Inc. - Class A Ordinary Share,EQUITY,NASDAQ
 HKPD,"Cellyan Biotechnology Co., Ltd  - Class A Ordinary Shares",EQUITY,NASDAQ
 HLAL,Wahed FTSE USA Shariah ETF,ETF,NASDAQ
 HLIT,Harmonic Inc. - Common Stock,EQUITY,NASDAQ
@@ -2017,6 +2022,7 @@ IA,"Innovative Solutions and Support, Inc. - Common Stock",EQUITY,NASDAQ
 IACO,Idea Acquisition Corp. - Class A Ordinary Shares,EQUITY,NASDAQ
 IACQ,Irenic Acquisition Corp. - Class A Ordinary Shares,EQUITY,NASDAQ
 IALT,iShares Systematic Alternatives Active ETF,ETF,NASDAQ
+IAM,"Iambic Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 IART,Integra LifeSciences Holdings Corporation - Common Stock,EQUITY,NASDAQ
 IBAC,IB Acquisition Corp. - Common Stock,EQUITY,NASDAQ
 IBAT,iShares Energy Storage & Materials ETF,ETF,NASDAQ
@@ -2034,7 +2040,6 @@ IBGM,iShares iBonds Dec 2056 Term Treasury ETF,ETF,NASDAQ
 IBIO,"iBio, Inc. - Common Stock",EQUITY,NASDAQ
 IBIT,iShares Bitcoin Trust ETF,ETF,NASDAQ
 IBKR,"Interactive Brokers Group, Inc. - Class A Common Stock",EQUITY,NASDAQ
-IBOC,International Bancshares Corporation - Common Stock,EQUITY,NASDAQ
 IBOT,VanEck Robotics ETF,ETF,NASDAQ
 IBRX,"ImmunityBio, Inc. - Common Stock",EQUITY,NASDAQ
 IBTG,iShares iBonds Dec 2026 Term Treasury ETF,ETF,NASDAQ
@@ -2092,7 +2097,6 @@ IJT,iShares S&P SmallCap 600 Growth ETF,ETF,NASDAQ
 IKT,"Inhibikase Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 ILAG,Intelligent Living Application Group Inc. - Ordinary Shares,EQUITY,NASDAQ
 ILIT,iShares Lithium Miners and Producers ETF,ETF,NASDAQ
-ILLR,Triller Group Inc. - Common Stock,EQUITY,NASDAQ
 ILLU,Illumination Acquisition Corp I - Class A Ordinary Shares,EQUITY,NASDAQ
 ILMN,"Illumina, Inc. - Common Stock",EQUITY,NASDAQ
 ILPT,Industrial Logistics Properties Trust - Common Shares of Beneficial Interest,EQUITY,NASDAQ
@@ -2177,6 +2181,7 @@ IPDN,"Professional Diversity Network, Inc. - Common Stock",EQUITY,NASDAQ
 IPFX,Inflection Point Acquisition Corp. VI - Class A Ordinary Shares,EQUITY,NASDAQ
 IPGP,IPG Photonics Corporation - Common Stock,EQUITY,NASDAQ
 IPHA,Innate Pharma S.A. - American Depositary Shares,EQUITY,NASDAQ
+IPHX,Inflection Point Acquisition Corp. VIII - Class A Ordinary Shares,EQUITY,NASDAQ
 IPKW,Invesco International BuyBack Achievers ETF,ETF,NASDAQ
 IPM,Intelligent Protection Management Corp.  - Common Stock,EQUITY,NASDAQ
 IPSC,"Century Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
@@ -2198,6 +2203,7 @@ IREG,Leverage Shares 2X Long IREN Daily ETF,ETF,NASDAQ
 IREN,IREN Limited - Ordinary Shares,EQUITY,NASDAQ
 IRHO,Iron Horse Acquisitions II Corp. - Common Stock,EQUITY,NASDAQ
 IRIX,IRIDEX Corporation - Common Stock,EQUITY,NASDAQ
+IRLA,IRulya Therapeutics Inc. - Common Stock,EQUITY,NASDAQ
 IRMD,iRadimed Corporation - Common Stock,EQUITY,NASDAQ
 IRON,"Disc Medicine, Inc. - Common Stock",EQUITY,NASDAQ
 IRTC,"iRhythm Holdings, Inc.  - Common Stock",EQUITY,NASDAQ
@@ -2301,8 +2307,6 @@ KARD,"Kardigan, Inc. - Common Stock",EQUITY,NASDAQ
 KARO,Karooooo Ltd. - Ordinary shares,EQUITY,NASDAQ
 KAT,Scharf ETF,ETF,NASDAQ
 KAZR,Skyline Builders Group Holding Limited - Class A Ordinary Shares,EQUITY,NASDAQ
-KBAB,KraneShares 2x Long BABA Daily ETF,ETF,NASDAQ
-KBDU,KraneShares 2x Long BIDU Daily ETF,ETF,NASDAQ
 KBON,Karbon Capital Partners Corp. - Class A Ordinary Shares,EQUITY,NASDAQ
 KBSX,FST Corp. - Ordinary Shares,EQUITY,NASDAQ
 KBWB,Invesco KBW Bank ETF,ETF,NASDAQ
@@ -2329,7 +2333,6 @@ KIDZ,KIDZ AI Inc. - Class B Common Stock,EQUITY,NASDAQ
 KINS,"Kingstone Companies, Inc - Common Stock",EQUITY,NASDAQ
 KIQQ,KraneShares InspereX Nasdaq Dynamic Buffered High Income Index ETF,ETF,NASDAQ
 KITT,"Nauticus Robotics, Inc. - Common stock",EQUITY,NASDAQ
-KJD,KraneShares 2x Long JD Daily ETF,ETF,NASDAQ
 KLAC,KLA Corporation  - Common Stock,EQUITY,NASDAQ
 KLAG,Leverage Shares 2x Long KLAC Daily ETF,ETF,NASDAQ
 KLIC,"Kulicke and Soffa Industries, Inc. - Common Stock",EQUITY,NASDAQ
@@ -2339,7 +2342,6 @@ KLTR,"Kaltura, Inc. - Common Stock",EQUITY,NASDAQ
 KLXE,"KLX Energy Services Holdings, Inc.  - Common Stock",EQUITY,NASDAQ
 KMB,Kimberly-Clark Corporation - Common Stock,EQUITY,NASDAQ
 KMDA,Kamada Ltd. - Ordinary Shares,EQUITY,NASDAQ
-KMLI,KraneShares 2x Long MELI Daily ETF,ETF,NASDAQ
 KMRK,K-Tech Solutions Company Limited - Class A Ordinary Shares,EQUITY,NASDAQ
 KMTS,"Kestra Medical Technologies, Ltd. - Common Stock",EQUITY,NASDAQ
 KNDI,"Kandi Technologies Group, Inc. - Ordinary Shares",EQUITY,NASDAQ
@@ -2350,7 +2352,6 @@ KOID,KraneShares Global Humanoid Robotics and Physical AI Index ETF,ETF,NASDAQ
 KOPN,Kopin Corporation - Common Stock,EQUITY,NASDAQ
 KOSS,Koss Corporation - Common Stock,EQUITY,NASDAQ
 KOYN,CSLM Digital Asset Acquisition Corp III - Class A Ordinary Shares,EQUITY,NASDAQ
-KPDD,KraneShares 2x Long PDD Daily ETF,ETF,NASDAQ
 KPLT,"Katapult Holdings, Inc. - Common Stock",EQUITY,NASDAQ
 KPRX,"Kiora Pharmaceuticals, Inc.  - Common Stock",EQUITY,NASDAQ
 KPTI,Karyopharm Therapeutics Inc. - Common Stock,EQUITY,NASDAQ
@@ -2406,6 +2407,7 @@ LCDS,JPMorgan Fundamental Data Science Large Core ETF,ETF,NASDAQ
 LCFY,Locafy Limited - Ordinary Share,EQUITY,NASDAQ
 LCID,"Lucid Group, Inc. - Common Stock",EQUITY,NASDAQ
 LCNB,LCNB Corporation - Common Stock,EQUITY,NASDAQ
+LCU,Lion Copper Corp. - Common Shares,EQUITY,NASDAQ
 LCUT,"Lifetime Brands, Inc. - Common Stock",EQUITY,NASDAQ
 LDEM,iShares ESG MSCI EM Leaders ETF,ETF,NASDAQ
 LDRX,SGI Enhanced Market Leaders ETF,ETF,NASDAQ
@@ -2419,7 +2421,6 @@ LEGN,Legend Biotech Corporation - American Depositary Shares,EQUITY,NASDAQ
 LEGR,First Trust Indxx Innovative Transaction & Process ETF,ETF,NASDAQ
 LEND,SEI High Yield Bond & Alternative Credit ETF,ETF,NASDAQ
 LENZ,"LENZ Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
-LESL,"Leslie's, Inc. - Common Stock",EQUITY,NASDAQ
 LEXI,Alexis Practical Tactical ETF,ETF,NASDAQ
 LEXX,Lexaria Bioscience Corp. - Common Stock,EQUITY,NASDAQ
 LFAC,Leapfrog Acquisition Corporation - Class A Ordinary Shares,EQUITY,NASDAQ
@@ -2478,7 +2479,6 @@ LMBS,First Trust Low Duration Opportunities ETF,ETF,NASDAQ
 LMNR,Limoneira Co - Common Stock,EQUITY,NASDAQ
 LMRI,"Lumexa Imaging Holdings, Inc. - Common Stock",EQUITY,NASDAQ
 LMTL,Direxion Daily LMT Bull 2X ETF,ETF,NASDAQ
-LNAI,Lunai Bioworks Inc. - Common Stock,EQUITY,NASDAQ
 LNKS,Linkers Industries Limited - Class A Ordinary Shares,EQUITY,NASDAQ
 LNSR,"LENSAR, Inc. - Common Stock",EQUITY,NASDAQ
 LNT,Alliant Energy Corporation - Common Stock,EQUITY,NASDAQ
@@ -2507,7 +2507,6 @@ LQDT,"Liquidity Services, Inc. - Common Stock",EQUITY,NASDAQ
 LRCX,Lam Research Corporation - Common Stock,EQUITY,NASDAQ
 LRE,"Lead Real Estate Co., Ltd - American Depositary Shares",EQUITY,NASDAQ
 LRGE,ClearBridge Large Cap Growth Select ETF,ETF,NASDAQ
-LRHC,La Rosa Holdings Corp. - Common Stock,EQUITY,NASDAQ
 LRMR,"Larimar Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 LRND,NYLIM U.S. Large Cap R&D Leaders ETF,ETF,NASDAQ
 LSAK,"Lesaka Technologies, Inc. - Common Stock",EQUITY,NASDAQ
@@ -2526,6 +2525,7 @@ LUCD,Lucid Diagnostics Inc. - Common Stock,EQUITY,NASDAQ
 LUCY,"Innovative Eyewear, Inc. - Common Stock",EQUITY,NASDAQ
 LULG,Leverage Shares 2X Long LULU Daily ETF,ETF,NASDAQ
 LULU,lululemon athletica inc. - Common Stock,EQUITY,NASDAQ
+LUMN,"Lumen Technologies, Inc.  - Common Stock",EQUITY,NASDAQ
 LUNG,Pulmonx Corporation - Common Stock,EQUITY,NASDAQ
 LUNR,"Intuitive Machines, Inc. - Class A Common Stock",EQUITY,NASDAQ
 LVDS,JPMorgan Fundamental Data Science Large Value ETF,ETF,NASDAQ
@@ -2540,6 +2540,7 @@ LX,LexinFintech Holdings Ltd. - American Depositary Shares,EQUITY,NASDAQ
 LXEH,"Lixiang Education Holding Co., Ltd. - American Depositary Shares",EQUITY,NASDAQ
 LXEO,"Lexeo Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 LXRX,"Lexicon Pharmaceuticals, Inc. - Common Stock",EQUITY,NASDAQ
+LYCA,"Lycia Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 LYEL,"Lyell Immunopharma, Inc. - Common Stock",EQUITY,NASDAQ
 LYFT,"Lyft, Inc. - Class A Common Stock",EQUITY,NASDAQ
 LYTS,LSI Industries Inc. - Common Stock,EQUITY,NASDAQ
@@ -2551,7 +2552,6 @@ MACI,Melar Acquisition Corp. I - Class A Ordinary Shares,EQUITY,NASDAQ
 MAGH,Magnitude International Ltd - Ordinary Shares,EQUITY,NASDAQ
 MAKO,Mako Mining Corp - Common Stock,EQUITY,NASDAQ
 MAMA,"Mama's Creations, Inc. - Common Stock",EQUITY,NASDAQ
-MAMK,MaxsMaking Inc. - Class A Ordinary Shares,EQUITY,NASDAQ
 MAMO,Massimo Group - Common Stock,EQUITY,NASDAQ
 MANH,"Manhattan Associates, Inc. - Common Stock",EQUITY,NASDAQ
 MAR,Marriott International - Class A Common Stock,EQUITY,NASDAQ
@@ -2638,6 +2638,7 @@ MGIH,Millennium Group International Holdings Limited - Ordinary Shares,EQUITY,NA
 MGN,Megan Holdings Limited - Class A Ordinary Shares,EQUITY,NASDAQ
 MGNI,"Magnite, Inc. - Common Stock",EQUITY,NASDAQ
 MGNX,"MacroGenics, Inc. - Common Stock",EQUITY,NASDAQ
+MGOL,Leverage Shares MANGOS ETF,ETF,NASDAQ
 MGPI,"MGP Ingredients, Inc. - Common Stock",EQUITY,NASDAQ
 MGRC,McGrath RentCorp - Common Stock,EQUITY,NASDAQ
 MGRT,Mega Fortune Company Limited - Ordinary Shares,EQUITY,NASDAQ
@@ -2648,7 +2649,6 @@ MGYR,"Magyar Bancorp, Inc. - Common Stock",EQUITY,NASDAQ
 MIAC,Meridian3 Industrials Acquisition Corp - Class A Ordinary Shares,EQUITY,NASDAQ
 MIDD,The Middleby Corporation - Common Stock,EQUITY,NASDAQ
 MILN,Global X Millennial Consumer ETF,ETF,NASDAQ
-MIMI,Mint Incorporation Limited - Class A Ordinary Shares,EQUITY,NASDAQ
 MIND,"MIND Technology, Inc. - Common Stock",EQUITY,NASDAQ
 MIRA,"MIRA Pharmaceuticals, Inc. - Common Stock",EQUITY,NASDAQ
 MIRM,"Mirum Pharmaceuticals, Inc. - common stock",EQUITY,NASDAQ
@@ -2733,7 +2733,6 @@ MSFL,GraniteShares 2x Long MSFT Daily ETF,ETF,NASDAQ
 MSFT,Microsoft Corporation - Common Stock,EQUITY,NASDAQ
 MSFU,Direxion Daily MSFT Bull 2X ETF,ETF,NASDAQ
 MSGM,Motorsport Games Inc. - Class A Common Stock,EQUITY,NASDAQ
-MSGY,Masonglory Limited - Class A Ordinary Shares,EQUITY,NASDAQ
 MSLE,Satellos Bioscience Inc. - Common Stock,EQUITY,NASDAQ
 MSR,GraniteShares Autocallable MSTR ETF,ETF,NASDAQ
 MSS,Maison Solutions Inc. - Class A Common Stock,EQUITY,NASDAQ
@@ -2747,6 +2746,7 @@ MTCH,"Match Group, Inc. - Common Stock",EQUITY,NASDAQ
 MTEK,Maris-Tech Ltd. - ordinary shares,EQUITY,NASDAQ
 MTEN,Mingteng International Corporation Inc. - Class A Ordinary Shares,EQUITY,NASDAQ
 MTEX,"Mannatech, Incorporated - Common Stock",EQUITY,NASDAQ
+MTGG,MayTech Global Growth ETF,ETF,NASDAQ
 MTLS,Materialise NV - American Depositary Shares,EQUITY,NASDAQ
 MTRX,Matrix Service Company - Common Stock,EQUITY,NASDAQ
 MTSI,"MACOM Technology Solutions Holdings, Inc. - Common Stock",EQUITY,NASDAQ
@@ -2755,7 +2755,6 @@ MTYY,GraniteShares YieldBOOST MSTR ETF,ETF,NASDAQ
 MU,"Micron Technology, Inc. - Common Stock",EQUITY,NASDAQ
 MUD,Direxion Daily MU Bear 1X ETF,ETF,NASDAQ
 MULL,GraniteShares 2x Long MU Daily ETF,ETF,NASDAQ
-MULT,Franklin Multisector Income ETF,ETF,NASDAQ
 MUU,Direxion Daily MU Bull 2X ETF,ETF,NASDAQ
 MUY,YieldMax MU Option Income Strategy ETF,ETF,NASDAQ
 MUYY,GraniteShares YieldBOOST MU ETF,ETF,NASDAQ
@@ -2809,11 +2808,11 @@ NAKA,Nakamoto Inc. - Common Stock,EQUITY,NASDAQ
 NAMI,Jinxin Technology Holding Company - American Depositary Shares,EQUITY,NASDAQ
 NAMM,Namib Minerals - Ordinary Shares,EQUITY,NASDAQ
 NAMS,NewAmsterdam Pharma Company N.V. - Ordinary Shares,EQUITY,NASDAQ
-NATH,"Nathan's Famous, Inc. - Common Stock",EQUITY,NASDAQ
+NANO,Forge Nano Holdings Inc. - Common stock,EQUITY,NASDAQ
 NATO,Themes Transatlantic Defense ETF,ETF,NASDAQ
 NATR,"Nature's Sunshine Products, Inc. - Common Stock",EQUITY,NASDAQ
 NAUT,"Nautilus Biotechnology, Inc. - Common Stock",EQUITY,NASDAQ
-NAVI,Navient Corporation - Common Stock,EQUITY,NASDAQ
+NAVI,"Navient Holdings, Inc. - Common Stock",EQUITY,NASDAQ
 NAVN,"Navan, Inc. - Class A Common Stock",EQUITY,NASDAQ
 NB,NioCorp Developments Ltd. - Common Stock,EQUITY,NASDAQ
 NBBK,"NB Bancorp, Inc. - Common Stock",EQUITY,NASDAQ
@@ -2847,7 +2846,6 @@ NDRA,ENDRA Life Sciences Inc. - Common Stock,EQUITY,NASDAQ
 NDSN,Nordson Corporation - Common Stock,EQUITY,NASDAQ
 NECB,"NorthEast Community Bancorp, Inc. - Common Stock",EQUITY,NASDAQ
 NEGG,"Newegg Commerce, Inc. - Common Shares",EQUITY,NASDAQ
-NEMG,Leverage Shares 2x Long NEM Daily ETF,ETF,NASDAQ
 NEO,"NeoGenomics, Inc. - Common Stock",EQUITY,NASDAQ
 NEOG,Neogen Corporation - Common Stock,EQUITY,NASDAQ
 NEON,Neonode Inc. - Common Stock,EQUITY,NASDAQ
@@ -2873,7 +2871,7 @@ NGEN,NervGen Pharma Corp. - Common stock,EQUITY,NASDAQ
 NGHT,Nicholas Bitcoin and Treasuries AfterDark ETF,ETF,NASDAQ
 NGNE,Neurogene Inc. - Common Stock,EQUITY,NASDAQ
 NHIV,NewHold Investment Corp IV - Class A Ordinary Shares,EQUITY,NASDAQ
-NHP,"National Healthcare Properties, Inc. - Class A Common Stock",EQUITY,NASDAQ
+NHP,"National Healthcare Properties, Inc. - Common Stock",EQUITY,NASDAQ
 NHTC,Natural Health Trends Corp. - Common Stock,EQUITY,NASDAQ
 NICE,NICE Ltd - American Depositary Shares each representing one Ordinary Share,EQUITY,NASDAQ
 NICM,Nicola Mining Inc. - American Depositary Shares,EQUITY,NASDAQ
@@ -2905,6 +2903,7 @@ NNOX,NANO-X IMAGING LTD - Ordinary Shares,EQUITY,NASDAQ
 NODK,"NI Holdings, Inc. - Common Stock",EQUITY,NASDAQ
 NOEM,CO2 Energy Transition Corp. - Common Stock,EQUITY,NASDAQ
 NOMA,NOMADAR Corp. - Class A Common Stock,EQUITY,NASDAQ
+NORD,Nordicus Partners Corporation - Common Stock,EQUITY,NASDAQ
 NOVT,Novanta Inc. - Common Shares,EQUITY,NASDAQ
 NOWL,GraniteShares 2x Long NOW Daily ETF,ETF,NASDAQ
 NPAC,New Providence Acquisition Corp. III - Ordinary Shares,EQUITY,NASDAQ
@@ -2923,7 +2922,6 @@ NSIT,"Insight Enterprises, Inc. - Common Stock",EQUITY,NASDAQ
 NSLR,Neostellar Capital Corp. - Closed End Fund,EQUITY,NASDAQ
 NSPR,InspireMD Inc. - Common Stock,EQUITY,NASDAQ
 NSSC,"NAPCO Security Technologies, Inc. - Common Stock",EQUITY,NASDAQ
-NSTS,"NSTS Bancorp, Inc. - Common Stock",EQUITY,NASDAQ
 NSYS,Nortech Systems Incorporated - Common Stock,EQUITY,NASDAQ
 NTAL,GraniteShares 2x Long NTAP Daily ETF,ETF,NASDAQ
 NTAP,"NetApp, Inc. - Common Stock",EQUITY,NASDAQ
@@ -2944,7 +2942,6 @@ NTWK,NETSOL Technologies Inc. - Common Stock,EQUITY,NASDAQ
 NTWO,Newbury Street II Acquisition Corp - Class A Ordinary Shares,EQUITY,NASDAQ
 NUAI,"New Era Energy & Digital, Inc. - Common Stock",EQUITY,NASDAQ
 NUCL,Eagle Nuclear Energy Corp. - Common stock,EQUITY,NASDAQ
-NUG,Leverage Shares 2X Long NU Daily ETF,ETF,NASDAQ
 NUGY,GraniteShares YieldBOOST Gold Miners ETF,ETF,NASDAQ
 NUIB,Nuveen Impact Bond ETF,ETF,NASDAQ
 NUIF,Nuveen US Infrastructure ETF,ETF,NASDAQ
@@ -2964,7 +2961,6 @@ NVDS,Tradr 1.5X Short NVDA Daily ETF,ETF,NASDAQ
 NVDU,Direxion Daily NVDA Bull 2X ETF,ETF,NASDAQ
 NVEC,NVE Corporation - Common Stock,EQUITY,NASDAQ
 NVMI,Nova Ltd. - Ordinary Shares,EQUITY,NASDAQ
-NVNI,Nvni Group Limited - Ordinary Shares,EQUITY,NASDAQ
 NVNO,enVVeno Medical Corporation - Common Stock,EQUITY,NASDAQ
 NVPS,PurePlay Nvidia Ecosystem Picks & Shovels Index ETF,ETF,NASDAQ
 NVTS,Navitas Semiconductor Corporation - Common Stock,EQUITY,NASDAQ
@@ -2981,6 +2977,7 @@ NWS,News Corporation - Class B Common Stock,EQUITY,NASDAQ
 NWSA,News Corporation - Class A Common Stock,EQUITY,NASDAQ
 NWTG,"Newton Golf Company, Inc. - Common Stock",EQUITY,NASDAQ
 NXAT,Nexus Advanced Technologies Inc. - Ordinary Shares,EQUITY,NASDAQ
+NXDR,"Nextdoor Holdings, Inc. - Common Stock",EQUITY,NASDAQ
 NXGL,"NexGel, Inc - Common Stock",EQUITY,NASDAQ
 NXH,"Neighborhood Intelligence, Inc.  - Common Stock",EQUITY,NASDAQ
 NXL,"Nexalin Technology, Inc. - Common Stock",EQUITY,NASDAQ
@@ -3067,10 +3064,10 @@ OPAD,Offerpad Solutions Inc.  - Class A Common Stock,EQUITY,NASDAQ
 OPAL,OPAL Fuels Inc. - Class A Common Stock,EQUITY,NASDAQ
 OPBK,OP Bancorp - Common Stock,EQUITY,NASDAQ
 OPCH,"Option Care Health, Inc. - Common Stock",EQUITY,NASDAQ
-OPEG,Leverage Shares 2X Long OPEN Daily ETF,ETF,NASDAQ
 OPEN,Opendoor Technologies Inc  - Common Stock,EQUITY,NASDAQ
 OPI,Office Properties Income Trust - Common shares of beneficial interest,EQUITY,NASDAQ
 OPK,"Opko Health, Inc. - Common Stock",EQUITY,NASDAQ
+OPNW,"OpenWorld, Inc. - Common Stock",EQUITY,NASDAQ
 OPPJ,WisdomTree Japan Opportunities Fund,ETF,NASDAQ
 OPRA,Opera Limited - American Depositary Shares,EQUITY,NASDAQ
 OPRT,Oportun Financial Corporation - common stock,EQUITY,NASDAQ
@@ -3136,7 +3133,7 @@ PAMT,PAMT CORP - Common Stock,EQUITY,NASDAQ
 PANG,Leverage Shares 2X Long PANW Daily ETF,ETF,NASDAQ
 PANL,Pangaea Logistics Solutions Ltd. - Common Stock,EQUITY,NASDAQ
 PANW,"Palo Alto Networks, Inc. - Common Stock",EQUITY,NASDAQ
-PARA,"Banzai International, Inc. - Class A Common Stock",EQUITY,NASDAQ
+PARA,"Parabolic Technologies, Inc. - Class A Common Stock",EQUITY,NASDAQ
 PARK,"Park Dental Partners, Inc. - Common Stock",EQUITY,NASDAQ
 PASG,"Passage Bio, Inc. - Common Stock",EQUITY,NASDAQ
 PASW,"Ping An Biomedical Co., Ltd. - Class A Ordinary Shares",EQUITY,NASDAQ
@@ -3145,6 +3142,7 @@ PATN,Pacer Nasdaq International Patent Leaders ETF,ETF,NASDAQ
 PAVM,PAVmed Inc. - Common Stock,EQUITY,NASDAQ
 PAVS,Paranovus Entertainment Technology Ltd. - Class A Ordinary Shares,EQUITY,NASDAQ
 PAX,Patria Investments Limited - Class A Common Shares,EQUITY,NASDAQ
+PAXG,Pine Tree Acquisition Corp. - Class A Ordinary Shares,EQUITY,NASDAQ
 PAYO,Payoneer Global Inc. - Common Stock,EQUITY,NASDAQ
 PAYP,PayPay Corporation - American Depository Shares,EQUITY,NASDAQ
 PAYS,"Paysign, Inc. - Common Stock",EQUITY,NASDAQ
@@ -3160,7 +3158,6 @@ PBM,Psyence Biomedical Ltd. - Common Shares,EQUITY,NASDAQ
 PBOG,Portfolio Building Block Integrated Oil and Gas and Exploration and Production Index ETF,ETF,NASDAQ
 PBPH,Portfolio Building Block World Pharma and Biotech Index ETF,ETF,NASDAQ
 PBQQ,PGIM Laddered Nasdaq-100 Buffer 12 ETF,ETF,NASDAQ
-PBRG,Leverage Shares 2X Long PBR Daily ETF,ETF,NASDAQ
 PBSC,Pacer Barings Secured Credit Flex ETF,ETF,NASDAQ
 PBUB,Portfolio Building Block US Banks ETF,ETF,NASDAQ
 PBWN,Portfolio Building Block World Ex US Industrials ETF,ETF,NASDAQ
@@ -3199,6 +3196,7 @@ PENN,"PENN Entertainment, Inc. - Common Stock",EQUITY,NASDAQ
 PEP,"PepsiCo, Inc. - Common Stock",EQUITY,NASDAQ
 PEPG,PepGen Inc. - Common Stock,EQUITY,NASDAQ
 PEPS,Parametric Equity Plus ETF,ETF,NASDAQ
+PEPT,REX Peptide ETF,ETF,NASDAQ
 PERI,Perion Network Ltd - Ordinary Shares,EQUITY,NASDAQ
 PESI,"Perma-Fix Environmental Services, Inc. - Common Stock",EQUITY,NASDAQ
 PETS,"PetMed Express, Inc. - Common Stock",EQUITY,NASDAQ
@@ -3287,7 +3285,7 @@ PODD,Insulet Corporation - Common Stock,EQUITY,NASDAQ
 POET,POET Technologies Inc. - Common Shares,EQUITY,NASDAQ
 POLA,"Polar Power, Inc. - Common Stock",EQUITY,NASDAQ
 POLE,Andretti Acquisition Corp. II - Class A Ordinary Shares,EQUITY,NASDAQ
-POM,POMDOCTOR LIMITED - American Depositary Shares,EQUITY,NASDAQ
+POM,POMDOCTOR LIMITED - Class A Ordinary Shares,EQUITY,NASDAQ
 PONO,"Pono Capital Four, Inc. - Class A Ordinary Shares",EQUITY,NASDAQ
 PONY,Pony AI Inc. - American Depositary Shares,EQUITY,NASDAQ
 POOL,Pool Corporation - Common Stock,EQUITY,NASDAQ
@@ -3346,11 +3344,9 @@ PSCM,Invesco S&P SmallCap Materials ETF,ETF,NASDAQ
 PSCT,Invesco S&P SmallCap Information Technology ETF,ETF,NASDAQ
 PSCU,Invesco S&P SmallCap Utilities & Communication Services ETF,ETF,NASDAQ
 PSEC,Prospect Capital Corporation - Closed End Fund,EQUITY,NASDAQ
-PSET,Principal Quality ETF,ETF,NASDAQ
 PSHG,Performance Shipping Inc. - Common Shares,EQUITY,NASDAQ
 PSIG,PS International Group Ltd. - Ordinary Shares,EQUITY,NASDAQ
 PSIX,"Power Solutions International, Inc. - Common Stock",EQUITY,NASDAQ
-PSKY,Paramount Skydance Corporation - Class B Common Stock,EQUITY,NASDAQ
 PSL,Invesco Dorsey Wright Consumer Staples Momentum ETF,ETF,NASDAQ
 PSMT,"PriceSmart, Inc. - Common Stock",EQUITY,NASDAQ
 PSNL,"Personalis, Inc. - Common Stock",EQUITY,NASDAQ
@@ -3380,7 +3376,7 @@ PUL,GraniteShares 2x Long P Daily ETF,ETF,NASDAQ
 PULM,"Pulmatrix, Inc. - Common Stock",EQUITY,NASDAQ
 PUR,Defiance Daily Target 2X Long PURR ETF,ETF,NASDAQ
 PURR,Hyperliquid Strategies Inc - Common Stock,EQUITY,NASDAQ
-PUSA,Aureus Greenway Holdings Inc. - Common Stock,EQUITY,NASDAQ
+PUSA,Powerus Corporation - Common Stock,EQUITY,NASDAQ
 PVLA,"Palvella Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 PWCM,"PowerCompute, Inc. - Common Stock",EQUITY,NASDAQ
 PWP,Perella Weinberg Partners - Class A Common Stock,EQUITY,NASDAQ
@@ -3407,7 +3403,6 @@ QBTZ,Defiance Daily Target 2x Short QBTS ETF,ETF,NASDAQ
 QBUF,Innovator Nasdaq-100 10 Buffer ETF Quarterly,ETF,NASDAQ
 QBY,GraniteShares YieldBoost QBTS ETF,ETF,NASDAQ
 QCLN,First Trust NASDAQ Clean Edge Green Energy Index Fund,ETF,NASDAQ
-QCLR,Global X NASDAQ 100 Collar 95-110 ETF,ETF,NASDAQ
 QCLS,"Q/C Technologies, Inc. - Common Stock",EQUITY,NASDAQ
 QCMD,Direxion Daily QCOM Bear 1X ETF,ETF,NASDAQ
 QCML,GraniteShares 2x Long QCOM Daily ETF,ETF,NASDAQ
@@ -3416,7 +3411,6 @@ QCOM,QUALCOMM Incorporated - Common Stock,EQUITY,NASDAQ
 QCRH,"QCR Holdings, Inc. - Common Stock",EQUITY,NASDAQ
 QDEL,QuidelOrtho Corporation - Common Stock,EQUITY,NASDAQ
 QDTY,YieldMax Nasdaq 100 0DTE Covered Call Strategy ETF,ETF,NASDAQ
-QETA,Quetta Acquisition Corporation - Common Stock,EQUITY,NASDAQ
 QEW,Invesco QQQ Equal Weight ETF,ETF,NASDAQ
 QFF,Qualivian Focus Fund ETF,ETF,NASDAQ
 QFIN,"Qfin Holdings, Inc.  - American Depositary Shares",EQUITY,NASDAQ
@@ -3429,7 +3423,6 @@ QMID,WisdomTree U.S. MidCap Quality Growth Fund,ETF,NASDAQ
 QMLS,"QumulusAI, Inc. - Common Stock",EQUITY,NASDAQ
 QMOM,Alpha Architect U.S. Quantitative Momentum ETF,ETF,NASDAQ
 QNBC,QNB Corp. - Common Stock,EQUITY,NASDAQ
-QNCX,"Quince Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 QNDX,State Street SPDR Portfolio Nasdaq 100 ETF,ETF,NASDAQ
 QNME,"Quanome Technologies, Inc. - Common Stock",EQUITY,NASDAQ
 QNRX,"Quoin Pharmaceuticals, Ltd. - American Depositary Shares",EQUITY,NASDAQ
@@ -3466,7 +3459,6 @@ QQXL,ProShares Ultra QQQ Top 30,ETF,NASDAQ
 QQXT,First Trust NASDAQ-100 Ex-Technology Sector Index Fund,ETF,NASDAQ
 QRHC,Quest Resource Holding Corporation - Common Stock,EQUITY,NASDAQ
 QRMI,Global X NASDAQ 100 Risk Managed Income ETF,ETF,NASDAQ
-QRVO,"Qorvo, Inc. - Common Stock",EQUITY,NASDAQ
 QS,QuantumScape Corporation - Common Stock,EQUITY,NASDAQ
 QSEA,Quartzsea Acquisition Corporation - Ordinary Shares,EQUITY,NASDAQ
 QSI,Quantum-Si Incorporated - Class A Common Stock,EQUITY,NASDAQ
@@ -3495,6 +3487,7 @@ QYLG,Global X Nasdaq 100 Covered Call & Growth ETF,ETF,NASDAQ
 RAA,SMI 3Fourteen REAL Asset Allocation ETF,ETF,NASDAQ
 RACC,Research Alliance Corporation III - Class A Ordinary Shares,EQUITY,NASDAQ
 RACD,Research Alliance Corporation IV - Class A Ordinary Shares,EQUITY,NASDAQ
+RADD,AB US Research Advanced ETF,ETF,NASDAQ
 RADX,Radiopharm Theranostics Limited - American Depositary Shares,EQUITY,NASDAQ
 RAIL,"Freightcar America, Inc. - Common Stock",EQUITY,NASDAQ
 RAIN,"Rain Enhancement Technologies Holdco, Inc. - Class A Common Stock",EQUITY,NASDAQ
@@ -3612,6 +3605,7 @@ RNGT,Range Capital Acquisition Corp II - Class A Ordinary Shares,EQUITY,NASDAQ
 RNIN,Bushido Capital US SMID Cap Equity ETF,ETF,NASDAQ
 RNRG,Global X Renewable Energy Producers ETF,ETF,NASDAQ
 RNTX,"Rein Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
+RNTZ,Rantizo - Class A Ordinary Shares,EQUITY,NASDAQ
 RNW,ReNew Energy Global plc - Class A Shares,EQUITY,NASDAQ
 RNXT,"RenovoRx, Inc. - Common Stock",EQUITY,NASDAQ
 ROAD,"Construction Partners, Inc. - Common Stock",EQUITY,NASDAQ
@@ -3642,6 +3636,8 @@ RSVR,"Reservoir Media, Inc.. - Common Stock",EQUITY,NASDAQ
 RTAC,Renatus Tactical Acquisition Corp I - Class A Ordinary Shares,EQUITY,NASDAQ
 RTB,"RTB Digital, Inc. - Common Stock",EQUITY,NASDAQ
 RTH,VanEck Retail ETF,ETF,NASDAQ
+RTHY,F/m Long-Term Treasury Inflation-Protected Security (TIPS) ETF,ETF,NASDAQ
+RTSN,"Retension Pharmaceuticals, Inc. - Common Stock",EQUITY,NASDAQ
 RTXG,Leverage Shares 2X Long RTX Daily ETF,ETF,NASDAQ
 RTYY,GraniteShares YieldBoost RIOT ETF,ETF,NASDAQ
 RUBI,Rubico Inc. - Common Stock,EQUITY,NASDAQ
@@ -3678,6 +3674,7 @@ SAIA,"Saia, Inc. - Common Stock",EQUITY,NASDAQ
 SAIC,Science Applications International Corporation - Common Stock,EQUITY,NASDAQ
 SAIH,SAIHEAT Limited - Class A Ordinary Shares,EQUITY,NASDAQ
 SAIL,"SailPoint, Inc. - Common Stock",EQUITY,NASDAQ
+SAIQ,WISeSat.Space Holdings Corp. - Ordinary Shares,EQUITY,NASDAQ
 SAMG,Silvercrest Asset Management Group Inc. - Common Stock,EQUITY,NASDAQ
 SANA,"Sana Biotechnology, Inc. - Common Stock",EQUITY,NASDAQ
 SANG,Sangoma Technologies Corporation - Common Shares,EQUITY,NASDAQ
@@ -3696,6 +3693,7 @@ SBRA,"Sabra Health Care REIT, Inc. - Common Stock",EQUITY,NASDAQ
 SBUX,Starbucks Corporation - Common Stock,EQUITY,NASDAQ
 SCA,GraniteShares Autocallable SMCI ETF,ETF,NASDAQ
 SCAG,Scage Future - American Depositary Shares,EQUITY,NASDAQ
+SCAT,Southern Cross Acquisition II Corp. - Ordinary Shares,EQUITY,NASDAQ
 SCDS,JPMorgan Fundamental Data Science Small Core ETF,ETF,NASDAQ
 SCHL,Scholastic Corporation - Common Stock,EQUITY,NASDAQ
 SCII,SC II Acquisition Corp. - Class A ordinary share,EQUITY,NASDAQ
@@ -3717,7 +3715,6 @@ SDGR,"Schrodinger, Inc. - Common Stock",EQUITY,NASDAQ
 SDHI,Siddhi Acquisition Corp - Class A Common stock,EQUITY,NASDAQ
 SDOT,Sadot Group Inc. - Common Stock,EQUITY,NASDAQ
 SDSI,American Century Short Duration Strategic Income ETF,ETF,NASDAQ
-SDST,Stardust Power Inc. - Common Stock,EQUITY,NASDAQ
 SDTY,YieldMax S&P 500 0DTE Covered Call Strategy ETF,ETF,NASDAQ
 SDVY,First Trust SMID Cap Rising Dividend Achievers ETF,ETF,NASDAQ
 SEAT,Vivid Seats Inc. - Class A common stock,EQUITY,NASDAQ
@@ -3800,7 +3797,6 @@ SJLD,SanJac Alpha Low Duration ETF,ETF,NASDAQ
 SKDD,GraniteShares 2x Short SK Hynix Daily ETF,ETF,NASDAQ
 SKHY,SK hynix Inc. - American Depositary Shares,EQUITY,NASDAQ
 SKIN,SkinHealth Systems Inc. - Class A Common Stock,EQUITY,NASDAQ
-SKK,SKK Holdings Limited - Class A Ordinary Shares,EQUITY,NASDAQ
 SKOR,Northern Trust Credit-Scored US Corporate Bond ETF,ETF,NASDAQ
 SKRE,Tuttle Capital Daily 2X Inverse Regional Banks ETF,ETF,NASDAQ
 SKUU,GraniteShares 2x Long SK Hynix Daily ETF,ETF,NASDAQ
@@ -3821,11 +3817,10 @@ SLE,"Super League Enterprise, Inc. - Common Stock",EQUITY,NASDAQ
 SLGB,Smart Logistics Global Limited - Class A Ordinary Shares,EQUITY,NASDAQ
 SLGL,Sol-Gel Technologies Ltd. - Ordinary Shares,EQUITY,NASDAQ
 SLM,SLM Corporation - Common Stock,EQUITY,NASDAQ
-SLMT,Brera Holdings PLC - Class B Ordinary Shares,EQUITY,NASDAQ
+SLMT,Solmate Infrastructure Public Limited Company - Class B Ordinary Shares,EQUITY,NASDAQ
 SLN,Silence Therapeutics Plc - American Depository Share,EQUITY,NASDAQ
 SLNG,"Stabilis Solutions, Inc. - Common Stock",EQUITY,NASDAQ
 SLNH,"Soluna Holdings, Inc. - Common Stock",EQUITY,NASDAQ
-SLP,"Simulations Plus, Inc. - Common Stock",EQUITY,NASDAQ
 SLQD,iShares 0-5 Year Investment Grade Corporate Bond ETF,ETF,NASDAQ
 SLRC,SLR Investment Corp. - Closed End Fund,EQUITY,NASDAQ
 SLS,"SELLAS Life Sciences Group, Inc.  - Common Stock",EQUITY,NASDAQ
@@ -3844,6 +3839,7 @@ SMHC,VanEck China Semiconductor ETF,ETF,NASDAQ
 SMHX,VanEck Fabless Semiconductor ETF,ETF,NASDAQ
 SMID,Smith-Midland Corporation - Common Stock,EQUITY,NASDAQ
 SMMT,Summit Therapeutics Inc.  - Common Stock,EQUITY,NASDAQ
+SMNG,xETFs Samsung Group ETF,ETF,NASDAQ
 SMOM,Symmetry Panoramic Sector Momentum ETF,ETF,NASDAQ
 SMPL,The Simply Good Foods Company - Common Stock,EQUITY,NASDAQ
 SMRI,Bushido Capital US Equity ETF,ETF,NASDAQ
@@ -3907,7 +3903,6 @@ SPEG,Silver Pegasus Acquisition Corp - Class A Ordinary Shares,EQUITY,NASDAQ
 SPFI,"South Plains Financial, Inc. - Common Stock",EQUITY,NASDAQ
 SPHL,Springview Holdings Ltd - Ordinary shares,EQUITY,NASDAQ
 SPIT,F/m Emerald Special Situations ETF,ETF,NASDAQ
-SPKL,Spark I Acquisition Corp. - Class A Ordinary Share,EQUITY,NASDAQ
 SPOG,Leverage Shares 2X Long SPOT Daily ETF,ETF,NASDAQ
 SPOK,"Spok Holdings, Inc. - Common Stock",EQUITY,NASDAQ
 SPPL,SIMPPLE LTD. - Ordinary Shares,EQUITY,NASDAQ
@@ -3934,6 +3929,7 @@ SRET,Global X SuperDividend REIT ETF,ETF,NASDAQ
 SRPT,"Sarepta Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 SRRK,Scholar Rock Holding Corporation - Common Stock,EQUITY,NASDAQ
 SRTA,"Strata Critical Medical, Inc. - Class A Common Stock",EQUITY,NASDAQ
+SRTM,Stratum Holdings Corp. - Common Stock,EQUITY,NASDAQ
 SRTS,"Sensus Healthcare, Inc. - Common Stock",EQUITY,NASDAQ
 SRZN,"Surrozen, Inc. - Common Stock",EQUITY,NASDAQ
 SSAC,SPACSphere Acquisition Corp. - Class A Ordinary Shares,EQUITY,NASDAQ
@@ -4036,12 +4032,12 @@ TAXT,Northern Trust Tax-Exempt Bond ETF,ETF,NASDAQ
 TAYD,"Taylor Devices, Inc. - Common Stock",EQUITY,NASDAQ
 TBBK,"The Bancorp, Inc. - Common Stock",EQUITY,NASDAQ
 TBCH,Turtle Beach Corporation - Common Stock,EQUITY,NASDAQ
+TBCV,"Thunder Bridge Capital Partners V, Ltd. - Class A Ordinary Shares",EQUITY,NASDAQ
 TBIL,F/m US Treasury 3 Month Bill Fund,ETF,NASDAQ
 TBLA,Taboola.com Ltd. - Ordinary Shares,EQUITY,NASDAQ
 TBLD,Thornburg Income Builder Opportunities Trust - Closed End Fund,EQUITY,NASDAQ
 TC,Token Cat Limited - American Depositary Shares,EQUITY,NASDAQ
 TCAN,21Shares Canton Network ETF,ETF,NASDAQ
-TCBI,"Texas Capital Bancshares, Inc. - Common Stock",EQUITY,NASDAQ
 TCBK,TriCo Bancshares - Common Stock,EQUITY,NASDAQ
 TCBS,"Texas Community Bancshares, Inc. - Common Stock",EQUITY,NASDAQ
 TCGX,TCGX Acquisition Corp. - Class A Ordinary Shares,EQUITY,NASDAQ
@@ -4052,8 +4048,10 @@ TCPC,BlackRock TCP Capital Corp. - Closed End Fund,EQUITY,NASDAQ
 TCRT,"Alaunos Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 TCRX,"TScan Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
 TCX,Tucows Inc. - Common Stock,EQUITY,NASDAQ
+TCXB,TCGX Acquisition Corp. II - Class A Ordinary Shares,EQUITY,NASDAQ
 TDAC,Translational Development Acquisition Corp. - Ordinary Shares,EQUITY,NASDAQ
 TDCL,GraniteShares 2x Long TDC Daily ETF,ETF,NASDAQ
+TDEM,T. Rowe Price Dynamic Emerging Markets Bond ETF,ETF,NASDAQ
 TDI,Touchstone Dynamic International ETF,ETF,NASDAQ
 TDIC,Dreamland Limited - Class A Ordinary Shares,EQUITY,NASDAQ
 TDIV,First Trust NASDAQ Technology Dividend Index Fund,ETF,NASDAQ
@@ -4095,7 +4093,6 @@ THFF,First Financial Corporation  - Common Stock,EQUITY,NASDAQ
 THH,TryHard Holdings Limited - Ordinary Shares,EQUITY,NASDAQ
 THMZ,Lazard Equity Megatrends ETF,ETF,NASDAQ
 THRM,Gentherm Inc - Common Stock,EQUITY,NASDAQ
-THRMV,Gentherm Inc - Gentherm Inc Common Stock When-Issued,EQUITY,NASDAQ
 THRV,Prospera Income ETF,ETF,NASDAQ
 THRY,"Thryv Holdings, Inc. - Common Stock",EQUITY,NASDAQ
 THYM,T. Rowe Price High Income Municipal ETF,ETF,NASDAQ
@@ -4115,6 +4112,7 @@ TKNO,"Alpha Teknova, Inc. - Common Stock",EQUITY,NASDAQ
 TKNS,21Shares Active Crypto ETF,ETF,NASDAQ
 TLA,GraniteShares Autocallable TSLA ETF,ETF,NASDAQ
 TLAC,Three Lions Acquisition Corp. - Ordinary Shares,EQUITY,NASDAQ
+TLCE,Thrivent Large Cap Stock ETF,ETF,NASDAQ
 TLF,"Tandy Leather Factory, Inc. - common stock",EQUITY,NASDAQ
 TLG,Touchstone Large Company Growth ETF,ETF,NASDAQ
 TLIH,Ten-League International Holdings Limited - Ordinary Shares,EQUITY,NASDAQ
@@ -4200,6 +4198,7 @@ TRUT,VanEck Technology TruSector ETF,ETF,NASDAQ
 TRUU,VanEck Utilities TruSector ETF,ETF,NASDAQ
 TRVG,trivago N.V. - American Depositary Shares,EQUITY,NASDAQ
 TRVI,"Trevi Therapeutics, Inc. - Common Stock",EQUITY,NASDAQ
+TRXB,"TRex Bio, Inc. - Common stock",EQUITY,NASDAQ
 TSAT,Telesat Corporation - Class A Common Shares and Class B Variable Voting Shares,EQUITY,NASDAQ
 TSBK,"Timberland Bancorp, Inc. - Common Stock",EQUITY,NASDAQ
 TSCM,TimesSquare Quality Mid Cap Growth ETF,ETF,NASDAQ
@@ -4209,6 +4208,7 @@ TSEE,T. Rowe Price Small Cap ETF,ETF,NASDAQ
 TSEL,Touchstone Sands Capital US Select Growth ETF,ETF,NASDAQ
 TSEM,Tower Semiconductor Ltd. - Ordinary Shares,EQUITY,NASDAQ
 TSHA,"Taysha Gene Therapies, Inc. - Common Stock",EQUITY,NASDAQ
+TSIE,Thrivent Securitized Income ETF,ETF,NASDAQ
 TSL,GraniteShares 1.25x Long TSLA Daily ETF,ETF,NASDAQ
 TSLA,"Tesla, Inc.  - Common Stock",EQUITY,NASDAQ
 TSLG,Leverage Shares 2X Long TSLA Daily ETF,ETF,NASDAQ
@@ -4278,8 +4278,6 @@ UCFI,CN Healthy Food Tech Group Corp. - Common Stock,EQUITY,NASDAQ
 UCL,uCloudlink Group Inc. - American Depositary Shares,EQUITY,NASDAQ
 UCRD,VictoryShares Corporate Bond ETF,ETF,NASDAQ
 UCTT,"Ultra Clean Holdings, Inc. - Common Stock",EQUITY,NASDAQ
-UCYB,ProShares Ultra Nasdaq Cybersecurity,ETF,NASDAQ
-UECG,Leverage Shares 2x Long UEC Daily ETF,ETF,NASDAQ
 UEIC,Universal Electronics Inc. - Common Stock,EQUITY,NASDAQ
 UEVM,VictoryShares Emerging Markets Value Momentum ETF,ETF,NASDAQ
 UFCS,"United Fire Group, Inc - Common Stock",EQUITY,NASDAQ
@@ -4329,7 +4327,6 @@ USCL,iShares Climate Conscious & Transition MSCI USA ETF,ETF,NASDAQ
 USDE,StablecoinX Inc. - Class A Common Stock,EQUITY,NASDAQ
 USDX,SGI Enhanced Core ETF,ETF,NASDAQ
 USEA,United Maritime Corporation - Common Stock,EQUITY,NASDAQ
-USFI,BrandywineGLOBAL - U.S. Fixed Income ETF,ETF,NASDAQ
 USGG,Leverage Shares 2X Long USAR Daily ETF,ETF,NASDAQ
 USGO,U.S. GoldMining Inc. - Common stock,EQUITY,NASDAQ
 USIG,iShares Broad USD Investment Grade Corporate Bond ETF,ETF,NASDAQ
@@ -4360,7 +4357,6 @@ UYSC,UY Scuti Acquisition Corp. - Ordinary Shares,EQUITY,NASDAQ
 UZX,Linkage Global Inc - Class A Ordinary Shares,EQUITY,NASDAQ
 VABK,Virginia National Bankshares Corporation - Common Stock,EQUITY,NASDAQ
 VAI,Valor Energy Incorporated - Common Stock,EQUITY,NASDAQ
-VALG,Leverage Shares 2X Long VALE Daily ETF,ETF,NASDAQ
 VALN,Valneva SE - American Depositary Shares,EQUITY,NASDAQ
 VALU,"Value Line, Inc. - Common Stock",EQUITY,NASDAQ
 VANI,"Vivani Medical, Inc.  - Common Stock",EQUITY,NASDAQ
@@ -4459,7 +4455,6 @@ VRDN,"Viridian Therapeutics, Inc.  - Common Stock",EQUITY,NASDAQ
 VREX,Varex Imaging Corporation - Common Stock,EQUITY,NASDAQ
 VRIG,Invesco Variable Rate Investment Grade ETF,ETF,NASDAQ
 VRM,"Vroom, Inc. - Common Stock",EQUITY,NASDAQ
-VRME,"VerifyMe, Inc. - Common Stock",EQUITY,NASDAQ
 VRNS,"Varonis Systems, Inc. - Common Stock",EQUITY,NASDAQ
 VRRM,Verra Mobility Corporation - Class A Common Stock,EQUITY,NASDAQ
 VRSK,"Verisk Analytics, Inc. - Common Stock",EQUITY,NASDAQ
@@ -4472,7 +4467,6 @@ VSA,VisionSys AI Inc. - American Depositary Shares,EQUITY,NASDAQ
 VSAT,"ViaSat, Inc. - Common Stock",EQUITY,NASDAQ
 VSDA,VictoryShares Dividend Accelerator ETF,ETF,NASDAQ
 VSEC,VSE Corporation - Common Stock,EQUITY,NASDAQ
-VSME,VS Media Holdings Limited - Class A Ordinary Shares,EQUITY,NASDAQ
 VSMV,VictoryShares US Multi-Factor Minimum Volatility ETF,ETF,NASDAQ
 VSNT,"Versant Media Group, Inc. - Class A Common Stock",EQUITY,NASDAQ
 VSOL,VanEck Solana ETF,ETF,NASDAQ
@@ -4500,8 +4494,7 @@ WABC,Westamerica Bancorporation - Common Stock,EQUITY,NASDAQ
 WABF,Western Asset Bond ETF,ETF,NASDAQ
 WAFD,"WaFd, Inc. - Common Stock",EQUITY,NASDAQ
 WAFDP,"WaFd, Inc. - Depositary Shares",EQUITY,NASDAQ
-WAFU,Wah Fu Education Group Limited - Ordinary Shares,EQUITY,NASDAQ
-WALD,Waldencast plc - Class A Ordinary Share,EQUITY,NASDAQ
+WAFU,Wah Fu Education & Technology Group Ltd. - Ordinary Shares,EQUITY,NASDAQ
 WAMA,WisdomTree US Adaptive Moving Average Fund,ETF,NASDAQ
 WARP,VanEck Space ETF,ETF,NASDAQ
 WASH,"Washington Trust Bancorp, Inc. - Common Stock",EQUITY,NASDAQ
@@ -4510,7 +4503,6 @@ WATT,Energous Corporation - Common Stock,EQUITY,NASDAQ
 WAVE,Eco Wave Power Global AB (publ) - American Depositary Shares,EQUITY,NASDAQ
 WAY,Waystar Holding Corp. - Common Stock,EQUITY,NASDAQ
 WB,Weibo Corporation - American Depositary Shares,EQUITY,NASDAQ
-WBD,"Warner Bros. Discovery, Inc. - Series A Common Stock",EQUITY,NASDAQ
 WBTN,WEBTOON Entertainment Inc. - Common stock,EQUITY,NASDAQ
 WBUY,WEBUY GLOBAL LTD. - Class A Ordinary Shares,EQUITY,NASDAQ
 WCBR,WisdomTree Cybersecurity Fund,ETF,NASDAQ
@@ -4544,7 +4536,6 @@ WINA,Winmark Corporation - Common Stock,EQUITY,NASDAQ
 WING,Wingstop Inc. - Common Stock,EQUITY,NASDAQ
 WISE,Themes Generative Artificial Intelligence ETF,ETF,NASDAQ
 WIX,Wix.com Ltd. - Ordinary Shares,EQUITY,NASDAQ
-WKEY,WISeKey International Holding Ltd - American Depositary Shares,EQUITY,NASDAQ
 WKHS,"Workhorse Group, Inc. - Common Stock",EQUITY,NASDAQ
 WKSP,"Worksport, Ltd. - Common Stock",EQUITY,NASDAQ
 WLCO,Wilco 63 Corporation - Class A Ordinary Shares,EQUITY,NASDAQ
@@ -4560,7 +4551,8 @@ WNW,Meiwu Technology Company Limited - Ordinary Shares,EQUITY,NASDAQ
 WOK,WORK Medical Technology Group LTD - Class A Ordinary Shares,EQUITY,NASDAQ
 WOOD,iShares Global Timber & Forestry ETF,ETF,NASDAQ
 WOOF,"Petco Health and Wellness Company, Inc. - Class A Common Stock",EQUITY,NASDAQ
-WPRT,Westport Fuel Systems Inc - Common Shares,EQUITY,NASDAQ
+WORX,SCWorx Corp. - Common Stock,EQUITY,NASDAQ
+WQEY,WISeQey Corp - Ordinary Shares,EQUITY,NASDAQ
 WRAP,"Wrap Technologies, Inc. - Common Stock",EQUITY,NASDAQ
 WRD,WeRide Inc. - American Depositary Shares,EQUITY,NASDAQ
 WRLD,World Acceptance Corporation - Common Stock,EQUITY,NASDAQ
@@ -4639,12 +4631,12 @@ XQQI,NEOS Boosted Nasdaq-100 High Income ETF,ETF,NASDAQ
 XRAY,DENTSPLY SIRONA Inc. - Common Stock,EQUITY,NASDAQ
 XRPC,Canary XRP ETF,ETF,NASDAQ
 XRPI,Volatility Shares Trust XRP ETF,ETF,NASDAQ
-XRPN,Armada Acquisition Corp. II - Class A Ordinary Shares,EQUITY,NASDAQ
+XRPN,Evernorth Holdings Inc. - Class A Ordinary Shares,EQUITY,NASDAQ
 XRPT,Volatility Shares Trust XRP 2X ETF,ETF,NASDAQ
 XRTX,XORTX Therapeutics Inc. - Common Shares,EQUITY,NASDAQ
 XRX,Xerox Holdings Corporation - Common Stock,EQUITY,NASDAQ
 XSLL,Xsolla SPAC 1 - Class A Ordinary Shares,EQUITY,NASDAQ
-XSPC,VegaShares SpaceX & Beyond Earth ETF,ETF,NASDAQ
+XSPC,VegaShares Space & AI ETF,ETF,NASDAQ
 XSPI,NEOS Boosted S&P 500 High Income ETF,ETF,NASDAQ
 XT,iShares Future Exponential Technologies ETF,ETF,NASDAQ
 XTER,Karman Line Acquisition Corp. - Class A Ordinary Shares,EQUITY,NASDAQ
@@ -4666,7 +4658,6 @@ YDKG,Yueda Digital Holding - Class A Ordinary Share,EQUITY,NASDAQ
 YFOR,YYForce Inc. - Class A Ordinary Shares,EQUITY,NASDAQ
 YHC,LQR House Inc. - Common Stock,EQUITY,NASDAQ
 YHGJ,Yunhong Green CTI Ltd. - Common Stock,EQUITY,NASDAQ
-YHNA,YHN Acquisition I Limited - Ordinary Shares,EQUITY,NASDAQ
 YI,"111, Inc. - American Depositary Shares",EQUITY,NASDAQ
 YIBO,Planet Image International Limited - Class A Ordinary Shares,EQUITY,NASDAQ
 YICC,Yorkville International Capital Corp. - Class A Ordinary Shares,EQUITY,NASDAQ
@@ -4683,6 +4674,7 @@ YQQQ,YieldMax Short N100 Option Income Strategy ETF,ETF,NASDAQ
 YRAM,YieldMax Memory and Storage Portfolio Option Income ETF,ETF,NASDAQ
 YSAG,Y'all Street Physical Silver ETF,ETF,NASDAQ
 YSAU,Y'all Street Physical Gold ETF,ETF,NASDAQ
+YSKH,YieldMax SKHY Option Income Strategy ETF,ETF,NASDAQ
 YSPY,GraniteShares YieldBOOST SPY ETF,ETF,NASDAQ
 YSWY,"Yesway, Inc. - Class A Common Stock",EQUITY,NASDAQ
 YSXT,"YSX Tech. Co., Ltd  - Class A Ordinary Shares",EQUITY,NASDAQ
@@ -4729,6 +4721,7 @@ A,"Agilent Technologies, Inc. Common Stock",EQUITY,NYSE
 AA,Alcoa Corporation Common Stock,EQUITY,NYSE
 AAA,Alternative Access First Priority CLO Bond ETF,ETF,NYSE ARCA
 AAAA,Amplius Aggressive Asset Allocation ETF,ETF,BATS
+AAAB,Corgi FTSE Aaa-A Intermediate Corporate Bond ETF,ETF,BATS
 AAAC,Columbia AAA CLO ETF,ETF,NYSE ARCA
 AAAD,PGIM AAA CLO Aggregate Duration ETF,ETF,NYSE ARCA
 AAAU,Goldman Sachs Physical Gold ETF Shares,ETF,BATS
@@ -4764,7 +4757,6 @@ ABT,Abbott Laboratories Common Stock,EQUITY,NYSE
 ABUF,Aptus Laddered Buffer ETF,ETF,BATS
 ABX,"Abacus Global Management, Inc. Class A Common Stock",EQUITY,NYSE
 ABXB,Abacus Flexible Bond Leaders ETF,ETF,BATS
-ACA,"Arcosa, Inc. Common Stock",EQUITY,NYSE
 ACCO,Acco Brands Corporation Common Stock,EQUITY,NYSE
 ACCS,ACCESS Newswire Inc. Common Stock,EQUITY,NYSE AMERICAN
 ACEI,Innovator Equity Autocallable Income Strategy ETF,ETF,NYSE ARCA
@@ -4778,12 +4770,15 @@ ACHX,Corgi ACHR 2x Daily ETF,ETF,BATS
 ACI,"Albertsons Companies, Inc. Class A Common Stock",EQUITY,NYSE
 ACIG,Hartford Alpha Capture International Growth ETF,ETF,BATS
 ACII,Innovator Index Autocallable Income Strategy ETF,ETF,NYSE ARCA
+ACIN,Hartford Alpha Capture International Equity ETF,ETF,BATS
 ACIO,Aptus Collared Investment Opportunity ETF,ETF,BATS
+ACIV,Hartford Alpha Capture International Value ETF,ETF,BATS
 ACKY,VistaShares Target 15 ACKtivist Distribution ETF,ETF,NYSE ARCA
 ACLC,American Century Large Cap Equity ETF,ETF,NYSE ARCA
 ACLO,TCW AAA CLO ETF,ETF,NYSE
 ACLZ,Corgi ACLS 2x Daily ETF,ETF,BATS
 ACM,AECOM Common Stock,EQUITY,NYSE
+ACMG,American Century Mid Cap Growth Insights ETF,ETF,BATS
 ACMM,Corgi ACMR 2x Daily ETF,ETF,BATS
 ACN,Accenture plc Class A Ordinary Shares (Ireland),EQUITY,NYSE
 ACOM,Harbor Active Commodity ETF,ETF,NYSE ARCA
@@ -4796,11 +4791,11 @@ ACSM,Hartford Alpha Capture SMID Cap ETF,ETF,BATS
 ACSV,American Century Small Cap Value Insights ETF,ETF,BATS
 ACTS,FIS Tactical Equity ETF,ETF,NYSE ARCA
 ACV,Virtus Diversified Income & Convertible Fund Common Shares of Beneficial Interest,EQUITY,NYSE
-ACVA,ACV Auctions Inc. Class A Common Stock,EQUITY,NYSE
 ACVF,American Conservative Values ETF,ETF,NYSE ARCA
 ACVT,Advent Convertible Bond ETF,ETF,NYSE ARCA
 ACVU,Hartford Alpha Capture Value ETF,ETF,BATS
 ACWV,iShares MSCI Global Min Vol Factor ETF,ETF,BATS
+ACYB,FT Vest Laddered Autocallable Buffer & Resilient Income ETF,ETF,NYSE ARCA
 ACYN,FT Vest Laddered Autocallable Barrier & Income ETF,ETF,NYSE ARCA
 ACYQ,FT Vest Autocallable Barrier & High Income ETF,ETF,NYSE ARCA
 ACYS,FT Vest Laddered Autocallable Barrier & Resilient Income ETF,ETF,NYSE ARCA
@@ -4808,7 +4803,6 @@ AD,"Array Digital Infrastructure, Inc. Common Shares",EQUITY,NYSE
 ADBU,Direxion Daily ADBE Bull 2X ETF,ETF,NYSE ARCA
 ADC,Agree Realty Corporation Common Stock,EQUITY,NYSE
 ADCT,ADC Therapeutics SA Common Shares,EQUITY,NYSE
-ADDS,Hedgeye Index Adds ETF,ETF,NYSE ARCA
 ADIG,ADI Global Distribution Inc. Common Stock,EQUITY,NYSE
 ADIU,Leverage Shares 2X Long ADI Daily ETF,ETF,BATS
 ADIV,Guinness Atkinson Asia Pacific Dividend Builder ETF,ETF,NYSE ARCA
@@ -4823,7 +4817,6 @@ AEE,Ameren Corporation Common Stock,EQUITY,NYSE
 AEF,"abrdn Emerging Markets ex-China Fund, Inc. Common Stock",EQUITY,NYSE AMERICAN
 AEG,Aegon Ltd. New York Registry Shares,EQUITY,NYSE
 AEHG,Leverage Shares 2X Long AEHR Daily ETF,ETF,BATS
-AELV,Harbor AlphaEdge Large Cap Value ETF,ETF,NYSE ARCA
 AEM,Agnico Eagle Mines Limited Common Stock,EQUITY,NYSE
 AEMC,Harbor AlphaEdge Mid Cap Core ETF,ETF,NYSE ARCA
 AEMG,Harbor AlphaEdge Mid Cap Growth ETF,ETF,NYSE ARCA
@@ -4838,7 +4831,6 @@ AESG,Harbor AlphaEdge Small Cap Growth ETF,ETF,NYSE ARCA
 AESI,Atlas Energy Solutions Inc. Common Stock,EQUITY,NYSE
 AESL,Harbor AlphaEdge Small Cap Value ETF,ETF,NYSE ARCA
 AESR,Anfield U.S. Equity Sector Rotation ETF,ETF,BATS
-AETH,Bitwise Trendwise Ether and Treasuries Rotation Strategy ETF,ETF,NYSE ARCA
 AEXA,American Exceptionalism Acquisition Corp. A Class A Ordinary Shares,EQUITY,NYSE
 AFB,AllianceBernstein National Municipal Income Fund Inc,EQUITY,NYSE
 AFG,"American Financial Group, Inc. Common Stock",EQUITY,NYSE
@@ -4860,6 +4852,7 @@ AGBK,AGI Inc Class A Common Shares,EQUITY,NYSE
 AGCO,AGCO Corporation Common Stock,EQUITY,NYSE
 AGD,abrdn Global Dynamic Dividend Fund Common Shares of Beneficial Interest,EQUITY,NYSE
 AGG,iShares Core U.S. Aggregate Bond ETF,ETF,NYSE ARCA
+AGGB,Corgi FTSE U.S. Aggregate Bond ETF,ETF,BATS
 AGGH,Simplify Aggregate Bond ETF,ETF,NYSE ARCA
 AGGM,iShares 1-10 Year U.S. Aggregate Bond ETF,ETF,NYSE ARCA
 AGGS,Harbor Disciplined Bond ETF,ETF,NYSE ARCA
@@ -4891,7 +4884,9 @@ AI,"C3.ai, Inc. Class A Common Stock",EQUITY,NYSE
 AIB,AIB Data Centers Inc. Common Stock,EQUITY,NYSE AMERICAN
 AIBD,Direxion Daily AI and Big Data Bear 2X ETF,ETF,NYSE ARCA
 AIBF,iShares Future AI Beneficiaries ETF,ETF,NYSE ARCA
+AIBN,Defiance AI Infrastructure Bond ETF,ETF,NYSE ARCA
 AIBU,Direxion Daily AI and Big Data Bull 2X ETF,ETF,NYSE ARCA
+AIED,Defiance LLM Catalyst Momentum ETF,ETF,NYSE ARCA
 AIEQ,Amplify AI Powered Equity ETF,ETF,NYSE ARCA
 AIG,"American International Group, Inc. New Common Stock",EQUITY,NYSE
 AIHY,Defiance AI Hyperscale Leaders ETF,ETF,NYSE ARCA
@@ -4968,7 +4963,6 @@ AMKX,Corgi AMKR 2x Daily ETF,ETF,BATS
 AMLP,Alerian MLP ETF,ETF,NYSE ARCA
 AMMO,VistaShares Defense Supercycle ETF,ETF,NYSE ARCA
 AMN,AMN Healthcare Services Inc,EQUITY,NYSE
-AMOM,QRAFT AI-Enhanced U.S. Large Cap Momentum ETF,ETF,NYSE ARCA
 AMP,"Ameriprise Financial, Inc. Common Stock",EQUITY,NYSE
 AMPU,Defiance Daily Target 2X Long AMPX ETF,ETF,BATS
 AMPX,"Amprius Technologies, Inc. Common Stock",EQUITY,NYSE
@@ -4979,7 +4973,7 @@ AMRZ,Amrize Ltd Ordinary Shares,EQUITY,NYSE
 AMS,American Shared Hospital Services Common Stock,EQUITY,NYSE AMERICAN
 AMT,American Tower Corporation (REIT) Common Stock,EQUITY,NYSE
 AMTB,Amerant Bancorp Inc. Class A Common Stock,EQUITY,NYSE
-AMTD,"AMTD IDEA Group American Depositary Shares, each representing six (6) Class A Ordinary Shares",EQUITY,NYSE
+AMTD,"AMTD IDEA Group American Depositary Shares, each representing three hundred sixty (360) Class A Ordinary Shares",EQUITY,NYSE
 AMTM,"Amentum Holdings, Inc. Common Stock",EQUITY,NYSE
 AMUB,"ETRACS Alerian MLP Index ETN Series B due July 18, 2042",EQUITY,NYSE ARCA
 AMWL,American Well Corporation Class A Common Stock,EQUITY,NYSE
@@ -4992,14 +4986,14 @@ AMZY,YieldMax AMZN Option Income Strategy ETF,ETF,NYSE ARCA
 AN,"AutoNation, Inc. Common Stock",EQUITY,NYSE
 ANDG,Andersen Group Inc. Class A Common Stock,EQUITY,NYSE
 ANET,"Arista Networks, Inc. Common Stock",EQUITY,NYSE
-ANEW,ProShares MSCI Transformational Changes ETF,ETF,NYSE ARCA
 ANF,Abercrombie & Fitch Company Common Stock,EQUITY,NYSE
+ANG,Corgi FTSE Fallen Angels Bond ETF,ETF,BATS
 ANGX,"Angel Studios, Inc. Class A Common Stock",EQUITY,NYSE
 ANRO,"Alto Neuroscience, Inc. Common Stock",EQUITY,NYSE
 ANTW,Anthropic AI Lab Ecosystem ETF,ETF,NYSE ARCA
 ANVS,"Annovis Bio, Inc. Common Stock",EQUITY,NYSE
 AOA,iShares Core 80/20 Aggressive Allocation ETF,ETF,NYSE ARCA
-AOCT,Innovator Equity Defined Protection ETF - 2 Yr to October 2026,ETF,BATS
+AOCT,Innovator Equity Defined Protection ETF - 2 Yr to October 2028,ETF,BATS
 AOD,abrdn Total Dynamic Dividend Fund Common Shares of Beneficial Interest,EQUITY,NYSE
 AOK,iShares Core 30/70 Conservative Allocation ETF,ETF,NYSE ARCA
 AOM,iShares Core 40/60 Moderate Allocation ETF,ETF,NYSE ARCA
@@ -5130,7 +5124,6 @@ ATH$E,"Athene Holding Ltd. Depositary Shares, Each Representing a 1/1,000th Inte
 ATHM,"Autohome Inc. American Depositary Shares, each representing four class A ordinary shares.",EQUITY,NYSE
 ATHS,Athene Holding Ltd. 7.250% Fixed-Rate Reset Junior Subordinated Debentures due 2064,EQUITY,NYSE
 ATI,ATI Inc. Common Stock,EQUITY,NYSE
-ATKR,Atkore Inc. Common Stock,EQUITY,NYSE
 ATMP,iPath Select MLP ETN,EQUITY,BATS
 ATMU,Atmus Filtration Technologies Inc. Common Stock,EQUITY,NYSE
 ATNM,"Actinium Pharmaceuticals, Inc. (Delaware) Common Stock",EQUITY,NYSE AMERICAN
@@ -5192,6 +5185,7 @@ AVSF,Avantis Short-Term Fixed Income ETF,ETF,NYSE ARCA
 AVSU,Avantis Responsible U.S. Equity ETF,ETF,NYSE ARCA
 AVTM,Avantis Total Equity Markets ETF,ETF,NYSE ARCA
 AVTR,"Avantor, Inc. Common Stock",EQUITY,NYSE
+AVUC,Avantis U.S. Core Equity ETF,ETF,NYSE ARCA
 AVUS,Avantis U.S. Equity ETF,ETF,NYSE ARCA
 AVUV,Avantis U.S. Small Cap Value ETF,ETF,NYSE ARCA
 AVY,Avery Dennison Corporation Common Stock,EQUITY,NYSE
@@ -5264,6 +5258,7 @@ BBAG,JPMorgan BetaBuilders U.S. Aggregate Bond ETF,ETF,BATS
 BBAI,"BigBear.ai, Inc. Common Stock",EQUITY,NYSE
 BBAR,Banco BBVA Argentina S.A. ADS,EQUITY,NYSE
 BBAX,JPMorgan BetaBuilders Developed Asia Pacific-ex Japan ETF,ETF,BATS
+BBBB,Corgi FTSE BBB Rated Corporate Bond ETF,ETF,BATS
 BBBI,BondBloxx BBB Rated 5-10 Year Corporate Bond ETF,ETF,NYSE ARCA
 BBBL,BondBloxx BBB Rated 10+ Year Corporate Bond ETF,ETF,NYSE ARCA
 BBBS,BondBloxx BBB Rated 1-5 Year Corporate Bond ETF,ETF,NYSE ARCA
@@ -5314,6 +5309,7 @@ BCI,abrdn Bloomberg All Commodity Strategy K-1 Free ETF,ETF,NYSE ARCA
 BCIL,Bancreek International Large Cap ETF,ETF,NYSE ARCA
 BCKT,LifeX 2030 Income Bucket ETF,ETF,BATS
 BCO,Brinks Company (The) Common Stock,EQUITY,NYSE
+BCOM,Rareview Bloomberg Commodity Index ETF,ETF,BATS
 BCOR,Grayscale Bitcoin Adopters ETF,ETF,NYSE ARCA
 BCPL,BNY Mellon Core Plus ETF,ETF,NYSE ARCA
 BCS,Barclays PLC Common Stock,EQUITY,NYSE
@@ -5597,7 +5593,6 @@ BTGO,"BitGo Holdings, Inc. Class A Common Stock",EQUITY,NYSE
 BTI,"British American Tobacco  Industries, p.l.c. Common Stock ADR",EQUITY,NYSE
 BTO,John Hancock Financial Opportunities Fund Common Stock,EQUITY,NYSE
 BTOT,iShares Total USD Fixed Income Market ETF,ETF,NYSE ARCA
-BTRN,Global X Bitcoin Trend Strategy ETF,ETF,NYSE ARCA
 BTT,BlackRock Municipal 2030 Target Term Trust,EQUITY,NYSE
 BTU,Peabody Energy Corporation Common Stock,EQUITY,NYSE
 BTX,BlackRock Technology and Private Equity Term Trust Common Shares of Beneficial Interest,EQUITY,NYSE
@@ -5644,7 +5639,6 @@ BWG,BrandywineGLOBAL Global Income Opportunities Fund Inc.,EQUITY,NYSE
 BWIV,Blue Water Acquisition Corp. IV Class A Ordinary Shares,EQUITY,NYSE
 BWLP,BW LPG Limited Common Shares,EQUITY,NYSE
 BWMX,"Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",EQUITY,NYSE
-BWOW,Bitwise Dogecoin ETF,ETF,NYSE ARCA
 BWQG,BWM Quality Growth ETF,ETF,BATS
 BWTG,Brendan Wood TopGun Index ETF,ETF,BATS
 BWX,State Street SPDR Bloomberg International Treasury Bond ETF,ETF,NYSE ARCA
@@ -5660,7 +5654,6 @@ BY,"Byline Bancorp, Inc. Common Stock",EQUITY,NYSE
 BYD,Boyd Gaming Corporation Common Stock,EQUITY,NYSE
 BYLD,iShares Yield Optimized Bond ETF,ETF,NYSE ARCA
 BYRE,Principal Real Estate Active Opportunities ETF,ETF,NYSE ARCA
-BZH,"Beazer Homes USA, Inc. Common Stock",EQUITY,NYSE
 BZQ,ProShares UltraShort MSCI Brazil Capped,ETF,NYSE ARCA
 BZZ,Corgi Drones & Urban Air Mobility ETF,ETF,BATS
 C,"Citigroup, Inc. Common Stock",EQUITY,NYSE
@@ -5703,6 +5696,7 @@ CATO,Cato Corporation (The) Class A Common Stock,EQUITY,NYSE
 CATX,"Perspective Therapeutics, Inc. Common Stock",EQUITY,NYSE AMERICAN
 CAUG,Corgi U.S. Equities 15% Structured Buffer ETF - August Series,ETF,BATS
 CAVA,"CAVA Group, Inc. Common Stock",EQUITY,NYSE
+CAYN,Calamos Least-Of Autocallable Income ETF,ETF,NYSE ARCA
 CB,Chubb Limited  Common Stock,EQUITY,NYSE
 CBAN,"Colony Bankcorp, Inc. Common Stock",EQUITY,NYSE
 CBIL,Corgi 3-12 Month T-Bill ETF,ETF,BATS
@@ -5745,7 +5739,6 @@ CCJ,Cameco Corporation Common Stock,EQUITY,NYSE
 CCK,"Crown Holdings, Inc.",EQUITY,NYSE
 CCL,Carnival Corporation Ltd. Common Shares,EQUITY,NYSE
 CCM,Concord Medical Services Holdings Limited American Depositary Shares (Each represents thirty (30) Class A ordinary shares),EQUITY,NYSE
-CCO,"Clear Channel Outdoor Holdings, Inc. Common Stock",EQUITY,NYSE
 CCOM,Simplify Chinese Commodities Strategy No K-1 ETF,ETF,NYSE ARCA
 CCOR,Core Alternative ETF,ETF,NYSE ARCA
 CCPX,Corgi China 2x Daily ETF,ETF,BATS
@@ -5755,7 +5748,6 @@ CCU,"Compania Cervecerias Unidas, S.A. Common Stock",EQUITY,NYSE
 CCUP,T-REX 2X Long CRCL Daily Target ETF,ETF,BATS
 CCZ,Comcast Holdings ZONES,EQUITY,NYSE
 CDE,"Coeur Mining, Inc. Common Stock",EQUITY,NYSE
-CDEI,"Calvert US Large-Cap Diversity, Equity and Inclusion Index ETF",ETF,NYSE ARCA
 CDLR,Cadeler A/S American Depositary Share (each representing four (4) Ordinary Shares),EQUITY,NYSE
 CDNG,Leverage Shares 2X Long CDNS Daily ETF,ETF,BATS
 CDP,COPT Defense Properties Common Shares of Beneficial Interest,EQUITY,NYSE
@@ -5763,6 +5755,7 @@ CDPI,Columbia High Dividend Premium Income ETF,ETF,NYSE ARCA
 CDRE,"Cadre Holdings, Inc. Common Stock",EQUITY,NYSE
 CDX,Simplify High Yield ETF,ETF,NYSE ARCA
 CE,Celanese Corporation Common Stock,EQUITY,NYSE
+CECO,CECO Environmental Corp. Common Stock,EQUITY,TXSE
 CEE,"The Central and Eastern Europe Fund, Inc. (The) Common Stock",EQUITY,NYSE
 CEFD,ETRACS Monthly Pay 1.5X Leveraged Closed-End Fund Index ETN,ETF,NYSE ARCA
 CEFS,Saba Opportunistically Hedged Closed-End Funds ETF,ETF,BATS
@@ -5861,7 +5854,6 @@ CLF,Cleveland-Cliffs Inc. Common Stock,EQUITY,NYSE
 CLH,"Clean Harbors, Inc. Common Stock",EQUITY,NYSE
 CLIM,Climate Global - Climate Resilient REIT Index ETF,ETF,NYSE ARCA
 CLIP,Global X 1-3 Month T-Bill ETF,ETF,NYSE ARCA
-CLIX,ProShares Long Online/Short Stores ETF,ETF,NYSE ARCA
 CLM,"Cornerstone Strategic Investment Fund, Inc. Common Shares",EQUITY,NYSE AMERICAN
 CLNK,Common Shares of Beneficial Interest of Bitwise Chainlink ETF,ETF,NYSE ARCA
 CLOB,VanEck AA-BB CLO ETF,ETF,NYSE ARCA
@@ -5888,7 +5880,7 @@ CMCI,VanEck CMCI Commodity Strategy ETF,ETF,BATS
 CMCL,Caledonia Mining Corporation Plc Common Shares,EQUITY,NYSE AMERICAN
 CMCM,"Cheetah Mobile Inc. American Depositary Shares, each representing fifty (50) Class A Ordinary Shares",EQUITY,NYSE
 CMDB,Costamare Bulkers Holdings Limited Common Stock,EQUITY,NYSE
-CMDT,PIMCO Commodity Strategy Active Exchange-Traded Fund,ETF,NYSE ARCA
+CMDT,PIMCO Commodity and Bond Strategy Active Exchange-Traded Fund,ETF,NYSE ARCA
 CMDY,iShares Bloomberg Roll Select Commodity Strategy ETF,ETF,NYSE ARCA
 CMF,iShares California Muni Bond ETF,ETF,NYSE ARCA
 CMG,"Chipotle Mexican Grill, Inc. Common Stock",EQUITY,NYSE
@@ -5953,7 +5945,7 @@ COR,"Cencora, Inc. Common Stock",EQUITY,NYSE
 CORB,AB Core Bond ETF,ETF,NYSE ARCA
 CORD,T-REX 2X Inverse CRWV Daily Target ETF,ETF,BATS
 CORN,Teucrium Corn Fund ETV,ETF,NYSE ARCA
-CORP,PIMCO Investment Grade Corporate Bond Index Exchange-Traded Fund,ETF,NYSE ARCA
+CORP,PIMCO Investment Grade Corporate Bond Exchange-Traded Fund,ETF,NYSE ARCA
 COSO,"CoastalSouth Bancshares, Inc. Common Stock",EQUITY,NYSE
 COSW,Roundhill COST WeeklyPay ETF,ETF,BATS
 COTY,Coty Inc. Class A Common Stock,EQUITY,NYSE
@@ -5976,7 +5968,6 @@ CPNJ,Calamos Nasdaq - 100 Structured Alt Protection ETF -June,ETF,NYSE ARCA
 CPNM,Calamos Nasdaq-100 Structured Alt Protection ETF - March,ETF,NYSE ARCA
 CPNQ,Calamos Nasdaq-100 Structured Alt Protection ETF December,ETF,NYSE ARCA
 CPNS,Calamos Nasdaq-100 Structured Alt Protection ETF  September,ETF,NYSE ARCA
-CPNX,Tradr 2X Long CPNG Daily ETF,ETF,BATS
 CPRA,Calamos Russell 2000 Structured Alt Protection ETF - April,ETF,NYSE ARCA
 CPRI,Capri Holdings Limited Ordinary Shares,EQUITY,NYSE
 CPRJ,Calamos Russell 2000 Structured Alt Protection ETF  July,ETF,NYSE ARCA
@@ -5997,6 +5988,7 @@ CPST,Calamos S&P 500 Structured Alt Protection ETF  September,ETF,NYSE ARCA
 CPSU,Calamos S&P 500 Structured Alt Protection ETF June,ETF,NYSE ARCA
 CPSY,Calamos S&P 500 Structured Alt Protection ETF January,ETF,NYSE ARCA
 CPT,Camden Property Trust Common Stock,EQUITY,NYSE
+CPU,Amplify Top 10 Semiconductors ETF,ETF,NYSE ARCA
 CPXR,USCF Daily Target 2X Copper Index ETF,ETF,NYSE ARCA
 CQQQ,Invesco China Technology ETF,ETF,NYSE ARCA
 CQTM,Corgi Quantum Computing ETF,ETF,BATS
@@ -6055,12 +6047,11 @@ CSTM,Constellium SE Ordinary Shares (France),EQUITY,NYSE
 CSV,"Carriage Services, Inc. Common Stock",EQUITY,NYSE
 CSW,"CSW Industrials, Inc. Common Stock",EQUITY,NYSE
 CTA,Simplify Managed Futures Strategy ETF,ETF,NYSE ARCA
-CTAG,Calamos Timpani Active SMID Growth ETF,ETF,F
+CTAG,Calamos Timpani Active SMID Growth ETF,ETF,TXSE
 CTAP,Simplify US Equity PLUS Managed Futures Strategy ETF,ETF,NYSE ARCA
 CTAU,Corgi U.S. Equities 30% Structured Buffer ETF - August Series,ETF,BATS
 CTEF,Castellan Targeted Equity ETF,ETF,BATS
 CTEV,Claritev Corporation Class A Common Stock,EQUITY,NYSE
-CTEX,ProShares S&P Kensho Cleantech ETF,ETF,NYSE ARCA
 CTGO,Contango Silver & Gold Inc. Common Stock,EQUITY,NYSE AMERICAN
 CTIF,Castellan Targeted Income ETF,ETF,BATS
 CTJL,Corgi U.S. Equities 30% Structured Buffer ETF - July Series,ETF,BATS
@@ -6134,7 +6125,6 @@ DAO,"Youdao, Inc. American Depositary Shares, each representing one Class A Ordi
 DAPR,FT Vest U.S. Equity Deep Buffer ETF - April,ETF,BATS
 DAR,Darling Ingredients Inc. Common Stock,EQUITY,NYSE
 DARP,Grizzle Growth ETF,ETF,NYSE ARCA
-DAT,ProShares Big Data Refiners ETF,ETF,NYSE ARCA
 DAUG,FT Vest U.S. Equity Deep Buffer ETF - August,ETF,BATS
 DAVA,Endava plc American Depositary Shares (each representing one Class A Ordinary Share),EQUITY,NYSE
 DB,Deutsche Bank AG Common Stock,EQUITY,NYSE
@@ -6156,12 +6146,10 @@ DBMF,iMGP DBi Managed Futures Strategy ETF,ETF,NYSE ARCA
 DBND,DoubleLine Opportunistic Core Bond ETF,ETF,NYSE ARCA
 DBO,Invesco DB Oil Fund,ETF,NYSE ARCA
 DBP,Invesco DB Precious Metals Fund,ETF,NYSE ARCA
-DBRG$H,"DigitalBridge Group, Inc. 7.125% Series H",EQUITY,NYSE
-DBRG$I,"DigitalBridge Group, Inc. 7.15% Series I",EQUITY,NYSE
-DBRG$J,"DigitalBridge Group, Inc. 7.125% Series J",EQUITY,NYSE
 DC,Dakota Gold Corp. Common Stock,EQUITY,NYSE AMERICAN
 DCH,Dauch Corporation Common Stock,EQUITY,NYSE
 DCI,"Donaldson Company, Inc. Common Stock",EQUITY,NYSE
+DCM,"DeFi Capital Markets, Inc. Common Stock",EQUITY,NYSE AMERICAN
 DCMT,DoubleLine Commodity Strategy ETF,ETF,NYSE ARCA
 DCO,Ducommun Incorporated Common Stock,EQUITY,NYSE
 DCOM,"Dime Commercial Bancshares, Inc. Common Stock",EQUITY,NYSE
@@ -6188,9 +6176,9 @@ DDL,Dingdong (Cayman) Limited American Depositary Shares (each two representing 
 DDLS,WisdomTree Dynamic International SmallCap Equity Fund,ETF,BATS
 DDM,ProShares Ultra Dow30,ETF,NYSE ARCA
 DDNQ,Innovator Growth-100 Dual Directional 5 Buffer ETF - Quarterly,ETF,BATS
-DDS,"Dillard's, Inc. Common Stock",EQUITY,NYSE
+DDS,"Dillard's, Inc. Common Stock",EQUITY,TXSE
 DDSQ,Innovator Equity Dual Directional 5 Buffer ETF - Quarterly,ETF,BATS
-DDT,Dillard's Capital Trust I,EQUITY,NYSE
+DDT,Dillard's Capital Trust I,EQUITY,TXSE
 DDTA,Innovator Equity Dual Directional 10 Buffer ETF - April,ETF,BATS
 DDTD,Innovator Equity Dual Directional 10 Buffer ETF - December,ETF,BATS
 DDTF,Innovator Equity Dual Directional 10 Buffer ETF - February,ETF,BATS
@@ -6232,13 +6220,13 @@ DESK,VanEck Office and Commercial REIT ETF,ETF,NYSE ARCA
 DEUS,Xtrackers Russell US Multifactor ETF,ETF,NYSE ARCA
 DEW,WisdomTree Global High Dividend Fund,ETF,NYSE ARCA
 DEXC,Dimensional Emerging Markets ex China Core Equity ETF,ETF,NYSE ARCA
-DFAC,Dimensional U.S. Core Equity 2 ETF,ETF,NYSE ARCA
+DFAC,U.S. Core Equity 2 Portfolio ETF Class Shares,ETF,NYSE ARCA
 DFAE,Dimensional Emerging Core Equity Market ETF,ETF,NYSE ARCA
 DFAI,Dimensional International Core Equity Market ETF,ETF,NYSE ARCA
 DFAL,Dimensional US Large Cap Core Equity Market ETF,ETF,BATS
 DFAR,DFA Real Estate Securities Portfolio ETF Class Shares,ETF,NYSE ARCA
-DFAS,Dimensional U.S. Small Cap ETF,ETF,NYSE ARCA
-DFAT,Dimensional U.S. Targeted Value ETF,ETF,NYSE ARCA
+DFAS,U.S. Small Cap Portfolio: ETF Class Shares,ETF,NYSE ARCA
+DFAT,U.S. Targeted Value Portfolio ETF Class Shares,ETF,NYSE ARCA
 DFAU,Dimensional US Core Equity Market ETF,ETF,NYSE ARCA
 DFAW,Dimensional World Equity ETF,ETF,NYSE ARCA
 DFAX,Dimensional World ex U.S. Core Equity 2 ETF,ETF,NYSE ARCA
@@ -6471,6 +6459,7 @@ E,ENI S.p.A. Common Stock,EQUITY,NYSE
 EAD,Allspring Income Opportunities Fund Common Shares,EQUITY,NYSE AMERICAN
 EAF,GrafTech International Ltd. Common Stock,EQUITY,NYSE
 EAFG,Pacer Developed Markets Cash Cows Growth Leaders ETF,ETF,NYSE ARCA
+EAFH,Xtrackers MSCI EAFE 50% Hedged Equity ETF,ETF,BATS
 EAGG,iShares ESG Aware U.S. Aggregate Bond ETF,ETF,NYSE ARCA
 EAGL,Eagle Capital Select Equity ETF,ETF,NYSE ARCA
 EAI,"Entergy Arkansas, LLC First Mortgage Bonds, 4.875% Series Due September 1, 2066",EQUITY,NYSE
@@ -6576,13 +6565,13 @@ EL,"Estee Lauder Companies, Inc. (The) Common Stock",EQUITY,NYSE
 ELA,Envela Corporation Common Stock,EQUITY,NYSE AMERICAN
 ELAN,Elanco Animal Health Incorporated Common Stock,EQUITY,NYSE
 ELC,"Entergy Louisiana, Inc. Collateral Trust Mortgage Bonds, 4.875 % Series due September 1, 2066",EQUITY,NYSE
+ELCF,Eventide Large Cap Focus ETF,ETF,NYSE ARCA
 ELCV,Strategy Shares Eventide High Dividend ETF,ETF,NYSE ARCA
 ELD,WisdomTree Emerging Markets Local Debt Fund,ETF,NYSE ARCA
 ELF,"e.l.f. Beauty, Inc. Common Stock",EQUITY,NYSE
 ELLO,Ellomay Capital Ltd Ordinary Shares (Israel),EQUITY,NYSE AMERICAN
 ELM,Elm Market Navigator ETF,ETF,NYSE ARCA
 ELMD,"Electromed, Inc. Common Stock",EQUITY,NYSE AMERICAN
-ELME,Elme Communities Common Stock,EQUITY,NYSE
 ELPC,Companhia Paranaense de Energia (COPEL) American Depositary Shares (each representing four (4) Common Shares),EQUITY,NYSE
 ELS,"Equity Lifestyle Properties, Inc. Common Stock",EQUITY,NYSE
 ELV,"Elevance Health, Inc. Common Stock",EQUITY,NYSE
@@ -6614,7 +6603,7 @@ EMM,Global X Emerging Markets ex-China ETF,ETF,NYSE ARCA
 EMMF,WisdomTree Emerging Markets Multifactor Fund,ETF,NYSE ARCA
 EMMY,Corgi Emerging Markets Equities 15% Structured Buffer ETF - May Series,ETF,BATS
 EMN,Eastman Chemical Company Common Stock,EQUITY,NYSE
-EMNT,PIMCO Enhanced Short Maturity Active ESG Exchange-Traded Fund,ETF,NYSE ARCA
+EMNT,PIMCO Enhanced Short Maturity Active ESG and Bond Exchange-Traded Fund,ETF,NYSE ARCA
 EMO,ClearBridge Energy Midstream Opportunity Fund Inc. Common Stock,EQUITY,NYSE
 EMOP,AB Emerging Markets Opportunities ETF,ETF,NYSE ARCA
 EMOT,First Trust S&P 500 Economic Moat ETF,ETF,NYSE ARCA
@@ -6714,6 +6703,7 @@ ESUM,Eventide US Market ETF,ETF,NYSE ARCA
 ETB,Eaton Vance Tax-Managed Buy-Write Income Fund Eaton Vance Tax-Managed Buy-Write Income Fund Common Shares of Beneficial Interest,EQUITY,NYSE
 ETCO,Grayscale Ethereum High Income ETF,ETF,NYSE ARCA
 ETD,Ethan Allen Interiors Inc. Common Stock,EQUITY,NYSE
+ETDG,Eventide Dividend Growth ETF,ETF,NYSE ARCA
 ETFT,Fundsmith Equity ETF,ETF,NYSE ARCA
 ETG,Eaton Vance Tax-Advantaged Global Dividend Income Fund Common Shares of Beneficial Interest,EQUITY,NYSE
 ETH,Grayscale Ethereum Staking Mini ETF Shares,ETF,NYSE ARCA
@@ -6944,6 +6934,7 @@ FIAX,Nicholas Fixed Income Alternative ETF,ETF,NYSE ARCA
 FICO,Fair Isaac Corporation Common Stock,EQUITY,NYSE
 FIDI,Fidelity International High Dividend ETF,ETF,NYSE ARCA
 FIDU,Fidelity MSCI Industrials Index ETF,ETF,NYSE ARCA
+FIFT,HCM Select 50 ETF,ETF,TXSE
 FIG,"Figma, Inc. Class A Common Stock",EQUITY,NYSE
 FIGB,Fidelity Investment Grade Bond ETF,ETF,NYSE ARCA
 FIGS,"FIGS, Inc. Class A Common Stock",EQUITY,NYSE
@@ -7145,6 +7136,7 @@ FTMH,Franklin Municipal High Yield ETF,ETF,NYSE ARCA
 FTMN,Franklin Minnesota Municipal Income ETF,ETF,NYSE ARCA
 FTMS,Franklin Short-Term Municipal Income ETF,ETF,NYSE ARCA
 FTMU,Franklin Municipal Income ETF,ETF,NYSE ARCA
+FTN,Corgi FTSE 5-10 Year IG Corporate Bond ETF,ETF,BATS
 FTNJ,Franklin New Jersey Municipal Income ETF,ETF,NYSE ARCA
 FTNY,Franklin New York Municipal Income ETF,ETF,NYSE ARCA
 FTOH,Franklin Ohio Municipal Income ETF,ETF,NYSE ARCA
@@ -7200,6 +7192,7 @@ GAL,State Street Global Allocation ETF,ETF,NYSE ARCA
 GALX,VistaShares Space Supercycle ETF,ETF,NYSE ARCA
 GAM,"General American Investors, Inc. Common Stock",EQUITY,NYSE
 GAMR,Amplify Video Game Leaders ETF,ETF,NYSE ARCA
+GANZ,Tuttle Capital Thematic ETF,ETF,BATS
 GAP,"Gap, Inc. (The) Common Stock",EQUITY,NYSE
 GAPR,FT Vest U.S. Equity Moderate Buffer ETF - April,ETF,BATS
 GARA,Guinness Atkinson Real Assets Income ETF,ETF,NYSE ARCA
@@ -7218,6 +7211,7 @@ GBTC,Grayscale Bitcoin Trust (BTC),ETF,NYSE ARCA
 GBX,"Greenbrier Companies, Inc. (The) Common Stock",EQUITY,NYSE
 GCAD,Gabelli Commercial Aerospace and Defense ETF,ETF,NYSE ARCA
 GCAL,Goldman Sachs Dynamic California Municipal Income ETF,ETF,NYSE ARCA
+GCB,Corgi FTSE Intermediate Government/Credit Bond ETF,ETF,BATS
 GCC,WisdomTree EnhancedContinuous Commodity Index Fund,ETF,NYSE ARCA
 GCDT,Green Circle Decarbonize Technology Limited Class A Ordinary Shares,EQUITY,NYSE AMERICAN
 GCLO,Guggenheim Investment Grade CLO ETF,ETF,NYSE ARCA
@@ -7341,6 +7335,7 @@ GLW,Corning Incorporated Common Stock,EQUITY,NYSE
 GLX,Corgi GLXY 2x Daily ETF,ETF,BATS
 GLXU,T-REX 2X Long GLXY Daily Target ETF,ETF,BATS
 GM,General Motors Company Common Stock,EQUITY,NYSE
+GMAC,Simplify Brookwood Global Macro ETF,ETF,NYSE ARCA
 GMAR,FT Vest U.S. Equity Moderate Buffer ETF - March,ETF,BATS
 GMAY,FT Vest U.S. Equity Moderate Buffer ETF - May,ETF,BATS
 GME,GameStop Corporation Common Stock,EQUITY,NYSE
@@ -7349,6 +7344,7 @@ GMED,"Globus Medical, Inc. Class A Common Stock",EQUITY,NYSE
 GMEU,T-REX 2X Long GME Daily Target ETF,ETF,BATS
 GMEY,YieldMax GME Option Income Strategy ETF,ETF,NYSE ARCA
 GMF,State Street SPDR S&P Emerging Asia Pacific ETF,ETF,NYSE ARCA
+GMIE,"GMO International Equity Fund, ETF Class",ETF,NYSE ARCA
 GMMA,GammaRoad Market Navigation ETF,ETF,NYSE ARCA
 GMMF,iShares Government Money Market ETF,ETF,NYSE
 GMNY,Goldman Sachs Dynamic New York Municipal Income ETF,ETF,NYSE ARCA
@@ -7463,6 +7459,7 @@ GTOS,Invesco Short Duration Total Return Bond ETF,ETF,BATS
 GTY,Getty Realty Corporation Common Stock,EQUITY,NYSE
 GUG,Guggenheim Active Allocation Fund Common Shares of Beneficial Interest,EQUITY,NYSE
 GUMI,Goldman Sachs Ultra Short Municipal Income ETF,ETF,NYSE ARCA
+GUNN,Gunnison Copper Corp. American Depositary Shares (each representing thirty (30) Common Shares),EQUITY,NYSE AMERICAN
 GUNR,Northern Trust Morningstar Global Upstream Natural Resources ETF,ETF,NYSE ARCA
 GURU,Global X Guru Index ETF,ETF,NYSE ARCA
 GUSA,Goldman Sachs MarketBeta U.S. 1000 Equity ETF,ETF,NYSE ARCA
@@ -7474,7 +7471,6 @@ GVI,iShares Intermediate Government/Credit Bond ETF,ETF,BATS
 GVIP,Goldman Sachs Hedge Industry VIP ETF,ETF,NYSE ARCA
 GVLU,Gotham 1000 Value ETF,ETF,NYSE ARCA
 GVUS,Goldman Sachs MarketBeta Russell 1000 Value Equity ETF,ETF,NYSE ARCA
-GWH,"ESS Tech, Inc. Common Stock",EQUITY,NYSE
 GWRE,"Guidewire Software, Inc. Common Stock",EQUITY,NYSE
 GWW,"W.W. Grainger, Inc. Common Stock",EQUITY,NYSE
 GWX,State Street SPDR S&P International Small Cap ETF,ETF,NYSE ARCA
@@ -7543,7 +7539,6 @@ HEGD,Swan Hedged Equity US Large Cap ETF,ETF,BATS
 HEI,Heico Corporation Common Stock,EQUITY,NYSE
 HEI-A,Heico Corporation Common Stock,EQUITY,NYSE
 HELO,JPMorgan Hedged Equity Laddered Overlay ETF,ETF,NYSE ARCA
-HELS,Hedgeye 130/30 Equity ETF,ETF,NYSE ARCA
 HELX,Franklin Genomic Advancements ETF,ETF,BATS
 HEMI,Hartford Equity Premium Income ETF,ETF,BATS
 HEQ,John Hancock Diversified Income Fund Common Shares of Beneficial Interest,EQUITY,NYSE
@@ -7555,6 +7550,7 @@ HF,DGA Core Plus Absolute Return ETF,ETF,NYSE
 HFEQ,Unlimited HFEQ Equity Long/Short ETF,ETF,NYSE
 HFGM,Unlimited HFGM Global Macro ETF,ETF,NYSE
 HFGO,Hartford Large Cap Growth ETF,ETF,BATS
+HFIX,Nomura High Yield Total Return ETF,ETF,NYSE ARCA
 HFMF,Unlimited HFMF Managed Futures ETF,ETF,NYSE
 HFND,Unlimited HFND Multi-Strategy Return Tracker ETF,ETF,NYSE
 HFRO,Highland Opportunities and Income Fund Common Shares of Beneficial Interest,EQUITY,NYSE
@@ -7566,6 +7562,7 @@ HGLB,Highland Global Allocation Fund Common Stock,EQUITY,NYSE
 HGRO,Hedgeye Quality Growth ETF,ETF,NYSE ARCA
 HGTY,"Hagerty, Inc. Class A Common Stock",EQUITY,NYSE
 HGV,Hilton Grand Vacations Inc. Common Stock,EQUITY,NYSE
+HH,Corgi FTSE High Yield Corporate Bond ETF,ETF,BATS
 HHH,Howard Hughes Holdings Inc. Common Stock,EQUITY,NYSE
 HIAI,Ai Funds High Conviction US Equity AI-Managed ETF,ETF,BATS
 HIBL,Direxion Daily S&P 500 High Beta Bull 3X ETF,ETF,NYSE ARCA
@@ -7603,11 +7600,11 @@ HNGE,"Hinge Health, Inc. Class A Common Stock",EQUITY,NYSE
 HNI,HNI Corporation Common Stock,EQUITY,NYSE
 HODL,VanEck Bitcoin Trust,ETF,BATS
 HOG,"Harley-Davidson, Inc. Common Stock",EQUITY,NYSE
+HOID,Tuttle - Rareview Humanoid Robotics ETF,ETF,BATS
 HOLA,JPMorgan International Hedged Equity Laddered Overlay ETF,ETF,NYSE ARCA
 HOLD,Harbor Alpha Layering ETF,ETF,NYSE ARCA
 HOMB,"Home BancShares, Inc. Common Stock",EQUITY,NYSE
 HOMZ,Hoya Capital Housing ETF,ETF,NYSE ARCA
-HONG,Leverage Shares 2X Long HON Daily ETF,ETF,BATS
 HOOC,Corgi HOOD 2x Daily ETF,ETF,BATS
 HOOW,Roundhill HOOD WeeklyPay ETF,ETF,BATS
 HOOY,YieldMax HOOD Option Income Strategy ETF,ETF,NYSE ARCA
@@ -7679,7 +7676,7 @@ HYGH,iShares Interest Rate Hedged High Yield Bond ETF,ETF,NYSE ARCA
 HYGM,Amplify HYG High Yield 10% Target Income ETF,ETF,BATS
 HYGU,MicroSectors 3x Long High Yield Corporate Bond (HYG) ETNs,ETF,BATS
 HYGV,Northern Trust High Yield Value-Scored Bond ETF,ETF,NYSE ARCA
-HYGW,iShares High Yield Corporate Bond BuyWrite Strategy ETF,ETF,BATS
+HYGW,iShares HYG Premium Income+ ETF,ETF,BATS
 HYHG,ProShares High Yield Interest Rate Hedged,ETF,BATS
 HYI,Western Asset High Yield Opportunity Fund Inc. Common Stock,EQUITY,NYSE
 HYIN,WisdomTree Private Credit and Alternative Income Fund,ETF,BATS
@@ -7687,7 +7684,7 @@ HYLB,Xtrackers USD High Yield Corporate Bond ETF,ETF,NYSE ARCA
 HYLN,Hyliion Holdings Corp. Class A Common Stock,EQUITY,NYSE AMERICAN
 HYMB,State Street SPDR Nuveen ICE High Yield Municipal Bond ETF,ETF,NYSE ARCA
 HYNX,T-REX 2X Long SKHY Daily Target ETF,ETF,NYSE ARCA
-HYS,PIMCO 0-5 Year High Yield Corporat Bond Index Exchange-Traded Fund,ETF,NYSE ARCA
+HYS,PIMCO 0-5 Year High Yield Corporate Bond Exchange-Traded Fund,ETF,NYSE ARCA
 HYSA,BondBloxx High Yield Income ETF,ETF,NYSE ARCA
 HYSD,Columbia Short Duration High Yield ETF,ETF,NYSE ARCA
 HYT,"Blackrock Corporate High Yield Fund, Inc. Common Stock",EQUITY,NYSE
@@ -7696,7 +7693,6 @@ HYTR,Counterpoint High Yield Trend ETF,ETF,NYSE
 HYUP,Xtrackers High Beta High Yield Bond ETF,ETF,NYSE ARCA
 HZO,"MarineMax, Inc.  (FL) Common Stock",EQUITY,NYSE
 IACL,GraniteShares US 100 Autocallable Income ETF,ETF,BATS
-IAE,Voya Asia Pacific High Dividend Equity Income Fund ING Asia Pacific High Dividend Equity Income Fund Common Shares of Beneficial Interest,EQUITY,NYSE
 IAF,"abrdn Australia Equity Fund, Inc. Common Stock",EQUITY,NYSE AMERICAN
 IAG,Iamgold Corporation Ordinary Shares,EQUITY,NYSE
 IAGG,iShares International Aggregate Bond Fund,ETF,BATS
@@ -7730,7 +7726,6 @@ IBHJ,iShares iBonds 2030 Term High Yield and Income ETF,ETF,BATS
 IBHK,iShares iBonds 2031 Term High Yield and Income ETF,ETF,BATS
 IBHL,iShares iBonds 2032 Term High Yield and Income ETF,ETF,BATS
 IBHM,iShares iBonds 2033 Term High Yield and Income ETF,ETF,BATS
-IBIC,iShares iBonds Oct 2026 Term TIPS ETF,ETF,NYSE ARCA
 IBID,iShares iBonds Oct 2027 Term TIPS ETF,ETF,NYSE ARCA
 IBIE,iShares iBonds Oct 2028 Term TIPS ETF,ETF,NYSE ARCA
 IBIF,iShares iBonds Oct 2029 Term TIPS ETF,ETF,NYSE ARCA
@@ -7756,6 +7751,7 @@ IBMX,iShares iBonds Dec 2035 Term Muni Bond ETF,ETF,BATS
 IBN,ICICI Bank Limited Common Stock,EQUITY,NYSE
 IBND,State Street SPDR Bloomberg International Corporate Bond ETF,ETF,NYSE ARCA
 IBO,"Impact BioMedical, Inc. Common Stock",EQUITY,NYSE AMERICAN
+IBOC,International Bancshares Corporation Common Stock,EQUITY,TXSE
 IBP,"Installed Building Products, Inc. Common Stock",EQUITY,NYSE
 IBRN,iShares Neuroscience and Healthcare ETF,ETF,NYSE ARCA
 IBTA,"Ibotta, Inc. Class A Common Stock",EQUITY,NYSE
@@ -7767,6 +7763,7 @@ ICE,Intercontinental Exchange Inc. Common Stock,EQUITY,NYSE
 ICF,iShares Select U.S. REIT ETF,ETF,BATS
 ICL,ICL Group Ltd. Ordinary Shares,EQUITY,NYSE
 ICLO,Invesco AAA CLO Floating Rate Note ETF,ETF,BATS
+ICOM,Tema Commodity Income ETF,ETF,TXSE
 ICOW,Pacer Developed Markets International Cash Cows 100 ETF,ETF,BATS
 ICPI,iShares 0-1 Year TIPS Bond ETF,ETF,NYSE ARCA
 ICPY,"Tweedy, Browne International Insider + Value ETF",ETF,NYSE ARCA
@@ -7817,6 +7814,7 @@ IFRA,iShares U.S. Infrastructure ETF,ETF,BATS
 IFS,Intercorp Financial Services Inc. Common Shares,EQUITY,NYSE
 IG,Principal Investment Grade Corporate Active ETF,ETF,BATS
 IGA,Voya Global Advantage and Premium Opportunity Fund Common Shares of Beneficial Interest,EQUITY,NYSE
+IGB,Corgi FTSE U.S. IG Corporate Bond ETF,ETF,BATS
 IGBH,iShares Interest Rate Hedged Long-Term Corporate Bond ETF,ETF,NYSE ARCA
 IGC,"IGC Pharma, Inc. Common Stock",EQUITY,NYSE AMERICAN
 IGCB,TCW Corporate Bond ETF,ETF,NYSE
@@ -7835,7 +7833,6 @@ IGRO,iShares International Dividend Growth ETF,ETF,BATS
 IGV,iShares Expanded Tech-Software Sector ETF,ETF,BATS
 IH,"iHuman Inc. American depositary shares, each representing five Class A ordinary shares",EQUITY,NYSE
 IHAK,iShares Cybersecurity and Tech ETF,ETF,NYSE ARCA
-IHD,Voya Emerging Markets High Income Dividend Equity Fund Common Shares,EQUITY,NYSE
 IHDG,WisdomTree International Hedged Quality Dividend Growth Fund,ETF,NYSE ARCA
 IHE,iShares U.S. Pharmaceutical ETF,ETF,NYSE ARCA
 IHF,iShares U.S. Health Care Providers ETF,ETF,NYSE ARCA
@@ -7858,13 +7855,12 @@ IJR,iShares Core S&P Small-Cap ETF,ETF,NYSE ARCA
 IJS,iShares S&P SmallCap 600 Value ETF,ETF,NYSE ARCA
 IJUL,Innovator International Developed Power Buffer ETF  July,ETF,NYSE ARCA
 IJUN,Innovator International Developed Power Buffer ETF June,ETF,NYSE ARCA
-ILCB,iShares Morningstar Large-Cap ETF,ETF,NYSE ARCA
 ILCG,iShares Morningstar Large-Cap Growth ETF,ETF,NYSE ARCA
 ILCV,iShares Morningstar Large-Cap  Value ETF,ETF,NYSE ARCA
 ILDR,First Trust Innovation Leaders ETF,ETF,NYSE ARCA
 ILF,iShares Latin America 40 ETF,ETF,NYSE ARCA
 ILOW,AB International Low Volatility Equity ETF,ETF,NYSE ARCA
-ILS,Brookmont Catastrophic Bond ETF,ETF,F
+ILS,Brookmont Catastrophic Bond ETF,ETF,TXSE
 ILTB,iShares Core 10  Year USD Bond ETF,ETF,NYSE ARCA
 IMAR,Innovator International Developed Power Buffer ETF  March,ETF,NYSE ARCA
 IMAX,Imax Corporation Common Stock,EQUITY,NYSE
@@ -7959,9 +7955,7 @@ IROC,Invesco Rochester High Yield Municipal ETF,ETF,BATS
 IRS,IRSA Inversiones Y Representaciones S.A. Global Depositary Shares (Each representing ten shares of Common Stock),EQUITY,NYSE
 IRT,"Independence Realty Trust, Inc. Common Stock",EQUITY,NYSE
 IRTR,iShares LifePath Retirement ETF,ETF,NYSE ARCA
-IRVH,Global X Interest Rate Volatility & Inflation Hedge ETF,ETF,NYSE ARCA
 ISBG,IncomeSTKd 1x Bitcoin & 1x Gold Premium ETF,ETF,BATS
-ISCB,iShares Morningstar Small-Cap ETF,ETF,NYSE ARCA
 ISCF,iShares International Small-Cap Equity Factor ETF,ETF,NYSE ARCA
 ISCG,iShares Morningstar Small-Cap Growth ETF,ETF,NYSE ARCA
 ISCV,iShares Morningstar Small-Cap Value ETF,ETF,NYSE ARCA
@@ -8011,7 +8005,7 @@ IVT,InvenTrust Properties Corp. Common Stock,EQUITY,NYSE
 IVV,iShares Core S&P 500 ETF,ETF,NYSE ARCA
 IVVB,iShares Large Cap Deep Quarterly Laddered ETF,ETF,BATS
 IVVM,iShares Large Cap Moderate Quarterly Laddered ETF,ETF,BATS
-IVVW,iShares S&P 500 BuyWrite ETF,ETF,BATS
+IVVW,iShares IVV Premium Income+ ETF,ETF,BATS
 IVW,iShares S&P 500 Growth ETF,ETF,NYSE ARCA
 IVZ,Invesco Ltd Common Stock,EQUITY,NYSE
 IWB,iShares Russell 1000 ETF,ETF,NYSE ARCA
@@ -8023,7 +8017,7 @@ IWL,iShares Russell Top 200 ETF,ETF,NYSE ARCA
 IWLG,NYLIM Winslow Large Cap Growth ETF,ETF,NYSE ARCA
 IWM,iShares Russell 2000 Index Fund,ETF,NYSE ARCA
 IWMI,NEOS Russell 2000 High Income ETF,ETF,BATS
-IWMW,iShares Russell 2000 BuyWrite ETF,ETF,BATS
+IWMW,iShares IWM Premium Income+ ETF,ETF,BATS
 IWMY,Defiance R2000 Weekly Distribution ETF,ETF,NYSE ARCA
 IWN,iShares Russell 2000 Value ETF,ETF,NYSE ARCA
 IWO,iShares Russell 2000 Growth Fund,ETF,NYSE ARCA
@@ -8136,7 +8130,7 @@ JIG,JPMorgan International Growth ETF,ETF,NYSE ARCA
 JIII,Janus Henderson Income ETF,ETF,NYSE ARCA
 JILL,"J. Jill, Inc. Common Stock",EQUITY,NYSE
 JIRE,JPMorgan International Research Enhanced Equity ETF,ETF,NYSE ARCA
-JKS,JinkoSolar Holding Company Limited American Depositary Shares (each representing 4 Common Shares),EQUITY,NYSE
+JKS,Jinko Holdings Limited American Depositary Shares (each representing 4 Ordinary Shares),EQUITY,NYSE
 JLCO,John Hancock Large Cap Opportunities ETF,ETF,NYSE ARCA
 JLL,Jones Lang LaSalle Incorporated Common Stock,EQUITY,NYSE
 JLQD,Janus Henderson Corporate Bond ETF,ETF,NYSE ARCA
@@ -8237,7 +8231,6 @@ KBFR,Innovator U.S. Small Cap Managed 10 Buffer ETF,ETF,NYSE ARCA
 KBH,KB Home Common Stock,EQUITY,NYSE
 KBR,"KBR, Inc. Common Stock",EQUITY,NYSE
 KBUF,KraneShares 90% KWEB Defined Outcome January 2027 ETF,ETF,NYSE ARCA
-KCAI,KraneShares China Alpha Index ETF,ETF,NYSE ARCA
 KCCA,KraneShares California Carbon Allowance Strategy ETF,ETF,NYSE ARCA
 KCE,State Street SPDR S&P Capital Markets ETF,ETF,NYSE ARCA
 KCHP,KICK Korea Semiconductor Index ETF,ETF,NYSE ARCA
@@ -8269,7 +8262,6 @@ KGRN,KraneShares MSCI China Clean Technology Index ETF,ETF,NYSE ARCA
 KGS,"Kodiak Gas Services, Inc. Common Stock",EQUITY,NYSE
 KHC,The Kraft Heinz Company Common Stock,EQUITY,NYSE
 KHPI,Kensington Hedged Premium Income ETF,ETF,BATS
-KHYB,KraneShares Asia Pacific High Income USD Bond ETF,ETF,NYSE ARCA
 KIE,State Street SPDR S&P Insurance ETF,ETF,NYSE ARCA
 KIM,Kimco Realty Corporation (HC) Common Stock,EQUITY,NYSE
 KIO,KKR Income Opportunities Fund Common Shares,EQUITY,NYSE
@@ -8376,7 +8368,7 @@ LATR,Corgi Buy Now Pay Later ETF,ETF,BATS
 LAW,"CS Disco, Inc. Common Stock",EQUITY,NYSE
 LAZ,"Lazard, Inc. Common Stock",EQUITY,NYSE
 LAZR,Tema Photonics & Optical ETF,ETF,NYSE ARCA
-LB,LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests,EQUITY,NYSE
+LB,LandBridge Corporation Class A Common Stock,EQUITY,NYSE
 LBAY,Leatherback Long/Short Alternative Yield ETF,ETF,NYSE ARCA
 LBO,WHITEWOLF Publicly Listed Private Equity ETF,ETF,BATS
 LBOX,GraniteShares Short Term Box ETF,ETF,BATS
@@ -8436,6 +8428,7 @@ LIAM,LifeX 2055 Inflation-Protected Longevity Income ETF,ETF,BATS
 LIAU,LifeX 2060 Inflation-Protected Longevity Income ETF,ETF,BATS
 LIBD,LifeX 2065 Inflation-Protected Longevity Income ETF,ETF,BATS
 LIFT,LifeX 2028 Income Bucket ETF,ETF,BATS
+LIGB,Corgi FTSE 10 Year IG Corporate Bond ETF,ETF,BATS
 LII,"Lennox International, Inc. Common Stock",EQUITY,NYSE
 LION,Lionsgate Studios Corp Common Shares,EQUITY,NYSE
 LIT,Global X Lithium & Battery Tech ETF,ETF,NYSE ARCA
@@ -8450,6 +8443,7 @@ LJAN,Innovator Premium Income 15 Buffer ETF - January,ETF,BATS
 LJUL,Innovator Premium Income 15 Buffer ETF - July,ETF,BATS
 LKOR,Northern Trust Credit-Scored US Long Corporate Bond ETF,ETF,BATS
 LLDR,Global X Long-Term Treasury Ladder ETF,ETF,NYSE ARCA
+LLMA,Global X LLM ETF,ETF,BATS
 LLY,Eli Lilly and Company Common Stock,EQUITY,NYSE
 LLYX,Defiance Daily Target 2X Long LLY ETF,ETF,NYSE ARCA
 LMND,"Lemonade, Inc. Common Stock",EQUITY,NYSE
@@ -8472,7 +8466,7 @@ LOFD,Direxion Daily SpaceX Bear 2X ETF,ETF,NYSE ARCA
 LOFF,Direxion Daily SpaceX Bull 2X ETF,ETF,NYSE ARCA
 LOHA,Roundhill HALO ETF,ETF,BATS
 LOMA,Loma Negra Compania Industrial Argentina Sociedad Anonima ADS,EQUITY,NYSE
-LONZ,PIMCO Senior Loan Active Exchange-Traded Fund,ETF,NYSE ARCA
+LONZ,PIMCO Senior Loan and Short-Term Active ETF,ETF,NYSE ARCA
 LOPP,Gabelli Love Our Planet & People ETF Gabelli Love Our Planet & People ETF,ETF,NYSE ARCA
 LOUP,Innovator Deepwater Frontier Tech ETF,ETF,NYSE ARCA
 LOW,"Lowe's Companies, Inc. Common Stock",EQUITY,NYSE
@@ -8491,7 +8485,7 @@ LQDH,iShares Interest Rate Hedged Corporate Bond ETF,ETF,NYSE ARCA
 LQDI,iShares Inflation Hedged Corporate Bond ETF,ETF,BATS
 LQDM,Amplify LQD Investment Grade 12% Target Income ETF,ETF,BATS
 LQDU,MicroSectors 3x Long Investment Grade Corporate Bond (LQD) ETNs,ETF,BATS
-LQDW,iShares Investment Grade Corporate Bond BuyWrite Strategy ETF,ETF,BATS
+LQDW,iShares LQD Premium Income+ ETF,ETF,BATS
 LQID,Kurv Enhanced Short Maturity ETF,ETF,BATS
 LQTI,FT Vest Investment Grade & Target Income ETF,ETF,NYSE ARCA
 LRCC,Corgi LRCX 2x Daily ETF,ETF,BATS
@@ -8513,17 +8507,17 @@ LST,Leuthold Select Industries ETF,ETF,NYSE ARCA
 LSTB,Natixis Loomis Sayles Total Return Bond ETF,ETF,NYSE ARCA
 LSVD,LSV Disciplined Value ETF,ETF,NYSE ARCA
 LTAX,Nomura Tax-Free USA ETF,ETF,NYSE ARCA
+LTB,Corgi FTSE 20 Year U.S. Treasury Bond ETF,ETF,BATS
 LTC,"LTC Properties, Inc. Common Stock",EQUITY,NYSE
 LTH,"Life Time Group Holdings, Inc. Common Stock",EQUITY,NYSE
 LTL,ProShares Ultra Communication Services,ETF,NYSE ARCA
 LTM,"LATAM Airlines Group S.A. American Depositary Shares (each representing two thousand (2,000) shares of Common Stock)",EQUITY,NYSE
 LTPZ,Pimco 15  Year U.S. TIPS Index Exchange-Traded Fund,ETF,NYSE ARCA
 LTTI,FT Vest 20+ Year Treasury & Target Income ETF,ETF,NYSE ARCA
-LU,"Lufax Holding Ltd American Depositary Shares, each representing two (2) Ordinary Shares",EQUITY,NYSE
+LU,Lufax Holding Ltd American Depositary Shares (each representing twenty (20) Ordinary Shares),EQUITY,NYSE
 LUCK,Lucky Strike Entertainment Corporation Class A Common Stock,EQUITY,NYSE
 LUD,Luda Technology Group Limited Ordinary Shares,EQUITY,NYSE AMERICAN
 LUMA,KraneShares Photonic and Optical ETF,ETF,NYSE ARCA
-LUMN,"Lumen Technologies, Inc. Common Stock",EQUITY,NYSE
 LUNC,Longnook Uncommon Compounders ETF,ETF,NYSE ARCA
 LUNL,Defiance Daily Target 2X Long LUNR ETF,ETF,BATS
 LUV,Southwest Airlines Company Common Stock,EQUITY,NYSE
@@ -8560,7 +8554,6 @@ MAGY,Roundhill Magnificent Seven Covered Call ETF,ETF,BATS
 MAIA,"MAIA Biotechnology, Inc. Common Stock",EQUITY,NYSE AMERICAN
 MAIN,Main Street Capital Corporation Common Stock,EQUITY,NYSE
 MAIR,Madison Air Solutions Corporation Class A Common Stock,EQUITY,NYSE
-MAKX,ProShares S&P Kensho Smart Factories ETF,ETF,NYSE ARCA
 MAMB,Monarch Ambassador Income Index ETF,ETF,BATS
 MAN,ManpowerGroup Common Stock,EQUITY,NYSE
 MANE,"Veradermics, Incorporated Common Stock",EQUITY,NYSE
@@ -8642,7 +8635,7 @@ MET,"MetLife, Inc. Common Stock",EQUITY,NYSE
 MET$E,"MetLife, Inc. Depositary Shares",EQUITY,NYSE
 METG,Leverage Shares 2X Long META Daily ETF,ETF,BATS
 METQ,Tradr 2X Short META Daily ETF,ETF,BATS
-METV,Roundhill Ball Metaverse ETF,ETF,NYSE ARCA
+METV,Roundhill Metaverse ETF,ETF,NYSE ARCA
 METW,Roundhill META WeeklyPay ETF,ETF,BATS
 MEXX,Direxion Daily MSCI Mexico Bull 3X ETF,ETF,NYSE ARCA
 MFA,"MFA Financial, Inc.",EQUITY,NYSE
@@ -8689,7 +8682,6 @@ MI,NFT Limited Class A Ordinary Share,EQUITY,NYSE AMERICAN
 MIAX,"Miami International Holdings, Inc. Common Stock",EQUITY,NYSE
 MIC,Corgi MU 2x Daily ETF,ETF,BATS
 MICC,The Magnum Ice Cream Company N.V. Ordinary Shares,EQUITY,NYSE
-MID,American Century Mid Cap Growth Impact ETF,ETF,NYSE ARCA
 MIDE,Xtrackers S&P MidCap 400 Scored & Screened ETF,ETF,NYSE ARCA
 MIDU,Direxion Mid Cap Bull 3X ETF,ETF,NYSE ARCA
 MIG,VanEck Moody's Analytics IG Corporate Bond ETF,ETF,BATS
@@ -8729,6 +8721,7 @@ MLPI,NEOS MLP & Energy Infrastructure High Income ETF,ETF,BATS
 MLPR,ETRACS Quarterly Pay 1.5X Leveraged Alerian MLP Index ETN,ETF,NYSE ARCA
 MLPX,Global X MLP & Energy Infrastructure ETF,ETF,NYSE ARCA
 MLR,"Miller Industries, Inc. Common Stock",EQUITY,NYSE
+MLRG,iShares MSCI USA ETF,ETF,NYSE ARCA
 MLSS,"Milestone Scientific, Inc. Common Stock",EQUITY,NYSE AMERICAN
 MMA,Mixed Martial Arts Group Limited Ordinary Shares,EQUITY,NYSE AMERICAN
 MMAR,Pacer Swan SOS Moderate March ETF,ETF,BATS
@@ -8736,6 +8729,8 @@ MMAX,iShares Large Cap Max Buffer Mar ETF,ETF,BATS
 MMAY,Pacer Swan SOS Moderate (May) ETF,ETF,BATS
 MMCA,NYLIM MacKay California Muni Intermediate ETF,ETF,NYSE ARCA
 MMD,NYLIM MacKay DefinedTerm Muni Opportunities Fund Common Shares,EQUITY,NYSE
+MMF,Corgi Money Market ETF,ETF,BATS
+MMHI,NYLIM MacKay Muni High Income ETF,ETF,NYSE ARCA
 MMI,"Marcus & Millichap, Inc. Common Stock",EQUITY,NYSE
 MMID,MFS Active Mid Cap ETF,ETF,NYSE
 MMIN,NYLIM MacKay Muni Insured ETF,ETF,NYSE ARCA
@@ -8750,6 +8745,7 @@ MMSD,NYLIM MacKay Muni Short Duration ETF,ETF,NYSE ARCA
 MMT,Aberdeen Multi-Market Income Fund Common Shares of Beneficial Interest,EQUITY,NYSE
 MMTM,State Street SPDR S&P 1500 Momentum Tilt ETF,ETF,NYSE ARCA
 MMU,"Western Asset Managed Municipals Fund, Inc. Common Stock",EQUITY,NYSE
+MN,Corgi MANGOS ETF,ETF,BATS
 MNA,NYLIM Merger Arbitrage ETF,ETF,NYSE ARCA
 MNBD,ALPS BBH Intermediate Municipal Bond ETF,ETF,NYSE ARCA
 MNGB,Yorkville America 2X Inverse MANGOS Plus Daily Target ETF,ETF,NYSE ARCA
@@ -8815,12 +8811,14 @@ MSFW,Roundhill MSFT WeeklyPay ETF,ETF,BATS
 MSFX,T-Rex 2X Long Microsoft Daily Target ETF,ETF,BATS
 MSFY,Kurv Yield Premium Strategy Microsoft (MSFT) ETF,ETF,BATS
 MSGE,Madison Square Garden Entertainment Corp. Class A Common Stock,EQUITY,NYSE
-MSGS,Madison Square Garden Sports Corp. Class A Common Stock (New),EQUITY,NYSE
+MSGK,MSG Knickerbockers Corp. Class A Common Stock,EQUITY,NYSE
+MSGR,MSG Rangers Corp. Class A Common Stock,EQUITY,NYSE
 MSI,"Motorola Solutions, Inc. Common Stock",EQUITY,NYSE
 MSIF,"MSC Income Fund, Inc. Common Stock",EQUITY,NYSE
 MSIX,Corgi MSI 2x Daily ETF,ETF,BATS
 MSLC,Morgan Stanley Pathway Large Cap Equity ETF,ETF,NYSE ARCA
 MSM,"MSC Industrial Direct Company, Inc. Common Stock",EQUITY,NYSE
+MSML,iShares MSCI USA Small-Cap ETF,ETF,NYSE ARCA
 MSMR,McElhenny Sheffield Managed Risk ETF,ETF,BATS
 MSN,Emerson Radio Corporation Common Stock,EQUITY,NYSE AMERICAN
 MSOL,Morgan Stanley Solana Trust,ETF,NYSE ARCA
@@ -8882,7 +8880,6 @@ MUNY,Vanguard New York Tax-Exempt Bond ETF,ETF,BATS
 MUR,Murphy Oil Corporation Common Stock,EQUITY,NYSE
 MUSA,Murphy USA Inc. Common Stock,EQUITY,NYSE
 MUSE,TCW Multisector Credit Income ETF,ETF,NYSE
-MUSQ,MUSQ Global Music Industry Index ETF,ETF,NYSE ARCA
 MUST,Columbia Multi-Sector Municipal Income ETF,ETF,NYSE ARCA
 MUX,McEwen Inc. Common Stock,EQUITY,NYSE
 MUZ,Defiance Daily Target 2X Short MU ETF,ETF,NYSE ARCA
@@ -9091,6 +9088,7 @@ NSIG,North Square Growth Opportunities ETF,ETF,NYSE ARCA
 NSIV,North Square Disciplined Value ETF,ETF,NYSE ARCA
 NSP,"Insperity, Inc. Common Stock",EQUITY,NYSE
 NSRX,Nasus Pharma Ltd. Ordinary Shares,EQUITY,NYSE AMERICAN
+NSTR,"NorthStar Earth & Space Enterprises, Inc. Common Shares",EQUITY,NYSE AMERICAN
 NTB,Bank of N.T. Butterfield & Son Limited (The) Voting Ordinary Shares,EQUITY,NYSE
 NTIP,"Network-1 Technologies, Inc. Common Stock",EQUITY,NYSE AMERICAN
 NTR,Nutrien Ltd. Common Shares,EQUITY,NYSE
@@ -9158,13 +9156,11 @@ NWG,"NatWest Group plc American Depositary Shares, (each representing two (2) Or
 NWN,Northwest Natural Holding Company Common Stock,EQUITY,NYSE
 NX,Quanex Building Products Corporation Common Stock,EQUITY,NYSE
 NXB,NextBoat Inc. Common Stcok,EQUITY,NYSE AMERICAN
-NXDR,"Nextdoor Holdings, Inc. Class A Common Stock",EQUITY,NYSE
 NXDT,NexPoint Diversified Real Estate Trust Common Stock,EQUITY,NYSE
 NXE,Nexgen Energy Ltd. Common Shares,EQUITY,NYSE
 NXG,NXG NextGen Infrastructure Income Fund Common Shares of Beneficial Interest,EQUITY,NYSE
 NXP,Nuveen Select Tax Free Income Portfolio Common Stock,EQUITY,NYSE
 NXPG,Leverage Shares 2X Long NXPI Daily ETF,ETF,BATS
-NXPX,Tradr 2X Long NXPI Daily ETF,ETF,BATS
 NXRT,"NexPoint Residential Trust, Inc. Common Stock",EQUITY,NYSE
 NXTE,AXS Green Alpha ETF,ETF,NYSE ARCA
 NXTI,Simplify Next Intangible Core Index ETF,ETF,BATS
@@ -9184,13 +9180,14 @@ OAIM,OneAscent International Equity ETF,ETF,NYSE ARCA
 OAIW,OpenAI Lab Ecosystem ETF,ETF,NYSE ARCA
 OAKG,Oakmark Global Large Cap ETF,ETF,NYSE ARCA
 OAKI,Oakmark International Large Cap ETF,ETF,NYSE ARCA
+OAKL,Oakmark U.S. Concentrated ETF,ETF,NYSE ARCA
 OAKM,Oakmark U.S. Large Cap ETF,ETF,NYSE ARCA
 OALC,OneAscent Large Cap Core ETF,ETF,NYSE ARCA
 OARK,YieldMax Innovation Option Income Strategy ETF,ETF,NYSE ARCA
 OASC,OneAscent Enhanced Small and Mid Cap ETF,ETF,NYSE ARCA
 OBDC,Blue Owl Capital Corporation Common Stock,EQUITY,NYSE
 OBE,Obsidian Energy Ltd. Common Shares,EQUITY,NYSE AMERICAN
-OBK,"Origin Bancorp, Inc. Common Stock",EQUITY,NYSE
+OBK,"Origin Bancorp, Inc. Common Stock",EQUITY,TXSE
 OBND,State Street Loomis Sayles Opportunistic Bond ETF,ETF,BATS
 OBOR,KraneShares MSCI One Belt One Road Index ETF,ETF,NYSE ARCA
 OC,Owens Corning Inc Common Stock New,EQUITY,NYSE
@@ -9198,8 +9195,10 @@ OCAC,Ocean Capital Acquisition Corporation Ordinary Shares,EQUITY,NYSE
 OCDB,Aptus October Deep Buffer ETF,ETF,BATS
 OCIO,ClearShares OCIO ETF,ETF,NYSE ARCA
 OCNL,T-REX 2X Long DOCN Daily Target ETF,ETF,BATS
+OCT,VanEck U.S. Equity Buffer ETF - October,ETF,NYSE ARCA
 OCTB,Aptus October Buffer ETF,ETF,BATS
 OCTH,Innovator Premium Income 20 Barrier ETF - October,ETF,BATS
+OCTI,AllianzIM International Equity Buffer15 Uncapped Oct ETF,ETF,BATS
 OCTJ,Innovator Premium Income 30 Barrier ETF - October,ETF,BATS
 OCTM,FT Vest U.S. Equity Max Buffer ETF - October,ETF,BATS
 OCTP,PGIM S&P 500 Buffer 12 ETF - October,ETF,BATS
@@ -9231,7 +9230,7 @@ OIH,VanEck Oil Services ETF,ETF,NYSE ARCA
 OII,"Oceaneering International, Inc. Common Stock",EQUITY,NYSE
 OILD,MicroSectors Oil & Gas Exp. & Prod. -3x Inverse Leveraged ETN,ETF,NYSE ARCA
 OILK,ProShares K-1 Free Crude Oil ETF,ETF,BATS
-OILT,Texas Capital Texas Oil Index ETF,ETF,F
+OILT,Texas Capital Texas Oil Index ETF,ETF,TXSE
 OILU,MicroSectors Oil & Gas Exp. & Prod. 3x Leveraged ETN,ETF,NYSE ARCA
 OIS,"Oil States International, Inc. Common Stock",EQUITY,NYSE
 OKE,"ONEOK, Inc. Common Stock",EQUITY,NYSE
@@ -9244,7 +9243,6 @@ OMC,Omnicom Group Inc. Common Stock,EQUITY,NYSE
 OMF,"OneMain Holdings, Inc. Common Stock",EQUITY,NYSE
 OMFL,Invesco Russell 1000 Dynamic Multifactor ETF,ETF,BATS
 OMFS,Invesco Russell 2000 Dynamic Multifactor ETF,ETF,BATS
-OND,ProShares On-Demand ETF,ETF,NYSE ARCA
 ONDC,Corgi ONDS 2x Daily ETF,ETF,BATS
 ONDL,Defiance Daily Target 2X Long ONDS ETF,ETF,BATS
 ONDU,Tradr 2X Long ONDS Daily ETF,ETF,BATS
@@ -9273,6 +9271,7 @@ OPLN,"OPENLANE, Inc. Common Stock",EQUITY,NYSE
 OPP,"RiverNorth/DoubleLine Strategic Opportunity Fund, Inc. Common Stock",EQUITY,NYSE
 OPPE,WisdomTree European Opportunities Fund,ETF,NYSE ARCA
 OPPG,WisdomTree GeoAlpha Opportunities Fund,ETF,NYSE ARCA
+OPTO,Tuttle Capital Photonics Income Blast ETF,ETF,BATS
 OPTT,"Ocean Power Technologies, Inc. Common Stock",EQUITY,NYSE AMERICAN
 OPTU,"Optimum Communications, Inc. Class A common stock",EQUITY,NYSE
 OPY,"Oppenheimer Holdings, Inc. Class A Common Stock (DE)",EQUITY,NYSE
@@ -9306,6 +9305,7 @@ OVF,Overlay Shares Foreign Equity ETF,ETF,BATS
 OVL,Overlay Shares Large Cap Equity ETF,ETF,BATS
 OVLH,Overlay Shares Hedged Large Cap Equity ETF,ETF,BATS
 OVM,Overlay Shares Municipal Bond ETF,ETF,BATS
+OVQ,Overlay Shares Nasdaq 100 Income ETF,ETF,BATS
 OVS,Overlay Shares Small Cap Equity ETF,ETF,BATS
 OVT,Overlay Shares Short Term Bond ETF,ETF,BATS
 OVV,Ovintiv Inc. (DE),EQUITY,NYSE
@@ -9333,7 +9333,6 @@ PALL,abrdn Physical Palladium Shares ETF,ETF,NYSE ARCA
 PAM,Pampa Energia S.A.,EQUITY,NYSE
 PAMC,Pacer Lunt MidCap Multi-Factor Alternator ETF,ETF,NYSE ARCA
 PAPI,Parametric Equity Premium Income ETF,ETF,NYSE ARCA
-PAPL,Pineapple Financial Inc. Common Stock,EQUITY,NYSE AMERICAN
 PAPR,Innovator U.S. Equity Power Buffer ETF - April,ETF,BATS
 PAR,PAR Technology Corporation Common Stock,EQUITY,NYSE
 PARR,"Par Pacific Holdings, Inc.  Common Stock",EQUITY,NYSE
@@ -9419,7 +9418,6 @@ PEMX,Putnam Emerging Markets ex-China ETF,ETF,NYSE ARCA
 PEN,"Penumbra, Inc. Common Stock",EQUITY,NYSE
 PENU,T-REX 2X Long PENG Daily Target ETF,ETF,BATS
 PEO,"Adams Natural Resources Fund, Inc. Common Stock",EQUITY,NYSE
-PERF,Perfect Corp. Class A Ordinary Share,EQUITY,NYSE
 PEVC,Pacer PE/VC ETF,ETF,NYSE ARCA
 PEW,GrabAGun Digital Holdings Inc. Common Stock,EQUITY,NYSE
 PEX,ProShares Global Listed Private Equity ETF,ETF,BATS
@@ -9453,7 +9451,7 @@ PHK,Pimco High Income Fund,EQUITY,NYSE
 PHM,"PulteGroup, Inc. Common Stock",EQUITY,NYSE
 PHOX,Aura AI Photonics ETF,ETF,NYSE ARCA
 PHR,"Phreesia, Inc. Common Stock",EQUITY,NYSE
-PHYL,PGIM Active High Yield Bond ETF,ETF,NYSE ARCA
+PHYL,PGIM Active High Yield Bond ETF,ETF,BATS
 PHYS,Sprott Physical Gold Trust ETV,ETF,NYSE ARCA
 PICB,Invesco International Corporate Bond ETF,ETF,NYSE ARCA
 PICK,iShares MSCI Global Select Metals & Mining Producers Fund,ETF,BATS
@@ -9538,7 +9536,7 @@ PNW,Pinnacle West Capital Corporation Common Stock,EQUITY,NYSE
 POAS,Phaos Technology Holdings (Cayman) Limited Class A Ordinary Shares,EQUITY,NYSE AMERICAN
 POCT,Innovator U.S. Equity Power Buffer ETF - October,ETF,BATS
 POEL,Defiance Daily Target 2X Long POET ETF,ETF,BATS
-PONX,Tradr 2X Long PONY Daily ETF,ETF,BATS
+POMG,PRIMECAP Odyssey Discovery ETF,ETF,NYSE ARCA
 POR,Portland General Electric Co Common Stock,EQUITY,NYSE
 POST,"Post Holdings, Inc. Common Stock",EQUITY,NYSE
 POW,VistaShares Electrification Supercycle ETF,ETF,NYSE ARCA
@@ -9624,6 +9622,7 @@ PTBD,Pacer Trendpilot US Bond ETF,ETF,NYSE ARCA
 PTEU,Pacer TrendpilotTM European Index ETF,ETF,BATS
 PTHS,Pelthos Therapeutics Inc. Common Stock,EQUITY,NYSE AMERICAN
 PTIN,Pacer Trendpilot International ETF,ETF,NYSE ARCA
+PTIV,Pineapple Financial Inc. Common Stock,EQUITY,NYSE AMERICAN
 PTL,Inspire 500 ETF,ETF,NYSE ARCA
 PTLC,Pacer Trendpilot US Large Cap ETF,ETF,BATS
 PTMC,Pacer Trendpilot US Mid Cap ETF,ETF,BATS
@@ -9642,7 +9641,7 @@ PW,Power REIT (MD) Common Stock,EQUITY,NYSE AMERICAN
 PWB,Invesco Large Cap Growth ETF,ETF,NYSE ARCA
 PWER,Nomura Energy Transition ETF,ETF,NYSE ARCA
 PWR,"Quanta Services, Inc. Common Stock",EQUITY,NYSE
-PWRX,Westwood Salient Enhanced Power & Infrastructure ETF,ETF,F
+PWRX,Westwood Salient Enhanced Power & Infrastructure ETF,ETF,TXSE
 PWRZ,TrueShares Eagle Global Renewable Energy Income ETF,ETF,BATS
 PWS,Pacer WealthShield ETF,ETF,BATS
 PWV,Invesco Large Cap Value ETF,ETF,NYSE ARCA
@@ -9726,6 +9725,7 @@ QNTU,Tradr 2X Long QNT Daily ETF,ETF,BATS
 QPX,AdvisorShares Q Dynamic Growth ETF,ETF,NYSE ARCA
 QQAU,Corgi Growth & Technology 15% Structured Buffer ETF - August Series,ETF,BATS
 QQBF,FT Vest Nasdaq-100 Quarterly 15 Buffer ETF,ETF,BATS
+QQDH,Tuttle Capital Innovation 100 Income & Hedge ETF,ETF,BATS
 QQH,HCM Defender 100 Index ETF,ETF,NYSE ARCA
 QQJL,Corgi Growth & Technology 15% Structured Buffer ETF - July Series,ETF,BATS
 QQJN,Corgi Growth & Technology 15% Structured Buffer ETF - June Series,ETF,BATS
@@ -9786,6 +9786,7 @@ RBLU,T-REX 2X Long RBLX Daily Target ETF,ETF,BATS
 RBLX,Roblox Corporation Class A Common Stock,EQUITY,NYSE
 RBLY,YieldMax RBLX Option Income Strategy ETF,ETF,NYSE ARCA
 RBRK,"Rubrik, Inc. Class A Common Stock",EQUITY,NYSE
+RBTX,iShares Future Robotics and Related Technologies Active ETF,ETF,NYSE ARCA
 RBUF,Innovator U.S. Small Cap 10 Buffer ETF - Quarterly,ETF,BATS
 RC,Ready Capital Corporation Common Stock,EQUITY,NYSE
 RCG,"RENN Fund, Inc Common Stock",EQUITY,NYSE AMERICAN
@@ -9859,13 +9860,14 @@ RH,RH Common Stock,EQUITY,NYSE
 RHI,Robert Half Inc. Common Stock,EQUITY,NYSE
 RHLD,Resolute Holdings Management Common Stock,EQUITY,NYSE
 RHP,"Ryman Hospitality Properties, Inc. (REIT)",EQUITY,NYSE
-RHRX,RH Tactical Rotation ETF,ETF,NYSE ARCA
+RHRX,Adaptive Tactical Rotation ETF,ETF,NYSE ARCA
 RHTX,RH Tactical Outlook ETF,ETF,NYSE ARCA
 RIET,Hoya Capital High Dividend Yield ETF,ETF,NYSE ARCA
 RIG,Transocean Ltd (Switzerland) Common Stock,EQUITY,NYSE
 RIGS,ALPS Strategic Income Fund,ETF,NYSE ARCA
 RILA,Indexperts Gorilla Aggressive Growth ETF,ETF,NYSE ARCA
 RINF,ProShares Inflation Expectations ETF,ETF,NYSE ARCA
+RINK,Russell Investments Multisector Bond ETF,ETF,NYSE ARCA
 RIO,Rio Tinto Plc Common Stock,EQUITY,NYSE
 RIOX,Defiance Daily Target 2X Long RIOT ETF,ETF,NYSE ARCA
 RISE,Pictet Emerging Markets Rising Economies ETF,ETF,NYSE ARCA
@@ -10088,6 +10090,7 @@ SCHX,Schwab U.S. Large-Cap ETF,ETF,NYSE ARCA
 SCHY,Schwab International Dividend Equity ETF,ETF,NYSE ARCA
 SCHZ,Schwab US Aggregate Bond ETF,ETF,NYSE ARCA
 SCI,Service Corporation International Common Stock,EQUITY,NYSE
+SCIN,Schwab International Bond ETF,ETF,NYSE ARCA
 SCIO,First Trust Structured Credit Income Opportunities ETF,ETF,NYSE ARCA
 SCJ,iShares MSCI Japan Sm Cap,ETF,NYSE ARCA
 SCJL,Corgi U.S. Small-Cap 15% Structured Buffer ETF - July Series,ETF,BATS
@@ -10151,6 +10154,7 @@ SEPT,AllianzIM U.S. Large Cap Buffer10 Sep ETF,ETF,BATS
 SEPU,AllianzIM U.S. Equity Buffer15 Uncapped Sep ETF,ETF,BATS
 SEPW,AllianzIM U.S. Large Cap Buffer20 Sep ETF,ETF,BATS
 SEPZ,TrueShares Structured Outcome (September) ETF,ETF,BATS
+SEQ,Sequoia ETF,ETF,NYSE ARCA
 SER,"Serina Therapeutics, Inc. Common Stock",EQUITY,NYSE AMERICAN
 SES,SES AI Corporation Class A Common Stock,EQUITY,NYSE
 SETH,ProShares Short Ether ETF,ETF,NYSE ARCA
@@ -10249,6 +10253,7 @@ SKIL,Skillsoft Corp. Class A Common Stock,EQUITY,NYSE
 SKM,"SK Telecom Co., Ltd. Common Stock",EQUITY,NYSE
 SKT,Tanger Inc. Common Stock,EQUITY,NYSE
 SKY,"Champion Homes, Inc. Common Stock",EQUITY,NYSE
+SKYD,Skydance Corporation Class B Common Stock,EQUITY,NYSE
 SKYH,Sky Harbour Group Corporation Class A Common Stock,EQUITY,NYSE
 SLB,SLB Limited Common Shares,EQUITY,NYSE
 SLDR,Global X Short-Term Treasury Ladder ETF,ETF,NYSE ARCA
@@ -10264,6 +10269,7 @@ SLQT,"SelectQuote, Inc. Common Stock",EQUITY,NYSE
 SLSR,Solaris Resources Inc. Common Shares,EQUITY,NYSE AMERICAN
 SLTY,YieldMax Ultra Short Option Income Strategy ETF,ETF,NYSE ARCA
 SLV,iShares Silver Trust,ETF,NYSE ARCA
+SLVI,NEOS Silver High Income ETF,ETF,BATS
 SLVM,Sylvamo Corporation Common Stock,EQUITY,NYSE
 SLVP,iShares MSCI Global Silver and Metals Miners ETF,ETF,BATS
 SLVX,Nicholas Silver Income ETF,ETF,NYSE ARCA
@@ -10311,12 +10317,13 @@ SMR,NuScale Power Corporation Class A Common Stock,EQUITY,NYSE
 SMRF,"ALPS Nautilus SMR, Nuclear & Technology ETF",ETF,NYSE ARCA
 SMRT,"SmartRent, Inc. Class A Common Stock",EQUITY,NYSE
 SMRX,Corgi SMR 2x Daily ETF,ETF,BATS
+SMRZ,Global X Small Modular Reactor ETF,ETF,BATS
 SMTG,Leverage Shares 2X Long SMTC Daily ETF,ETF,BATS
 SMTH,ALPS Smith Core Plus Bond ETF,ETF,NYSE ARCA
+SMTJ,Synera Funds Takumi+ ETF,ETF,NYSE ARCA
 SMU,Tradr 2X Long SMR Daily ETF,ETF,BATS
 SMUP,T-REX 2X Long SMR Daily Target ETF,ETF,BATS
 SMWB,Similarweb Ltd. Ordinary Shares,EQUITY,NYSE
-SMZ,Tradr 2X Short SMR Daily ETF,ETF,BATS
 SN,"SharkNinja, Inc. Ordinary Shares",EQUITY,NYSE
 SNA,Snap-On Incorporated Common Stock,EQUITY,NYSE
 SNAP,Snap Inc. Class A Common Stock,EQUITY,NYSE
@@ -10342,7 +10349,7 @@ SNTQ,MRP SynthEquity Nasdaq 100 ETF,ETF,BATS
 SNX,TD SYNNEX Corporation Common Stock,EQUITY,NYSE
 SNXX,Tradr 2X Long SNDK Daily ETF,ETF,BATS
 SO,Southern Company (The) Common Stock,EQUITY,NYSE
-SOAR,"Volato Group, Inc. Class A Common Stock",EQUITY,NYSE AMERICAN
+SOAR,"SOAR AI, Inc. Class A Common Stock",EQUITY,NYSE AMERICAN
 SOBO,South Bow Corporation Common Shares,EQUITY,NYSE
 SOC,Sable Offshore Corp. Common Stock,EQUITY,NYSE
 SOEZ,Franklin Solana ETF,ETF,NYSE ARCA
@@ -10432,6 +10439,7 @@ SPXC,"SPX Technologies, Inc. Common Stock",EQUITY,NYSE
 SPXE,ProShares S&P 500 Ex-Energy ETF,ETF,NYSE ARCA
 SPXL,Direxion Daily S&P 500 Bull 3X ETF,ETF,NYSE ARCA
 SPXN,ProShares S&P 500 Ex-Financials ETF,ETF,NYSE ARCA
+SPXP,Direxion U.S. 500 Plus ETF,ETF,NYSE ARCA
 SPXS,Direxion Daily S&P 500 Bear 3X ETF,ETF,NYSE ARCA
 SPXT,ProShares S&P 500 Ex-Technology ETF,ETF,NYSE ARCA
 SPXU,ProShares UltraPro Short S&P500,ETF,NYSE ARCA
@@ -10450,6 +10458,7 @@ SPYU,"MAX S&P 500 4X Leveraged ETNs due October 30, 2043",ETF,NYSE ARCA
 SPYV,State Street SPDR Portfolio S&P 500 Value ETF,ETF,NYSE ARCA
 SPYX,State Street SPDR S&P 500 Fossil Fuel Reserves Free ETF,ETF,NYSE ARCA
 SQBA,FT Vest U.S. Equity Quarterly 15 Buffer ETF,ETF,BATS
+SQBR,FT Vest U.S. Equity Quarterly 20 Barrier ETF,ETF,BATS
 SQLT,iShares MSCI USA Small-Cap Quality Factor ETF,ETF,BATS
 SQM,Sociedad Quimica y Minera S.A. Common Stock,EQUITY,NYSE
 SQMX,FT Vest U.S. Equity Quarterly Max Buffer ETF,ETF,BATS
@@ -10538,7 +10547,6 @@ SUB,iShares Short-Term National Muni Bond ETF,ETF,NYSE ARCA
 SUI,"Sun Communities, Inc. Common Stock",EQUITY,NYSE
 SUIL,2x Sui ETF,ETF,BATS
 SUNB,"Sunbelt Rentals Holdings, Inc. Common Stock",EQUITY,NYSE
-SUPL,ProShares Supply Chain Logistics ETF,ETF,NYSE ARCA
 SUPV,Grupo Supervielle S.A. American Depositary Shares each Representing five Class B shares,EQUITY,NYSE
 SURE,AdvisorShares Insider Advantage ETF,ETF,NYSE ARCA
 SURI,Simplify Propel Opportunities ETF,ETF,NYSE ARCA
@@ -10548,6 +10556,7 @@ SVAL,iShares US Small Cap Value Factor ETF,ETF,BATS
 SVIX,-1x Short VIX Futures ETF,ETF,BATS
 SVM,Silvercorp Metals Inc. Common Shares,EQUITY,NYSE AMERICAN
 SVOL,Simplify Volatility Premium ETF,ETF,NYSE ARCA
+SVTN,Corgi FTSE 7-10 Year U.S. Treasury Bond ETF,ETF,BATS
 SVV,"Savers Value Village, Inc. Common Stock",EQUITY,NYSE
 SVXY,ProShares Short VIX Short Term Futures ETF,ETF,BATS
 SW,Smurfit WestRock plc Ordinary Shares,EQUITY,NYSE
@@ -10609,6 +10618,7 @@ TBXU,Direxion Daily Biotech Top 5 Bull 2X ETF,ETF,NYSE ARCA
 TCAF,T. Rowe Price Capital Appreciation Equity ETF,ETF,NYSE ARCA
 TCAI,Tortoise AI Infrastructure ETF,ETF,NYSE
 TCAL,T. Rowe Price Capital Appreciation Premium Income ETF,ETF,NYSE ARCA
+TCBI,"Texas Capital Bancshares, Inc. Common Stock",EQUITY,TXSE
 TCBX,"Third Coast Bancshares, Inc. Common Stock",EQUITY,NYSE
 TCHP,T. Rowe Price Blue Chip Growth ETF,ETF,NYSE ARCA
 TCI,"Transcontinental Realty Investors, Inc. Common Stock",EQUITY,NYSE
@@ -10698,6 +10708,7 @@ THO,"Thor Industries, Inc. Common Stock",EQUITY,NYSE
 THOR,Thornburg Premium Income Builder ETF,ETF,NYSE ARCA
 THQ,abrdn Healthcare Opportunities Fund Shares of Beneficial Interest,EQUITY,NYSE
 THRO,iShares U.S. Thematic Rotation Active ETF,ETF,NYSE ARCA
+THRU,Tema Commodity Infrastructure ETF,ETF,TXSE
 THTA,SoFi Enhanced Yield ETF,ETF,NYSE ARCA
 THW,abrdn World Healthcare Fund Shares of Beneficial Interest,EQUITY,NYSE
 THY,Toews Agility Shares Dynamic Tactical Income ETF,ETF,NYSE ARCA
@@ -10711,7 +10722,6 @@ TILT,Northern Trust Morningstar US Market Factor Tilt ETF,ETF,BATS
 TIMB,TIM S.A. American Depositary Shares (Each representing 5 Common Shares),EQUITY,NYSE
 TIME,Clockwise U.S. Core Equity ETF,ETF,NYSE ARCA
 TINS,Templeton International Insights ETF,ETF,NYSE ARCA
-TINT,ProShares Smart Materials ETF,ETF,NYSE ARCA
 TINY,ProShares Nanotechnology ETF,ETF,NYSE ARCA
 TIP,iShares TIPS Bond ETF,ETF,NYSE ARCA
 TIPA,Northern Trust 2030 Inflation-Linked Distributing Ladder ETF,ETF,NYSE ARCA
@@ -10745,13 +10755,13 @@ TLTD,Northern Trust Morningstar Developed Markets ex-US Factor Tilt ETF,ETF,NYSE
 TLTE,Northern Trust Morningstar Emerging Markets Factor Tilt ETF,ETF,NYSE ARCA
 TLTI,NEOS Enhanced Income 20+ Year Treasury Bond ETF,ETF,BATS
 TLTP,Amplify TLT U.S. Treasury 12% Option Income ETF,ETF,BATS
-TLTW,iShares 20+ Year Treasury Bond BuyWrite Strategy ETF,ETF,BATS
+TLTW,iShares TLT Premium Income+ ETF,ETF,BATS
 TLTX,Global X Treasury Bond Enhanced Income ETF,ETF,BATS
 TLYS,"Tilly's, Inc. Common Stock",EQUITY,NYSE
 TM,Toyota Motor Corporation Common Stock,EQUITY,NYSE
 TMAR,FT Vest Emerging Markets Buffer ETF - March,ETF,BATS
 TMAT,Main Thematic Innovation ETF,ETF,BATS
-TMDE,TMD Energy Limited Ordinary Shares,EQUITY,NYSE AMERICAN
+TMDE,TMD Energy Limited Class A Ordinary Shares,EQUITY,NYSE AMERICAN
 TMDV,ProShares Russell US Dividend Growers ETF,ETF,BATS
 TME,"Tencent Music Entertainment Group American Depositary Shares, each representing two Class A Ordinary Shares",EQUITY,NYSE
 TMF,Direxion Daily 20-Yr Treasury Bull 3x Shrs,ETF,NYSE ARCA
@@ -10776,6 +10786,7 @@ TNET,"TriNet Group, Inc. Common Stock",EQUITY,NYSE
 TNGY,Tortoise Energy ETF,ETF,NYSE
 TNK,Teekay Tankers Ltd.,EQUITY,NYSE
 TNL,Travel   Leisure Co. Common  Stock,EQUITY,NYSE
+TNTW,Corgi FTSE 10-20 Year U.S. Treasury Bond ETF,ETF,BATS
 TNUK,Tortoise Nuclear Renaissance ETF,ETF,NYSE ARCA
 TOAK,Manager Directed Portfolios Twin Oak Short Horizon Absolute Return ETF,ETF,NYSE ARCA
 TOAO,Twin Oak Active Opportunities III ETF,ETF,BATS
@@ -10794,7 +10805,6 @@ TOPT,iShares Top 20 U.S. Stocks ETF,ETF,NYSE ARCA
 TOPW,Roundhill Top WeeklyPay ETF,ETF,BATS
 TOS,Twin Oak Strategic Solutions ETF,ETF,BATS
 TOST,"Toast, Inc. Class A Common Stock",EQUITY,NYSE
-TOT,LionShares U.S. Equity Total Return ETF,ETF,NYSE ARCA
 TOTL,State Street DoubleLine Total Return Tactical ETF,ETF,NYSE ARCA
 TOTR,T. Rowe Price Total Return ETF,ETF,NYSE ARCA
 TOUS,T. Rowe Price International Equity ETF,ETF,NYSE ARCA
@@ -10831,6 +10841,7 @@ TREX,"Trex Company, Inc. Common Stock",EQUITY,NYSE
 TRFK,Pacer Data and Digital Revolution ETF,ETF,NYSE ARCA
 TRFM,AAM Transformers ETF,ETF,NYSE ARCA
 TRGP,"Targa Resources, Inc. Common Stock",EQUITY,NYSE
+TRIL,VegaShares Trillions ETF,ETF,BATS
 TRIN,Trinity Capital Inc. Common Stock,EQUITY,NYSE
 TRIO,MC Trio Equity Buffered ETF,ETF,BATS
 TRLV,Trulieve Cannabis Corp. Subordinate Voting Shares,EQUITY,NYSE
@@ -10862,7 +10873,6 @@ TSEC,Touchstone Securitized Income ETF,ETF,NYSE ARCA
 TSEG,Leverage Shares 2X Long TSEM Daily ETF,ETF,BATS
 TSEP,FT Vest Emerging Market Buffer ETF - September,ETF,BATS
 TSES,Truth Social American Energy Security ETF,ETF,NYSE ARCA
-TSEU,Tradr 2X Long TSEM Daily ETF,ETF,BATS
 TSI,"TCW Strategic Income Fund, Inc. Common Stock",EQUITY,NYSE
 TSIB,Direxion TSLA Defined Income Boost ETF,ETF,BATS
 TSIC,Truth Social American Icons ETF,ETF,NYSE ARCA
@@ -10897,6 +10907,7 @@ TTI,"Tetra Technologies, Inc. Common Stock",EQUITY,NYSE
 TTMX,Tradr 2X Long TTMI Daily ETF,ETF,BATS
 TTOP,21Shares FTSE Crypto 10 Index ETF,ETF,NYSE ARCA
 TTT,ProShares UltraPro Short 20 Year Treasury,ETF,NYSE ARCA
+TTTT,Corgi FTSE U.S. TIPS Bond ETF,ETF,BATS
 TTXD,Direxion Daily Technology Top 5 Bear 2X ETF,ETF,NYSE ARCA
 TTXU,Direxion Daily Technology Top 5 Bull 2X ETF,ETF,NYSE ARCA
 TU,Telus Corporation Ordinary Shares,EQUITY,NYSE
@@ -10918,7 +10929,7 @@ TX,"Ternium S.A. Ternium S.A. American Depositary Shares (each representing ten 
 TXBC,21Shares FTSE Crypto 10 ex-BTC Index ETF,ETF,NYSE ARCA
 TXNM,"TXNM Energy, Inc. Common Stock",EQUITY,NYSE
 TXNU,Direxion Daily TXN Bull 2X ETF,ETF,NYSE ARCA
-TXS,Texas Capital Texas Equity Index ETF,ETF,F
+TXS,Texas Capital Texas Equity Index ETF,ETF,TXSE
 TXT,Textron Inc. Common Stock,EQUITY,NYSE
 TXXI,BondBloxx IR+M Tax-Aware Intermediate Duration ETF,ETF,NYSE ARCA
 TY,Tri Continental Corporation Common Stock,EQUITY,NYSE
@@ -10939,8 +10950,10 @@ UAMY,United States Antimony Corporation Common Stock,EQUITY,NYSE
 UAPR,Innovator U.S. Equity Ultra Buffer ETF - April,ETF,BATS
 UAUG,Innovator U.S. Equity Ultra Buffer ETF - August,ETF,BATS
 UAVS,"AgEagle Aerial Systems, Inc. Common Stock",EQUITY,NYSE AMERICAN
+UB,Corgi FTSE U.S. Treasury Bond ETF,ETF,BATS
 UBER,"Uber Technologies, Inc. Common Stock",EQUITY,NYSE
 UBEW,Roundhill UBER WeeklyPay ETF,ETF,BATS
+UBIQ,AAM Ubiquitous ETF,ETF,NYSE ARCA
 UBOT,"Direxion Daily Robotics, Artificial Intelligence & Automation Index Bull 2X ETF",ETF,NYSE ARCA
 UBR,ProShares Ultra MSCI Brazil Capped,ETF,NYSE ARCA
 UBS,UBS Group AG Registered Ordinary Shares,EQUITY,NYSE
@@ -11080,7 +11093,6 @@ UTSL,Direxion Daily Utilities Bull 3X ETF,ETF,NYSE ARCA
 UTZ,Utz Brands Inc Class A Common Stock,EQUITY,NYSE
 UUP,Invesco DB USD Index Bullish Fund ETF,ETF,NYSE ARCA
 UUPP,Principal CLO ETF,ETF,BATS
-UUU,"Universal Safety Products, Inc. Common Stock",EQUITY,NYSE AMERICAN
 UUUC,Corgi UUUU 2x Daily ETF,ETF,BATS
 UUUU,Energy Fuels Inc Ordinary Shares (Canada),EQUITY,NYSE AMERICAN
 UVE,UNIVERSAL INSURANCE HOLDINGS INC Common Stock,EQUITY,NYSE
@@ -11101,7 +11113,6 @@ UYM,ProShares Ultra Materials,ETF,NYSE ARCA
 V,Visa Inc.,EQUITY,NYSE
 VABS,Virtus Newfleet ABS/MBS ETF,ETF,NYSE ARCA
 VAC,Marriott Vacations Worldwide Corporation Common Stock,EQUITY,NYSE
-VACI,Viking Acquisition Corp. I Class A Ordinary Shares,EQUITY,NYSE
 VAIC,VegaShares US Equity Autocallable Conservative Income ETF,ETF,NYSE ARCA
 VAIE,VegaShares US Equity Autocallable Income ETF,ETF,NYSE ARCA
 VAL,Valaris Limited Common Shares,EQUITY,NYSE
@@ -11141,7 +11152,6 @@ VELL,Defiance Daily Target 2X Long VELO ETF,ETF,BATS
 VEM,Virtus Emerging Markets Dividend ETF,ETF,NYSE ARCA
 VEMY,Virtus Stone Harbor Emerging Markets High Yield Bond ETF,ETF,NYSE ARCA
 VENU,Venu Holding Corporation Common Stock,EQUITY,NYSE AMERICAN
-VERS,ProShares Metaverse ETF,ETF,NYSE ARCA
 VET,Vermilion Energy Inc. Common (Canada),EQUITY,NYSE
 VETZ,Academy Veteran Bond ETF,ETF,NYSE ARCA
 VEU,Vanguard FTSE All World Ex US ETF,ETF,NYSE ARCA
@@ -11162,6 +11172,7 @@ VGMS,Vanguard Multi-Sector Income Bond ETF,ETF,BATS
 VGNT,Versigent PLC Ordinary Shares,EQUITY,NYSE
 VGRO,Virtus Silvant Growth Opportunities ETF,ETF,NYSE ARCA
 VGT,Vanguard Information Tech ETF,ETF,NYSE ARCA
+VGTX,XFUNDS Technology Income ETF,ETF,NYSE ARCA
 VGVT,Vanguard Government Securities Active ETF,ETF,NYSE ARCA
 VGZ,Vista Gold Corp Common Stock,EQUITY,NYSE AMERICAN
 VHI,"Valhi, Inc. Common Stock",EQUITY,NYSE
@@ -11184,6 +11195,7 @@ VIST,"Vista Energy S.A.B. de C.V. American Depositary Shares, each representing 
 VIV,Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share),EQUITY,NYSE
 VIXM,VIX Mid-Term Futures ETF,ETF,BATS
 VIXY,VIX Short-Term Futures ETF,ETF,BATS
+VJET,"Flyte Aviation, Inc. Common Stock",EQUITY,NYSE AMERICAN
 VKI,Invesco Advantage Municipal Income Trust II Common Shares of Beneficial Interest (DE),EQUITY,NYSE AMERICAN
 VKQ,Invesco Municipal Trust Common Stock,EQUITY,NYSE
 VLN,Valens Semiconductor Ltd. Ordinary Shares,EQUITY,NYSE
@@ -11242,7 +11254,6 @@ VST,Vistra Corp. Common Stock,EQUITY,NYSE
 VSTS,Vestis Corporation Common Stock,EQUITY,NYSE
 VSXY,Victorias Secret & Co. Common Stock,EQUITY,NYSE
 VT,Vanguard Total World Stock Index ETF,ETF,NYSE ARCA
-VTAK,"Catheter Precision, Inc. Common Stock",EQUITY,NYSE AMERICAN
 VTEB,Vanguard Tax-Exempt Bond ETF,ETF,NYSE ARCA
 VTEC,Vanguard California Tax-Exempt Bond ETF,ETF,BATS
 VTEI,Vanguard Tax-Managed Funds Vanguard Intermediate-Term Tax-Exempt Bond ETF,ETF,BATS
@@ -11274,6 +11285,7 @@ VXF,Vanguard Extended Market ETF,ETF,NYSE ARCA
 VXX,iPath Series B S&P 500 VIX Short-Term Futures ETN,EQUITY,BATS
 VXZ,iPath Series B S&P 500 VIX Mid-Term Futures ETN,EQUITY,BATS
 VYLD,"Inverse VIX Short-Term Futures ETNs due March 22, 2045",ETF,NYSE ARCA
+VYLR,Vylor Inc. Common Stock,EQUITY,NYSE
 VYM,Vanguard High Dividend Yield ETF,ETF,NYSE ARCA
 VYX,NCR Voyix Corporation Common Stock,EQUITY,NYSE
 VZ,Verizon Communications Inc. Common Stock,EQUITY,NYSE
@@ -11286,11 +11298,14 @@ WANT,Direxion Daily Consumer Discretionary Bull 3X ETF,ETF,NYSE ARCA
 WAR,U.S. Global Technology and Aerospace & Defense ETF,ETF,NYSE ARCA
 WAT,Waters Corporation Common Stock,EQUITY,NYSE
 WATS,Corgi Battery Energy Storage Systems ETF,ETF,BATS
+WBEM,William Blair Emerging Markets Equity ETF,ETF,NYSE ARCA
 WBI,WaterBridge Infrastructure LLC Class A Shares Representing Limited Liability Company Interests,EQUITY,NYSE
+WBIE,William Blair International Equity ETF,ETF,NYSE ARCA
 WBIF,WBI BullBear Value 3000 ETF,ETF,NYSE ARCA
 WBIG,WBI BullBear Yield 3000 ETF,ETF,NYSE ARCA
 WBIL,WBI BullBear Quality 3000 ETF,ETF,NYSE ARCA
 WBIY,WBI Power Factor High Dividend ETF,ETF,NYSE
+WBMO,VanEck Wealth Builder ETF,ETF,NYSE ARCA
 WBX,Wallbox N.V. Class A Ordinary Shares,EQUITY,NYSE
 WCAP,WarCap Unconstrained Equity ETF,ETF,NYSE ARCA
 WCC,"WESCO International, Inc. Common Stock",EQUITY,NYSE
@@ -11315,7 +11330,6 @@ WDS,"Woodside Energy Group Limited American Depositary Shares, each representing
 WDTE,Defiance S&P 500 Weekly Distribution ETF,ETF,NYSE ARCA
 WEA,Western Asset Bond Fund Share of Beneficial Interest,EQUITY,NYSE
 WEAT,Teucrium Wheat Fund ETV,ETF,NYSE ARCA
-WEAV,"Weave Communications, Inc. Common Stock",EQUITY,NYSE
 WEBL,Direxion Daily Dow Jones Internet Bull 3X ETF,ETF,NYSE ARCA
 WEBS,Direxion Daily Dow Jones Internet Bear 3X ETF,ETF,NYSE ARCA
 WEBX,Corgi Chinese Internet 2x Daily ETF,ETF,BATS
@@ -11338,6 +11352,7 @@ WHG,Westwood Holdings Group Inc Common Stock,EQUITY,NYSE
 WHK,WhiteHawk Minerals Corp Class A Common Stock,EQUITY,NYSE
 WHR,Whirlpool Corporation Common Stock,EQUITY,NYSE
 WIA,Western Asset Inflation-Linked Income Fund,EQUITY,NYSE
+WINC,William Blair Emerging Income ETF,ETF,NYSE ARCA
 WINN,Harbor Long-Term Growers ETF,ETF,NYSE
 WIP,State Street SPDR FTSE International Government Inflation-Protected Bond ETF,ETF,NYSE ARCA
 WIT,Wipro Limited Common Stock,EQUITY,NYSE
@@ -11377,6 +11392,7 @@ WRBY,Warby Parker Inc. Class A Common Stock,EQUITY,NYSE
 WRN,Western Copper and Gold Corporation Common Stock,EQUITY,NYSE AMERICAN
 WS,"Worthington Steel, Inc. Common Shares",EQUITY,NYSE
 WSDB,Weitz Short Duration Bond ETF,ETF,NYSE ARCA
+WSLS,WisdomTree Efficient Long/Short U.S. SmallCap Equity Fund,ETF,TXSE
 WSM,"Williams-Sonoma, Inc. Common Stock (DE)",EQUITY,NYSE
 WSMD,Wasatch Small/Mid Cap ETF,ETF,NYSE ARCA
 WSO,"Watsco, Inc. Common Stock",EQUITY,NYSE
@@ -11384,6 +11400,7 @@ WSO-B,"Watsco, Inc. Class B Common Stock",EQUITY,NYSE
 WST,"West Pharmaceutical Services, Inc. Common Stock",EQUITY,NYSE
 WT,"WisdomTree, Inc. Common Stock",EQUITY,NYSE
 WTAI,WisdomTree Artificial Intelligence and Innovation Fund,ETF,BATS
+WTAL,WisdomTree Global Alpha Fund,ETF,TXSE
 WTI,"W&T Offshore, Inc. Common Stock",EQUITY,NYSE
 WTIB,USCF Oil Plus Bitcoin Strategy Fund,ETF,NYSE ARCA
 WTID,MicroSectors Energy 3X Inverse Leveraged ETNs,ETF,NYSE ARCA
@@ -11424,14 +11441,12 @@ XBI,State Street SPDR S&P Biotech ETF,ETF,NYSE ARCA
 XBIX,Corgi U.S. Biotech 2x Daily ETF,ETF,BATS
 XBJA,Innovator U.S. Equity Accelerated 9 Buffer ETF - January,ETF,BATS
 XBJL,Innovator U.S. Equity Accelerated 9 Buffer ETF - July,ETF,BATS
-XBNB,Teucrium xETFs 2x Long Daily BNB ETF,ETF,NYSE ARCA
 XBOC,Innovator U.S. Equity Accelerated 9 Buffer ETF - October,ETF,BATS
 XBOX,Roundhill Ultra Short Duration No Dividend Target ETF,ETF,BATS
 XC,WisdomTree True Emerging Markets Fund,ETF,NYSE ARCA
 XCCC,BondBloxx CCC-Rated USD High Yield Corporate Bond ETF,ETF,NYSE ARCA
 XCEM,Columbia EM Core ex-China ETF,ETF,NYSE ARCA
 XCHG,AB US Equity ETF,ETF,NYSE ARCA
-XCLR,Global X S&P 500 Collar 95-110 ETF,ETF,NYSE ARCA
 XCOM,Corgi All Commodities 2x Daily ETF,ETF,BATS
 XCOR,FundX ETF,ETF,NYSE ARCA
 XDAT,Franklin Exponential Data ETF,ETF,BATS
@@ -11478,6 +11493,7 @@ XLCI,State Street Communication Services Select Sector SPDR Premium Income ETF,E
 XLCU,MicroSectors 3x Long Communication Services (XLC) ETNs,ETF,BATS
 XLE,State Street Energy Select Sector SPDR ETF,ETF,NYSE ARCA
 XLEI,State Street Energy Select Sector SPDR Premium Income ETF,ETF,NYSE ARCA
+XLEM,State Street S&P 500 Energy Market Sector SPDR ETF,ETF,NYSE ARCA
 XLEX,Corgi U.S. Energy 2x Daily ETF,ETF,BATS
 XLF,State Street Financial Select Sector SPDR ETF,ETF,NYSE ARCA
 XLFI,State Street Financial Select Sector SPDR Premium Income ETF,ETF,NYSE ARCA
@@ -11488,9 +11504,11 @@ XLII,State Street Industrial Select Sector SPDR Premium Income ETF,ETF,NYSE ARCA
 XLIX,Corgi U.S. Industrials 2x Daily ETF,ETF,BATS
 XLK,State Street Technology Select Sector SPDR ETF,ETF,NYSE ARCA
 XLKI,State Street Technology Select Sector SPDR Premium Income ETF,ETF,NYSE ARCA
+XLKM,State Street S&P 500 Technology Market Sector SPDR ETF,ETF,NYSE ARCA
 XLKX,Corgi U.S. Technology 2x Daily ETF,ETF,BATS
 XLP,State Street Consumer Staples Select Sector SPDR ETF,ETF,NYSE ARCA
 XLPD,MicroSectors -3x Short Consumer Staples (XLP) ETNs,ETF,BATS
+XLPM,State Street S&P 500 Consumer Staples Market Sector SPDR ETF,ETF,NYSE ARCA
 XLPU,MicroSectors 3x Long Consumer Staples (XLP) ETNs,ETF,BATS
 XLPX,Corgi U.S. Consumer Staples 2x Daily ETF,ETF,BATS
 XLRE,State Street Real Estate Select Sector SPDR ETF,ETF,NYSE ARCA
@@ -11505,6 +11523,7 @@ XLVI,State Street Health Care Select Sector SPDR Premium Income ETF,ETF,NYSE ARC
 XLVX,Corgi U.S. Healthcare 2x Daily ETF,ETF,BATS
 XLY,State Street Consumer Discretionary Select Sector SPDR ETF,ETF,NYSE ARCA
 XLYI,State Street Consumer Discretionary Select Sector SPDR Premium Income ETF,ETF,NYSE ARCA
+XLYM,State Street S&P 500 Consumer Discretionary Market Sector SPDR ETF,ETF,NYSE ARCA
 XLYX,Corgi U.S. Consumer Discretionary 2x Daily ETF,ETF,BATS
 XMAR,FT Vest U.S. Equity Enhance & Moderate Buffer ETF - March,ETF,BATS
 XMAY,FT Vest U.S. Equity Enhance & Moderate Buffer ETF - May,ETF,BATS
@@ -11589,8 +11608,11 @@ XVTS,FT Vest TSLA & Target Income ETF,ETF,BATS
 XVV,iShares ESG Select Screened S&P 500 ETF,ETF,BATS
 XW,Corgi Ex-U.S. Equities 2x Daily ETF,ETF,BATS
 XWNG,Amplify Top 10 Space ETF,ETF,NYSE ARCA
+XX,"Roundhill S&P 500 Target 10,000 2030 ETF",ETF,BATS
 XXI,"Twenty One Capital, Inc. Class A Common Stock",EQUITY,NYSE
+XXQQ,Subversive Growth 100 Redacted ETF,ETF,BATS
 XXRP,Teucrium 2x Long Daily XRP ETF,ETF,NYSE ARCA
+XXSP,Subversive S&P 500 Redacted ETF,ETF,BATS
 XXV,Simplify Ancorato Target 25 Distribution ETF,ETF,NYSE ARCA
 XYF,"X Financial American Depositary Shares, each representing six Class A Ordinary Shares",EQUITY,NYSE
 XYL,Xylem Inc. Common Stock New,EQUITY,NYSE
@@ -11677,8 +11699,6 @@ ZNOV,Innovator Equity Defined Protection ETF - 1 Yr November,ETF,BATS
 ZOCT,Innovator Equity Defined Protection ETF - 1 Yr October,ETF,BATS
 ZONE,Zone Frontier Inc. Class B Common Stock,EQUITY,NYSE AMERICAN
 ZROZ,PIMCO 25  Year Zero Coupon U.S. Treasury Index Exchange-Traded Fund,ETF,NYSE ARCA
-ZSB,USCF Sustainable Battery Metals Strategy Fund,ETF,NYSE ARCA
-ZSC,USCF Sustainable Commodity Strategy Fund,ETF,NYSE ARCA
 ZSEP,Innovator Equity Defined Protection ETF - 1 Yr September,ETF,BATS
 ZSL,ProShares UltraShort Silver,ETF,NYSE ARCA
 ZTAX,X-Square Municipal Income ETF,ETF,NYSE ARCA
